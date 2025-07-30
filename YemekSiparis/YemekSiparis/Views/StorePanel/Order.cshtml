@@ -1,0 +1,43 @@
+﻿@using YemekSiparis.Application.Dtos
+@model List<OrderDto>
+
+@foreach (var order in Model)
+{
+    <div class="p-4">
+        <div class="flex items-stretch justify-between gap-4 rounded-xl">
+            <div class="flex flex-[2_2_0px] flex-col gap-4">
+                <div class="flex flex-col gap-1">
+                    <p class="text-[#886363] text-sm font-normal leading-normal">
+                        Sipariş #@order.Id
+                    </p>
+                    <p class="text-[#181111] text-base font-bold leading-tight">
+                        @order.CustomerName
+                    </p>
+                    <p class="text-[#886363] text-sm font-normal leading-normal">
+                        Adres: @order.Address
+                    </p>
+                </div>
+
+                <form asp-action="UpdateStatus" method="post">
+                    @* gizli input adı "id" olmalı ki controller binding çalışsın *@
+                    <input type="hidden" name="id" value="@order.Id" />
+
+                    <select name="status" class="rounded px-3 py-1">
+                        <option value="Hazırlanıyor" selected="@(order.Status == "Hazırlanıyor")">Hazırlanıyor</option>
+                        <option value="Yolda" selected="@(order.Status == "Yolda")">Yolda</option>
+                        <option value="Teslim Edildi" selected="@(order.Status == "Teslim Edildi")">Teslim Edildi</option>
+                        <option value="İptal Edildi" selected="@(order.Status == "İptal Edildi")">İptal Edildi</option>
+                    </select>
+
+                    <button type="submit" class="ml-2 text-sm bg-[#f4f0f0] px-3 py-1 rounded-full">
+                        Durumu Güncelle
+                    </button>
+                </form>
+            </div>
+
+            <div class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-xl flex-1"
+                 style='background-image: url("/images/order-bg.jpg");'>
+            </div>
+        </div>
+    </div>
+}

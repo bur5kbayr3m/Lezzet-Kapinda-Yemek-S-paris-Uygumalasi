@@ -1,0 +1,1894 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E21C1107-639B-490B-90C1-C6FA8D3CAADD}|YemekSiparis\\YemekSiparis.WebAPI.csproj|c:\\users\\teach\\source\\repos\\yemeksiparis\\yemeksiparis\\yemeksiparis.webapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{E21C1107-639B-490B-90C1-C6FA8D3CAADD}|YemekSiparis\\YemekSiparis.WebAPI.csproj|solutionrelative:yemeksiparis\\yemeksiparis.webapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C85753A-9AB2-4B78-89F4-EE055291CB0F}|YemekSiparis.Application\\YemekSiparis.Application.csproj|c:\\users\\teach\\source\\repos\\yemeksiparis\\yemeksiparis.application\\viewmodels\\storemenuviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C85753A-9AB2-4B78-89F4-EE055291CB0F}|YemekSiparis.Application\\YemekSiparis.Application.csproj|solutionrelative:yemeksiparis.application\\viewmodels\\storemenuviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C85753A-9AB2-4B78-89F4-EE055291CB0F}|YemekSiparis.Application\\YemekSiparis.Application.csproj|c:\\users\\teach\\source\\repos\\yemeksiparis\\yemeksiparis.application\\viewmodels\\cartviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C85753A-9AB2-4B78-89F4-EE055291CB0F}|YemekSiparis.Application\\YemekSiparis.Application.csproj|solutionrelative:yemeksiparis.application\\viewmodels\\cartviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E21C1107-639B-490B-90C1-C6FA8D3CAADD}|YemekSiparis\\YemekSiparis.WebAPI.csproj|c:\\users\\teach\\source\\repos\\yemeksiparis\\yemeksiparis\\views\\store\\storemenu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E21C1107-639B-490B-90C1-C6FA8D3CAADD}|YemekSiparis\\YemekSiparis.WebAPI.csproj|solutionrelative:yemeksiparis\\views\\store\\storemenu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C85753A-9AB2-4B78-89F4-EE055291CB0F}|YemekSiparis.Application\\YemekSiparis.Application.csproj|c:\\users\\teach\\source\\repos\\yemeksiparis\\yemeksiparis.application\\viewmodels\\storedetailviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C85753A-9AB2-4B78-89F4-EE055291CB0F}|YemekSiparis.Application\\YemekSiparis.Application.csproj|solutionrelative:yemeksiparis.application\\viewmodels\\storedetailviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E21C1107-639B-490B-90C1-C6FA8D3CAADD}|YemekSiparis\\YemekSiparis.WebAPI.csproj|c:\\users\\teach\\source\\repos\\yemeksiparis\\yemeksiparis\\views\\store\\_storemenu.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E21C1107-639B-490B-90C1-C6FA8D3CAADD}|YemekSiparis\\YemekSiparis.WebAPI.csproj|solutionrelative:yemeksiparis\\views\\store\\_storemenu.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E21C1107-639B-490B-90C1-C6FA8D3CAADD}|YemekSiparis\\YemekSiparis.WebAPI.csproj|c:\\users\\teach\\source\\repos\\yemeksiparis\\yemeksiparis\\controllers\\storecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E21C1107-639B-490B-90C1-C6FA8D3CAADD}|YemekSiparis\\YemekSiparis.WebAPI.csproj|solutionrelative:yemeksiparis\\controllers\\storecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E21C1107-639B-490B-90C1-C6FA8D3CAADD}|YemekSiparis\\YemekSiparis.WebAPI.csproj|c:\\users\\teach\\source\\repos\\yemeksiparis\\yemeksiparis\\controllers\\storepanelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E21C1107-639B-490B-90C1-C6FA8D3CAADD}|YemekSiparis\\YemekSiparis.WebAPI.csproj|solutionrelative:yemeksiparis\\controllers\\storepanelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E21C1107-639B-490B-90C1-C6FA8D3CAADD}|YemekSiparis\\YemekSiparis.WebAPI.csproj|c:\\users\\teach\\source\\repos\\yemeksiparis\\yemeksiparis\\views\\shared\\_storedetail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E21C1107-639B-490B-90C1-C6FA8D3CAADD}|YemekSiparis\\YemekSiparis.WebAPI.csproj|solutionrelative:yemeksiparis\\views\\shared\\_storedetail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E21C1107-639B-490B-90C1-C6FA8D3CAADD}|YemekSiparis\\YemekSiparis.WebAPI.csproj|c:\\users\\teach\\source\\repos\\yemeksiparis\\yemeksiparis\\views\\shared\\_restaurantdetail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E21C1107-639B-490B-90C1-C6FA8D3CAADD}|YemekSiparis\\YemekSiparis.WebAPI.csproj|solutionrelative:yemeksiparis\\views\\shared\\_restaurantdetail.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E21C1107-639B-490B-90C1-C6FA8D3CAADD}|YemekSiparis\\YemekSiparis.WebAPI.csproj|c:\\users\\teach\\source\\repos\\yemeksiparis\\yemeksiparis\\views\\shared\\menu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E21C1107-639B-490B-90C1-C6FA8D3CAADD}|YemekSiparis\\YemekSiparis.WebAPI.csproj|solutionrelative:yemeksiparis\\views\\shared\\menu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C85753A-9AB2-4B78-89F4-EE055291CB0F}|YemekSiparis.Application\\YemekSiparis.Application.csproj|c:\\users\\teach\\source\\repos\\yemeksiparis\\yemeksiparis.application\\viewmodels\\homeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C85753A-9AB2-4B78-89F4-EE055291CB0F}|YemekSiparis.Application\\YemekSiparis.Application.csproj|solutionrelative:yemeksiparis.application\\viewmodels\\homeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C85753A-9AB2-4B78-89F4-EE055291CB0F}|YemekSiparis.Application\\YemekSiparis.Application.csproj|c:\\users\\teach\\source\\repos\\yemeksiparis\\yemeksiparis.application\\dtos\\orderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C85753A-9AB2-4B78-89F4-EE055291CB0F}|YemekSiparis.Application\\YemekSiparis.Application.csproj|solutionrelative:yemeksiparis.application\\dtos\\orderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E21C1107-639B-490B-90C1-C6FA8D3CAADD}|YemekSiparis\\YemekSiparis.WebAPI.csproj|c:\\users\\teach\\source\\repos\\yemeksiparis\\yemeksiparis\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E21C1107-639B-490B-90C1-C6FA8D3CAADD}|YemekSiparis\\YemekSiparis.WebAPI.csproj|solutionrelative:yemeksiparis\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C320A19C-EDD9-465F-8EE0-2C9F32536115}|YemekSiparis.Infrastructure\\YemekSiparis.Infrastructure.csproj|c:\\users\\teach\\source\\repos\\yemeksiparis\\yemeksiparis.infrastructure\\mapping\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C320A19C-EDD9-465F-8EE0-2C9F32536115}|YemekSiparis.Infrastructure\\YemekSiparis.Infrastructure.csproj|solutionrelative:yemeksiparis.infrastructure\\mapping\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C320A19C-EDD9-465F-8EE0-2C9F32536115}|YemekSiparis.Infrastructure\\YemekSiparis.Infrastructure.csproj|c:\\users\\teach\\source\\repos\\yemeksiparis\\yemeksiparis.infrastructure\\services\\storeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C320A19C-EDD9-465F-8EE0-2C9F32536115}|YemekSiparis.Infrastructure\\YemekSiparis.Infrastructure.csproj|solutionrelative:yemeksiparis.infrastructure\\services\\storeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E21C1107-639B-490B-90C1-C6FA8D3CAADD}|YemekSiparis\\YemekSiparis.WebAPI.csproj|c:\\users\\teach\\source\\repos\\yemeksiparis\\yemeksiparis\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E21C1107-639B-490B-90C1-C6FA8D3CAADD}|YemekSiparis\\YemekSiparis.WebAPI.csproj|solutionrelative:yemeksiparis\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E21C1107-639B-490B-90C1-C6FA8D3CAADD}|YemekSiparis\\YemekSiparis.WebAPI.csproj|c:\\users\\teach\\source\\repos\\yemeksiparis\\yemeksiparis\\views\\shared\\_header.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E21C1107-639B-490B-90C1-C6FA8D3CAADD}|YemekSiparis\\YemekSiparis.WebAPI.csproj|solutionrelative:yemeksiparis\\views\\shared\\_header.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E21C1107-639B-490B-90C1-C6FA8D3CAADD}|YemekSiparis\\YemekSiparis.WebAPI.csproj|c:\\users\\teach\\source\\repos\\yemeksiparis\\yemeksiparis\\views\\shared\\_header.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E21C1107-639B-490B-90C1-C6FA8D3CAADD}|YemekSiparis\\YemekSiparis.WebAPI.csproj|solutionrelative:yemeksiparis\\views\\shared\\_header.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E21C1107-639B-490B-90C1-C6FA8D3CAADD}|YemekSiparis\\YemekSiparis.WebAPI.csproj|c:\\users\\teach\\source\\repos\\yemeksiparis\\yemeksiparis\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E21C1107-639B-490B-90C1-C6FA8D3CAADD}|YemekSiparis\\YemekSiparis.WebAPI.csproj|solutionrelative:yemeksiparis\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E21C1107-639B-490B-90C1-C6FA8D3CAADD}|YemekSiparis\\YemekSiparis.WebAPI.csproj|c:\\users\\teach\\source\\repos\\yemeksiparis\\yemeksiparis\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E21C1107-639B-490B-90C1-C6FA8D3CAADD}|YemekSiparis\\YemekSiparis.WebAPI.csproj|solutionrelative:yemeksiparis\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{191B61C4-5DB4-4C11-8FB6-CC81EDC416BE}|YemekSiparis.Domain\\YemekSiparis.Domain.csproj|c:\\users\\teach\\source\\repos\\yemeksiparis\\yemeksiparis.domain\\entities\\storereview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{191B61C4-5DB4-4C11-8FB6-CC81EDC416BE}|YemekSiparis.Domain\\YemekSiparis.Domain.csproj|solutionrelative:yemeksiparis.domain\\entities\\storereview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C85753A-9AB2-4B78-89F4-EE055291CB0F}|YemekSiparis.Application\\YemekSiparis.Application.csproj|c:\\users\\teach\\source\\repos\\yemeksiparis\\yemeksiparis.application\\interfaces\\istoreservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C85753A-9AB2-4B78-89F4-EE055291CB0F}|YemekSiparis.Application\\YemekSiparis.Application.csproj|solutionrelative:yemeksiparis.application\\interfaces\\istoreservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E21C1107-639B-490B-90C1-C6FA8D3CAADD}|YemekSiparis\\YemekSiparis.WebAPI.csproj|c:\\users\\teach\\source\\repos\\yemeksiparis\\yemeksiparis\\views\\shared\\_popularrestaurants.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E21C1107-639B-490B-90C1-C6FA8D3CAADD}|YemekSiparis\\YemekSiparis.WebAPI.csproj|solutionrelative:yemeksiparis\\views\\shared\\_popularrestaurants.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E21C1107-639B-490B-90C1-C6FA8D3CAADD}|YemekSiparis\\YemekSiparis.WebAPI.csproj|c:\\users\\teach\\source\\repos\\yemeksiparis\\yemeksiparis\\views\\shared\\_loginmodal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E21C1107-639B-490B-90C1-C6FA8D3CAADD}|YemekSiparis\\YemekSiparis.WebAPI.csproj|solutionrelative:yemeksiparis\\views\\shared\\_loginmodal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E21C1107-639B-490B-90C1-C6FA8D3CAADD}|YemekSiparis\\YemekSiparis.WebAPI.csproj|c:\\users\\teach\\source\\repos\\yemeksiparis\\yemeksiparis\\controllers\\storepagecontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E21C1107-639B-490B-90C1-C6FA8D3CAADD}|YemekSiparis\\YemekSiparis.WebAPI.csproj|solutionrelative:yemeksiparis\\controllers\\storepagecontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E21C1107-639B-490B-90C1-C6FA8D3CAADD}|YemekSiparis\\YemekSiparis.WebAPI.csproj|c:\\users\\teach\\source\\repos\\yemeksiparis\\yemeksiparis\\views\\storepanel\\order.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E21C1107-639B-490B-90C1-C6FA8D3CAADD}|YemekSiparis\\YemekSiparis.WebAPI.csproj|solutionrelative:yemeksiparis\\views\\storepanel\\order.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E21C1107-639B-490B-90C1-C6FA8D3CAADD}|YemekSiparis\\YemekSiparis.WebAPI.csproj|c:\\users\\teach\\source\\repos\\yemeksiparis\\yemeksiparis\\views\\storepanel\\storepanel.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E21C1107-639B-490B-90C1-C6FA8D3CAADD}|YemekSiparis\\YemekSiparis.WebAPI.csproj|solutionrelative:yemeksiparis\\views\\storepanel\\storepanel.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E21C1107-639B-490B-90C1-C6FA8D3CAADD}|YemekSiparis\\YemekSiparis.WebAPI.csproj|c:\\users\\teach\\source\\repos\\yemeksiparis\\yemeksiparis\\views\\storepanel\\addproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E21C1107-639B-490B-90C1-C6FA8D3CAADD}|YemekSiparis\\YemekSiparis.WebAPI.csproj|solutionrelative:yemeksiparis\\views\\storepanel\\addproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E21C1107-639B-490B-90C1-C6FA8D3CAADD}|YemekSiparis\\YemekSiparis.WebAPI.csproj|c:\\users\\teach\\source\\repos\\yemeksiparis\\yemeksiparis\\views\\storepanel\\addproduct.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E21C1107-639B-490B-90C1-C6FA8D3CAADD}|YemekSiparis\\YemekSiparis.WebAPI.csproj|solutionrelative:yemeksiparis\\views\\storepanel\\addproduct.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E21C1107-639B-490B-90C1-C6FA8D3CAADD}|YemekSiparis\\YemekSiparis.WebAPI.csproj|c:\\users\\teach\\source\\repos\\yemeksiparis\\yemeksiparis\\views\\storepanel\\order.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E21C1107-639B-490B-90C1-C6FA8D3CAADD}|YemekSiparis\\YemekSiparis.WebAPI.csproj|solutionrelative:yemeksiparis\\views\\storepanel\\order.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C85753A-9AB2-4B78-89F4-EE055291CB0F}|YemekSiparis.Application\\YemekSiparis.Application.csproj|c:\\users\\teach\\source\\repos\\yemeksiparis\\yemeksiparis.application\\dtos\\orderdetaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C85753A-9AB2-4B78-89F4-EE055291CB0F}|YemekSiparis.Application\\YemekSiparis.Application.csproj|solutionrelative:yemeksiparis.application\\dtos\\orderdetaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E21C1107-639B-490B-90C1-C6FA8D3CAADD}|YemekSiparis\\YemekSiparis.WebAPI.csproj|c:\\users\\teach\\source\\repos\\yemeksiparis\\yemeksiparis\\controllers\\usercontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E21C1107-639B-490B-90C1-C6FA8D3CAADD}|YemekSiparis\\YemekSiparis.WebAPI.csproj|solutionrelative:yemeksiparis\\controllers\\usercontrollers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E21C1107-639B-490B-90C1-C6FA8D3CAADD}|YemekSiparis\\YemekSiparis.WebAPI.csproj|c:\\users\\teach\\source\\repos\\yemeksiparis\\yemeksiparis\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E21C1107-639B-490B-90C1-C6FA8D3CAADD}|YemekSiparis\\YemekSiparis.WebAPI.csproj|solutionrelative:yemeksiparis\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{191B61C4-5DB4-4C11-8FB6-CC81EDC416BE}|YemekSiparis.Domain\\YemekSiparis.Domain.csproj|c:\\users\\teach\\source\\repos\\yemeksiparis\\yemeksiparis.domain\\entities\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{191B61C4-5DB4-4C11-8FB6-CC81EDC416BE}|YemekSiparis.Domain\\YemekSiparis.Domain.csproj|solutionrelative:yemeksiparis.domain\\entities\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C320A19C-EDD9-465F-8EE0-2C9F32536115}|YemekSiparis.Infrastructure\\YemekSiparis.Infrastructure.csproj|c:\\users\\teach\\source\\repos\\yemeksiparis\\yemeksiparis.infrastructure\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C320A19C-EDD9-465F-8EE0-2C9F32536115}|YemekSiparis.Infrastructure\\YemekSiparis.Infrastructure.csproj|solutionrelative:yemeksiparis.infrastructure\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C85753A-9AB2-4B78-89F4-EE055291CB0F}|YemekSiparis.Application\\YemekSiparis.Application.csproj|c:\\users\\teach\\source\\repos\\yemeksiparis\\yemeksiparis.application\\interfaces\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C85753A-9AB2-4B78-89F4-EE055291CB0F}|YemekSiparis.Application\\YemekSiparis.Application.csproj|solutionrelative:yemeksiparis.application\\interfaces\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C85753A-9AB2-4B78-89F4-EE055291CB0F}|YemekSiparis.Application\\YemekSiparis.Application.csproj|c:\\users\\teach\\source\\repos\\yemeksiparis\\yemeksiparis.application\\dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C85753A-9AB2-4B78-89F4-EE055291CB0F}|YemekSiparis.Application\\YemekSiparis.Application.csproj|solutionrelative:yemeksiparis.application\\dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C85753A-9AB2-4B78-89F4-EE055291CB0F}|YemekSiparis.Application\\YemekSiparis.Application.csproj|c:\\users\\teach\\source\\repos\\yemeksiparis\\yemeksiparis.application\\dtos\\storewithproductsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C85753A-9AB2-4B78-89F4-EE055291CB0F}|YemekSiparis.Application\\YemekSiparis.Application.csproj|solutionrelative:yemeksiparis.application\\dtos\\storewithproductsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C320A19C-EDD9-465F-8EE0-2C9F32536115}|YemekSiparis.Infrastructure\\YemekSiparis.Infrastructure.csproj|c:\\users\\teach\\source\\repos\\yemeksiparis\\yemeksiparis.infrastructure\\migrations\\20250715115736_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C320A19C-EDD9-465F-8EE0-2C9F32536115}|YemekSiparis.Infrastructure\\YemekSiparis.Infrastructure.csproj|solutionrelative:yemeksiparis.infrastructure\\migrations\\20250715115736_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E21C1107-639B-490B-90C1-C6FA8D3CAADD}|YemekSiparis\\YemekSiparis.WebAPI.csproj|c:\\users\\teach\\source\\repos\\yemeksiparis\\yemeksiparis\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E21C1107-639B-490B-90C1-C6FA8D3CAADD}|YemekSiparis\\YemekSiparis.WebAPI.csproj|solutionrelative:yemeksiparis\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C320A19C-EDD9-465F-8EE0-2C9F32536115}|YemekSiparis.Infrastructure\\YemekSiparis.Infrastructure.csproj|c:\\users\\teach\\source\\repos\\yemeksiparis\\yemeksiparis.infrastructure\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C320A19C-EDD9-465F-8EE0-2C9F32536115}|YemekSiparis.Infrastructure\\YemekSiparis.Infrastructure.csproj|solutionrelative:yemeksiparis.infrastructure\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E21C1107-639B-490B-90C1-C6FA8D3CAADD}|YemekSiparis\\YemekSiparis.WebAPI.csproj|c:\\users\\teach\\source\\repos\\yemeksiparis\\yemeksiparis\\views\\storepanel\\storepanel.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E21C1107-639B-490B-90C1-C6FA8D3CAADD}|YemekSiparis\\YemekSiparis.WebAPI.csproj|solutionrelative:yemeksiparis\\views\\storepanel\\storepanel.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C85753A-9AB2-4B78-89F4-EE055291CB0F}|YemekSiparis.Application\\YemekSiparis.Application.csproj|c:\\users\\teach\\source\\repos\\yemeksiparis\\yemeksiparis.application\\dtos\\createproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C85753A-9AB2-4B78-89F4-EE055291CB0F}|YemekSiparis.Application\\YemekSiparis.Application.csproj|solutionrelative:yemeksiparis.application\\dtos\\createproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C85753A-9AB2-4B78-89F4-EE055291CB0F}|YemekSiparis.Application\\YemekSiparis.Application.csproj|c:\\users\\teach\\source\\repos\\yemeksiparis\\yemeksiparis.application\\dtos\\createorderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C85753A-9AB2-4B78-89F4-EE055291CB0F}|YemekSiparis.Application\\YemekSiparis.Application.csproj|solutionrelative:yemeksiparis.application\\dtos\\createorderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C85753A-9AB2-4B78-89F4-EE055291CB0F}|YemekSiparis.Application\\YemekSiparis.Application.csproj|c:\\users\\teach\\source\\repos\\yemeksiparis\\yemeksiparis.application\\dtos\\changepassworddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C85753A-9AB2-4B78-89F4-EE055291CB0F}|YemekSiparis.Application\\YemekSiparis.Application.csproj|solutionrelative:yemeksiparis.application\\dtos\\changepassworddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C85753A-9AB2-4B78-89F4-EE055291CB0F}|YemekSiparis.Application\\YemekSiparis.Application.csproj|c:\\users\\teach\\source\\repos\\yemeksiparis\\yemeksiparis.application\\interfaces\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C85753A-9AB2-4B78-89F4-EE055291CB0F}|YemekSiparis.Application\\YemekSiparis.Application.csproj|solutionrelative:yemeksiparis.application\\interfaces\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C85753A-9AB2-4B78-89F4-EE055291CB0F}|YemekSiparis.Application\\YemekSiparis.Application.csproj|c:\\users\\teach\\source\\repos\\yemeksiparis\\yemeksiparis.application\\dtos\\updateproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C85753A-9AB2-4B78-89F4-EE055291CB0F}|YemekSiparis.Application\\YemekSiparis.Application.csproj|solutionrelative:yemeksiparis.application\\dtos\\updateproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E21C1107-639B-490B-90C1-C6FA8D3CAADD}|YemekSiparis\\YemekSiparis.WebAPI.csproj|c:\\users\\teach\\source\\repos\\yemeksiparis\\yemeksiparis\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E21C1107-639B-490B-90C1-C6FA8D3CAADD}|YemekSiparis\\YemekSiparis.WebAPI.csproj|solutionrelative:yemeksiparis\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C320A19C-EDD9-465F-8EE0-2C9F32536115}|YemekSiparis.Infrastructure\\YemekSiparis.Infrastructure.csproj|c:\\users\\teach\\source\\repos\\yemeksiparis\\yemeksiparis.infrastructure\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C320A19C-EDD9-465F-8EE0-2C9F32536115}|YemekSiparis.Infrastructure\\YemekSiparis.Infrastructure.csproj|solutionrelative:yemeksiparis.infrastructure\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E21C1107-639B-490B-90C1-C6FA8D3CAADD}|YemekSiparis\\YemekSiparis.WebAPI.csproj|c:\\users\\teach\\source\\repos\\yemeksiparis\\yemeksiparis\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E21C1107-639B-490B-90C1-C6FA8D3CAADD}|YemekSiparis\\YemekSiparis.WebAPI.csproj|solutionrelative:yemeksiparis\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E21C1107-639B-490B-90C1-C6FA8D3CAADD}|YemekSiparis\\YemekSiparis.WebAPI.csproj|c:\\users\\teach\\source\\repos\\yemeksiparis\\yemeksiparis\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E21C1107-639B-490B-90C1-C6FA8D3CAADD}|YemekSiparis\\YemekSiparis.WebAPI.csproj|solutionrelative:yemeksiparis\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E21C1107-639B-490B-90C1-C6FA8D3CAADD}|YemekSiparis\\YemekSiparis.WebAPI.csproj|c:\\users\\teach\\source\\repos\\yemeksiparis\\yemeksiparis\\controllers\\couriercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E21C1107-639B-490B-90C1-C6FA8D3CAADD}|YemekSiparis\\YemekSiparis.WebAPI.csproj|solutionrelative:yemeksiparis\\controllers\\couriercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E21C1107-639B-490B-90C1-C6FA8D3CAADD}|YemekSiparis\\YemekSiparis.WebAPI.csproj|c:\\users\\teach\\source\\repos\\yemeksiparis\\yemeksiparis\\controllers\\favoritecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E21C1107-639B-490B-90C1-C6FA8D3CAADD}|YemekSiparis\\YemekSiparis.WebAPI.csproj|solutionrelative:yemeksiparis\\controllers\\favoritecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E21C1107-639B-490B-90C1-C6FA8D3CAADD}|YemekSiparis\\YemekSiparis.WebAPI.csproj|c:\\users\\teach\\source\\repos\\yemeksiparis\\yemeksiparis\\views\\shared\\_topmeals.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E21C1107-639B-490B-90C1-C6FA8D3CAADD}|YemekSiparis\\YemekSiparis.WebAPI.csproj|solutionrelative:yemeksiparis\\views\\shared\\_topmeals.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E21C1107-639B-490B-90C1-C6FA8D3CAADD}|YemekSiparis\\YemekSiparis.WebAPI.csproj|c:\\users\\teach\\source\\repos\\yemeksiparis\\yemeksiparis\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E21C1107-639B-490B-90C1-C6FA8D3CAADD}|YemekSiparis\\YemekSiparis.WebAPI.csproj|solutionrelative:yemeksiparis\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C85753A-9AB2-4B78-89F4-EE055291CB0F}|YemekSiparis.Application\\YemekSiparis.Application.csproj|c:\\users\\teach\\source\\repos\\yemeksiparis\\yemeksiparis.application\\dtos\\adminregisterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C85753A-9AB2-4B78-89F4-EE055291CB0F}|YemekSiparis.Application\\YemekSiparis.Application.csproj|solutionrelative:yemeksiparis.application\\dtos\\adminregisterdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{191B61C4-5DB4-4C11-8FB6-CC81EDC416BE}|YemekSiparis.Domain\\YemekSiparis.Domain.csproj|c:\\users\\teach\\source\\repos\\yemeksiparis\\yemeksiparis.domain\\entities\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{191B61C4-5DB4-4C11-8FB6-CC81EDC416BE}|YemekSiparis.Domain\\YemekSiparis.Domain.csproj|solutionrelative:yemeksiparis.domain\\entities\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C85753A-9AB2-4B78-89F4-EE055291CB0F}|YemekSiparis.Application\\YemekSiparis.Application.csproj|c:\\users\\teach\\source\\repos\\yemeksiparis\\yemeksiparis.application\\dtos\\storedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C85753A-9AB2-4B78-89F4-EE055291CB0F}|YemekSiparis.Application\\YemekSiparis.Application.csproj|solutionrelative:yemeksiparis.application\\dtos\\storedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{191B61C4-5DB4-4C11-8FB6-CC81EDC416BE}|YemekSiparis.Domain\\YemekSiparis.Domain.csproj|c:\\users\\teach\\source\\repos\\yemeksiparis\\yemeksiparis.domain\\entities\\store.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{191B61C4-5DB4-4C11-8FB6-CC81EDC416BE}|YemekSiparis.Domain\\YemekSiparis.Domain.csproj|solutionrelative:yemeksiparis.domain\\entities\\store.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E21C1107-639B-490B-90C1-C6FA8D3CAADD}|YemekSiparis\\YemekSiparis.WebAPI.csproj|c:\\users\\teach\\source\\repos\\yemeksiparis\\yemeksiparis\\views\\shared\\_registermodal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E21C1107-639B-490B-90C1-C6FA8D3CAADD}|YemekSiparis\\YemekSiparis.WebAPI.csproj|solutionrelative:yemeksiparis\\views\\shared\\_registermodal.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{191B61C4-5DB4-4C11-8FB6-CC81EDC416BE}|YemekSiparis.Domain\\YemekSiparis.Domain.csproj|c:\\users\\teach\\source\\repos\\yemeksiparis\\yemeksiparis.domain\\entities\\orderstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{191B61C4-5DB4-4C11-8FB6-CC81EDC416BE}|YemekSiparis.Domain\\YemekSiparis.Domain.csproj|solutionrelative:yemeksiparis.domain\\entities\\orderstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{191B61C4-5DB4-4C11-8FB6-CC81EDC416BE}|YemekSiparis.Domain\\YemekSiparis.Domain.csproj|c:\\users\\teach\\source\\repos\\yemeksiparis\\yemeksiparis.domain\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{191B61C4-5DB4-4C11-8FB6-CC81EDC416BE}|YemekSiparis.Domain\\YemekSiparis.Domain.csproj|solutionrelative:yemeksiparis.domain\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C85753A-9AB2-4B78-89F4-EE055291CB0F}|YemekSiparis.Application\\YemekSiparis.Application.csproj|c:\\users\\teach\\source\\repos\\yemeksiparis\\yemeksiparis.application\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C85753A-9AB2-4B78-89F4-EE055291CB0F}|YemekSiparis.Application\\YemekSiparis.Application.csproj|solutionrelative:yemeksiparis.application\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E21C1107-639B-490B-90C1-C6FA8D3CAADD}|YemekSiparis\\YemekSiparis.WebAPI.csproj|c:\\users\\teach\\source\\repos\\yemeksiparis\\yemeksiparis\\views\\shared\\_registermodal.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E21C1107-639B-490B-90C1-C6FA8D3CAADD}|YemekSiparis\\YemekSiparis.WebAPI.csproj|solutionrelative:yemeksiparis\\views\\shared\\_registermodal.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E21C1107-639B-490B-90C1-C6FA8D3CAADD}|YemekSiparis\\YemekSiparis.WebAPI.csproj|c:\\users\\teach\\source\\repos\\yemeksiparis\\yemeksiparis\\views\\shared\\_loginmodal.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E21C1107-639B-490B-90C1-C6FA8D3CAADD}|YemekSiparis\\YemekSiparis.WebAPI.csproj|solutionrelative:yemeksiparis\\views\\shared\\_loginmodal.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{191B61C4-5DB4-4C11-8FB6-CC81EDC416BE}|YemekSiparis.Domain\\YemekSiparis.Domain.csproj|c:\\users\\teach\\source\\repos\\yemeksiparis\\yemeksiparis.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{191B61C4-5DB4-4C11-8FB6-CC81EDC416BE}|YemekSiparis.Domain\\YemekSiparis.Domain.csproj|solutionrelative:yemeksiparis.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C320A19C-EDD9-465F-8EE0-2C9F32536115}|YemekSiparis.Infrastructure\\YemekSiparis.Infrastructure.csproj|c:\\users\\teach\\source\\repos\\yemeksiparis\\yemeksiparis.infrastructure\\context\\yemeksiparisdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C320A19C-EDD9-465F-8EE0-2C9F32536115}|YemekSiparis.Infrastructure\\YemekSiparis.Infrastructure.csproj|solutionrelative:yemeksiparis.infrastructure\\context\\yemeksiparisdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E21C1107-639B-490B-90C1-C6FA8D3CAADD}|YemekSiparis\\YemekSiparis.WebAPI.csproj|c:\\users\\teach\\source\\repos\\yemeksiparis\\yemeksiparis\\views\\shared\\_popularrestaurants.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E21C1107-639B-490B-90C1-C6FA8D3CAADD}|YemekSiparis\\YemekSiparis.WebAPI.csproj|solutionrelative:yemeksiparis\\views\\shared\\_popularrestaurants.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E21C1107-639B-490B-90C1-C6FA8D3CAADD}|YemekSiparis\\YemekSiparis.WebAPI.csproj|c:\\users\\teach\\source\\repos\\yemeksiparis\\yemeksiparis\\views\\shared\\_topmeals.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E21C1107-639B-490B-90C1-C6FA8D3CAADD}|YemekSiparis\\YemekSiparis.WebAPI.csproj|solutionrelative:yemeksiparis\\views\\shared\\_topmeals.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C85753A-9AB2-4B78-89F4-EE055291CB0F}|YemekSiparis.Application\\YemekSiparis.Application.csproj|c:\\users\\teach\\source\\repos\\yemeksiparis\\yemeksiparis.application\\interfaces\\ifavoriteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C85753A-9AB2-4B78-89F4-EE055291CB0F}|YemekSiparis.Application\\YemekSiparis.Application.csproj|solutionrelative:yemeksiparis.application\\interfaces\\ifavoriteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C85753A-9AB2-4B78-89F4-EE055291CB0F}|YemekSiparis.Application\\YemekSiparis.Application.csproj|c:\\users\\teach\\source\\repos\\yemeksiparis\\yemeksiparis.application\\dtos\\uploadphotodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C85753A-9AB2-4B78-89F4-EE055291CB0F}|YemekSiparis.Application\\YemekSiparis.Application.csproj|solutionrelative:yemeksiparis.application\\dtos\\uploadphotodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C85753A-9AB2-4B78-89F4-EE055291CB0F}|YemekSiparis.Application\\YemekSiparis.Application.csproj|c:\\users\\teach\\source\\repos\\yemeksiparis\\yemeksiparis.application\\dtos\\resetpassworddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C85753A-9AB2-4B78-89F4-EE055291CB0F}|YemekSiparis.Application\\YemekSiparis.Application.csproj|solutionrelative:yemeksiparis.application\\dtos\\resetpassworddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{191B61C4-5DB4-4C11-8FB6-CC81EDC416BE}|YemekSiparis.Domain\\YemekSiparis.Domain.csproj|c:\\users\\teach\\source\\repos\\yemeksiparis\\yemeksiparis.domain\\entities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{191B61C4-5DB4-4C11-8FB6-CC81EDC416BE}|YemekSiparis.Domain\\YemekSiparis.Domain.csproj|solutionrelative:yemeksiparis.domain\\entities\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C85753A-9AB2-4B78-89F4-EE055291CB0F}|YemekSiparis.Application\\YemekSiparis.Application.csproj|c:\\users\\teach\\source\\repos\\yemeksiparis\\yemeksiparis.application\\dtos\\orderitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C85753A-9AB2-4B78-89F4-EE055291CB0F}|YemekSiparis.Application\\YemekSiparis.Application.csproj|solutionrelative:yemeksiparis.application\\dtos\\orderitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{191B61C4-5DB4-4C11-8FB6-CC81EDC416BE}|YemekSiparis.Domain\\YemekSiparis.Domain.csproj|c:\\users\\teach\\source\\repos\\yemeksiparis\\yemeksiparis.domain\\entities\\favoritestore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{191B61C4-5DB4-4C11-8FB6-CC81EDC416BE}|YemekSiparis.Domain\\YemekSiparis.Domain.csproj|solutionrelative:yemeksiparis.domain\\entities\\favoritestore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C320A19C-EDD9-465F-8EE0-2C9F32536115}|YemekSiparis.Infrastructure\\YemekSiparis.Infrastructure.csproj|c:\\users\\teach\\source\\repos\\yemeksiparis\\yemeksiparis.infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C320A19C-EDD9-465F-8EE0-2C9F32536115}|YemekSiparis.Infrastructure\\YemekSiparis.Infrastructure.csproj|solutionrelative:yemeksiparis.infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C320A19C-EDD9-465F-8EE0-2C9F32536115}|YemekSiparis.Infrastructure\\YemekSiparis.Infrastructure.csproj|c:\\users\\teach\\source\\repos\\yemeksiparis\\yemeksiparis.infrastructure\\services\\cartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C320A19C-EDD9-465F-8EE0-2C9F32536115}|YemekSiparis.Infrastructure\\YemekSiparis.Infrastructure.csproj|solutionrelative:yemeksiparis.infrastructure\\services\\cartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C320A19C-EDD9-465F-8EE0-2C9F32536115}|YemekSiparis.Infrastructure\\YemekSiparis.Infrastructure.csproj|c:\\users\\teach\\source\\repos\\yemeksiparis\\yemeksiparis.infrastructure\\services\\adminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C320A19C-EDD9-465F-8EE0-2C9F32536115}|YemekSiparis.Infrastructure\\YemekSiparis.Infrastructure.csproj|solutionrelative:yemeksiparis.infrastructure\\services\\adminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C85753A-9AB2-4B78-89F4-EE055291CB0F}|YemekSiparis.Application\\YemekSiparis.Application.csproj|c:\\users\\teach\\source\\repos\\yemeksiparis\\yemeksiparis.application\\interfaces\\iadminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C85753A-9AB2-4B78-89F4-EE055291CB0F}|YemekSiparis.Application\\YemekSiparis.Application.csproj|solutionrelative:yemeksiparis.application\\interfaces\\iadminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C85753A-9AB2-4B78-89F4-EE055291CB0F}|YemekSiparis.Application\\YemekSiparis.Application.csproj|c:\\users\\teach\\source\\repos\\yemeksiparis\\yemeksiparis.application\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C85753A-9AB2-4B78-89F4-EE055291CB0F}|YemekSiparis.Application\\YemekSiparis.Application.csproj|solutionrelative:yemeksiparis.application\\dtos\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C320A19C-EDD9-465F-8EE0-2C9F32536115}|YemekSiparis.Infrastructure\\YemekSiparis.Infrastructure.csproj|c:\\users\\teach\\source\\repos\\yemeksiparis\\yemeksiparis.infrastructure\\services\\courierservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C320A19C-EDD9-465F-8EE0-2C9F32536115}|YemekSiparis.Infrastructure\\YemekSiparis.Infrastructure.csproj|solutionrelative:yemeksiparis.infrastructure\\services\\courierservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C85753A-9AB2-4B78-89F4-EE055291CB0F}|YemekSiparis.Application\\YemekSiparis.Application.csproj|c:\\users\\teach\\source\\repos\\yemeksiparis\\yemeksiparis.application\\interfaces\\icourierservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C85753A-9AB2-4B78-89F4-EE055291CB0F}|YemekSiparis.Application\\YemekSiparis.Application.csproj|solutionrelative:yemeksiparis.application\\interfaces\\icourierservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C85753A-9AB2-4B78-89F4-EE055291CB0F}|YemekSiparis.Application\\YemekSiparis.Application.csproj|c:\\users\\teach\\source\\repos\\yemeksiparis\\yemeksiparis.application\\dtos\\assigncourierdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C85753A-9AB2-4B78-89F4-EE055291CB0F}|YemekSiparis.Application\\YemekSiparis.Application.csproj|solutionrelative:yemeksiparis.application\\dtos\\assigncourierdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C85753A-9AB2-4B78-89F4-EE055291CB0F}|YemekSiparis.Application\\YemekSiparis.Application.csproj|c:\\users\\teach\\source\\repos\\yemeksiparis\\yemeksiparis.application\\dtos\\courierdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C85753A-9AB2-4B78-89F4-EE055291CB0F}|YemekSiparis.Application\\YemekSiparis.Application.csproj|solutionrelative:yemeksiparis.application\\dtos\\courierdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{191B61C4-5DB4-4C11-8FB6-CC81EDC416BE}|YemekSiparis.Domain\\YemekSiparis.Domain.csproj|c:\\users\\teach\\source\\repos\\yemeksiparis\\yemeksiparis.domain\\entities\\courier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{191B61C4-5DB4-4C11-8FB6-CC81EDC416BE}|YemekSiparis.Domain\\YemekSiparis.Domain.csproj|solutionrelative:yemeksiparis.domain\\entities\\courier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{191B61C4-5DB4-4C11-8FB6-CC81EDC416BE}|YemekSiparis.Domain\\YemekSiparis.Domain.csproj|c:\\users\\teach\\source\\repos\\yemeksiparis\\yemeksiparis.domain\\entities\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{191B61C4-5DB4-4C11-8FB6-CC81EDC416BE}|YemekSiparis.Domain\\YemekSiparis.Domain.csproj|solutionrelative:yemeksiparis.domain\\entities\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C85753A-9AB2-4B78-89F4-EE055291CB0F}|YemekSiparis.Application\\YemekSiparis.Application.csproj|c:\\users\\teach\\source\\repos\\yemeksiparis\\yemeksiparis.application\\interfaces\\icartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C85753A-9AB2-4B78-89F4-EE055291CB0F}|YemekSiparis.Application\\YemekSiparis.Application.csproj|solutionrelative:yemeksiparis.application\\interfaces\\icartservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C85753A-9AB2-4B78-89F4-EE055291CB0F}|YemekSiparis.Application\\YemekSiparis.Application.csproj|c:\\users\\teach\\source\\repos\\yemeksiparis\\yemeksiparis.application\\dtos\\orderreportdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C85753A-9AB2-4B78-89F4-EE055291CB0F}|YemekSiparis.Application\\YemekSiparis.Application.csproj|solutionrelative:yemeksiparis.application\\dtos\\orderreportdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C320A19C-EDD9-465F-8EE0-2C9F32536115}|YemekSiparis.Infrastructure\\YemekSiparis.Infrastructure.csproj|c:\\users\\teach\\source\\repos\\yemeksiparis\\yemeksiparis.infrastructure\\yemeksiparis.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{C320A19C-EDD9-465F-8EE0-2C9F32536115}|YemekSiparis.Infrastructure\\YemekSiparis.Infrastructure.csproj|solutionrelative:yemeksiparis.infrastructure\\yemeksiparis.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C85753A-9AB2-4B78-89F4-EE055291CB0F}|YemekSiparis.Application\\YemekSiparis.Application.csproj|c:\\users\\teach\\source\\repos\\yemeksiparis\\yemeksiparis.application\\dtos\\addstorereviewdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C85753A-9AB2-4B78-89F4-EE055291CB0F}|YemekSiparis.Application\\YemekSiparis.Application.csproj|solutionrelative:yemeksiparis.application\\dtos\\addstorereviewdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C85753A-9AB2-4B78-89F4-EE055291CB0F}|YemekSiparis.Application\\YemekSiparis.Application.csproj|c:\\users\\teach\\source\\repos\\yemeksiparis\\yemeksiparis.application\\dtos\\requestusernamechangedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C85753A-9AB2-4B78-89F4-EE055291CB0F}|YemekSiparis.Application\\YemekSiparis.Application.csproj|solutionrelative:yemeksiparis.application\\dtos\\requestusernamechangedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{191B61C4-5DB4-4C11-8FB6-CC81EDC416BE}|YemekSiparis.Domain\\YemekSiparis.Domain.csproj|c:\\users\\teach\\source\\repos\\yemeksiparis\\yemeksiparis.domain\\entities\\usernamechangerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{191B61C4-5DB4-4C11-8FB6-CC81EDC416BE}|YemekSiparis.Domain\\YemekSiparis.Domain.csproj|solutionrelative:yemeksiparis.domain\\entities\\usernamechangerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C85753A-9AB2-4B78-89F4-EE055291CB0F}|YemekSiparis.Application\\YemekSiparis.Application.csproj|c:\\users\\teach\\source\\repos\\yemeksiparis\\yemeksiparis.application\\dtos\\forgotpassworddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C85753A-9AB2-4B78-89F4-EE055291CB0F}|YemekSiparis.Application\\YemekSiparis.Application.csproj|solutionrelative:yemeksiparis.application\\dtos\\forgotpassworddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C85753A-9AB2-4B78-89F4-EE055291CB0F}|YemekSiparis.Application\\YemekSiparis.Application.csproj|c:\\users\\teach\\source\\repos\\yemeksiparis\\yemeksiparis.application\\dtos\\updatecartitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C85753A-9AB2-4B78-89F4-EE055291CB0F}|YemekSiparis.Application\\YemekSiparis.Application.csproj|solutionrelative:yemeksiparis.application\\dtos\\updatecartitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C85753A-9AB2-4B78-89F4-EE055291CB0F}|YemekSiparis.Application\\YemekSiparis.Application.csproj|c:\\users\\teach\\source\\repos\\yemeksiparis\\yemeksiparis.application\\dtos\\updateorderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C85753A-9AB2-4B78-89F4-EE055291CB0F}|YemekSiparis.Application\\YemekSiparis.Application.csproj|solutionrelative:yemeksiparis.application\\dtos\\updateorderdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C85753A-9AB2-4B78-89F4-EE055291CB0F}|YemekSiparis.Application\\YemekSiparis.Application.csproj|c:\\users\\teach\\source\\repos\\yemeksiparis\\yemeksiparis.application\\dtos\\updateuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C85753A-9AB2-4B78-89F4-EE055291CB0F}|YemekSiparis.Application\\YemekSiparis.Application.csproj|solutionrelative:yemeksiparis.application\\dtos\\updateuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C85753A-9AB2-4B78-89F4-EE055291CB0F}|YemekSiparis.Application\\YemekSiparis.Application.csproj|c:\\users\\teach\\source\\repos\\yemeksiparis\\yemeksiparis.application\\dtos\\updatestoredto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C85753A-9AB2-4B78-89F4-EE055291CB0F}|YemekSiparis.Application\\YemekSiparis.Application.csproj|solutionrelative:yemeksiparis.application\\dtos\\updatestoredto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C85753A-9AB2-4B78-89F4-EE055291CB0F}|YemekSiparis.Application\\YemekSiparis.Application.csproj|c:\\users\\teach\\source\\repos\\yemeksiparis\\yemeksiparis.application\\dtos\\cartdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C85753A-9AB2-4B78-89F4-EE055291CB0F}|YemekSiparis.Application\\YemekSiparis.Application.csproj|solutionrelative:yemeksiparis.application\\dtos\\cartdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C320A19C-EDD9-465F-8EE0-2C9F32536115}|YemekSiparis.Infrastructure\\YemekSiparis.Infrastructure.csproj|c:\\users\\teach\\source\\repos\\yemeksiparis\\yemeksiparis.infrastructure\\services\\favoriteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C320A19C-EDD9-465F-8EE0-2C9F32536115}|YemekSiparis.Infrastructure\\YemekSiparis.Infrastructure.csproj|solutionrelative:yemeksiparis.infrastructure\\services\\favoriteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C85753A-9AB2-4B78-89F4-EE055291CB0F}|YemekSiparis.Application\\YemekSiparis.Application.csproj|c:\\users\\teach\\source\\repos\\yemeksiparis\\yemeksiparis.application\\yemeksiparis.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{7C85753A-9AB2-4B78-89F4-EE055291CB0F}|YemekSiparis.Application\\YemekSiparis.Application.csproj|solutionrelative:yemeksiparis.application\\yemeksiparis.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{191B61C4-5DB4-4C11-8FB6-CC81EDC416BE}|YemekSiparis.Domain\\YemekSiparis.Domain.csproj|c:\\users\\teach\\source\\repos\\yemeksiparis\\yemeksiparis.domain\\entities\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{191B61C4-5DB4-4C11-8FB6-CC81EDC416BE}|YemekSiparis.Domain\\YemekSiparis.Domain.csproj|solutionrelative:yemeksiparis.domain\\entities\\orderitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C85753A-9AB2-4B78-89F4-EE055291CB0F}|YemekSiparis.Application\\YemekSiparis.Application.csproj|c:\\users\\teach\\source\\repos\\yemeksiparis\\yemeksiparis.application\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C85753A-9AB2-4B78-89F4-EE055291CB0F}|YemekSiparis.Application\\YemekSiparis.Application.csproj|solutionrelative:yemeksiparis.application\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C85753A-9AB2-4B78-89F4-EE055291CB0F}|YemekSiparis.Application\\YemekSiparis.Application.csproj|c:\\users\\teach\\source\\repos\\yemeksiparis\\yemeksiparis.application\\dtos\\storelogindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C85753A-9AB2-4B78-89F4-EE055291CB0F}|YemekSiparis.Application\\YemekSiparis.Application.csproj|solutionrelative:yemeksiparis.application\\dtos\\storelogindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C85753A-9AB2-4B78-89F4-EE055291CB0F}|YemekSiparis.Application\\YemekSiparis.Application.csproj|c:\\users\\teach\\source\\repos\\yemeksiparis\\yemeksiparis.application\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C85753A-9AB2-4B78-89F4-EE055291CB0F}|YemekSiparis.Application\\YemekSiparis.Application.csproj|solutionrelative:yemeksiparis.application\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C320A19C-EDD9-465F-8EE0-2C9F32536115}|YemekSiparis.Infrastructure\\YemekSiparis.Infrastructure.csproj|c:\\users\\teach\\source\\repos\\yemeksiparis\\yemeksiparis.infrastructure\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C320A19C-EDD9-465F-8EE0-2C9F32536115}|YemekSiparis.Infrastructure\\YemekSiparis.Infrastructure.csproj|solutionrelative:yemeksiparis.infrastructure\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{191B61C4-5DB4-4C11-8FB6-CC81EDC416BE}|YemekSiparis.Domain\\YemekSiparis.Domain.csproj|c:\\users\\teach\\source\\repos\\yemeksiparis\\yemeksiparis.domain\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{191B61C4-5DB4-4C11-8FB6-CC81EDC416BE}|YemekSiparis.Domain\\YemekSiparis.Domain.csproj|solutionrelative:yemeksiparis.domain\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7C85753A-9AB2-4B78-89F4-EE055291CB0F}|YemekSiparis.Application\\YemekSiparis.Application.csproj|c:\\users\\teach\\source\\repos\\yemeksiparis\\yemeksiparis.application\\settings\\jwtsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7C85753A-9AB2-4B78-89F4-EE055291CB0F}|YemekSiparis.Application\\YemekSiparis.Application.csproj|solutionrelative:yemeksiparis.application\\settings\\jwtsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C320A19C-EDD9-465F-8EE0-2C9F32536115}|YemekSiparis.Infrastructure\\YemekSiparis.Infrastructure.csproj|c:\\users\\teach\\source\\repos\\yemeksiparis\\yemeksiparis.infrastructure\\migrations\\20250716125427_addstorenotetoorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C320A19C-EDD9-465F-8EE0-2C9F32536115}|YemekSiparis.Infrastructure\\YemekSiparis.Infrastructure.csproj|solutionrelative:yemeksiparis.infrastructure\\migrations\\20250716125427_addstorenotetoorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C320A19C-EDD9-465F-8EE0-2C9F32536115}|YemekSiparis.Infrastructure\\YemekSiparis.Infrastructure.csproj|c:\\users\\teach\\source\\repos\\yemeksiparis\\yemeksiparis.infrastructure\\migrations\\20250716114420_addorderstatusenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C320A19C-EDD9-465F-8EE0-2C9F32536115}|YemekSiparis.Infrastructure\\YemekSiparis.Infrastructure.csproj|solutionrelative:yemeksiparis.infrastructure\\migrations\\20250716114420_addorderstatusenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C320A19C-EDD9-465F-8EE0-2C9F32536115}|YemekSiparis.Infrastructure\\YemekSiparis.Infrastructure.csproj|c:\\users\\teach\\source\\repos\\yemeksiparis\\yemeksiparis.infrastructure\\migrations\\20250716105017_addfavoritestoretable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C320A19C-EDD9-465F-8EE0-2C9F32536115}|YemekSiparis.Infrastructure\\YemekSiparis.Infrastructure.csproj|solutionrelative:yemeksiparis.infrastructure\\migrations\\20250716105017_addfavoritestoretable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C320A19C-EDD9-465F-8EE0-2C9F32536115}|YemekSiparis.Infrastructure\\YemekSiparis.Infrastructure.csproj|c:\\users\\teach\\source\\repos\\yemeksiparis\\yemeksiparis.infrastructure\\migrations\\20250716103759_initialfullmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C320A19C-EDD9-465F-8EE0-2C9F32536115}|YemekSiparis.Infrastructure\\YemekSiparis.Infrastructure.csproj|solutionrelative:yemeksiparis.infrastructure\\migrations\\20250716103759_initialfullmigration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C320A19C-EDD9-465F-8EE0-2C9F32536115}|YemekSiparis.Infrastructure\\YemekSiparis.Infrastructure.csproj|c:\\users\\teach\\source\\repos\\yemeksiparis\\yemeksiparis.infrastructure\\migrations\\20250716075627_createstoretables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C320A19C-EDD9-465F-8EE0-2C9F32536115}|YemekSiparis.Infrastructure\\YemekSiparis.Infrastructure.csproj|solutionrelative:yemeksiparis.infrastructure\\migrations\\20250716075627_createstoretables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C320A19C-EDD9-465F-8EE0-2C9F32536115}|YemekSiparis.Infrastructure\\YemekSiparis.Infrastructure.csproj|c:\\users\\teach\\source\\repos\\yemeksiparis\\yemeksiparis.infrastructure\\migrations\\20250718083242_addreviewandusernamerequesttables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C320A19C-EDD9-465F-8EE0-2C9F32536115}|YemekSiparis.Infrastructure\\YemekSiparis.Infrastructure.csproj|solutionrelative:yemeksiparis.infrastructure\\migrations\\20250718083242_addreviewandusernamerequesttables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C320A19C-EDD9-465F-8EE0-2C9F32536115}|YemekSiparis.Infrastructure\\YemekSiparis.Infrastructure.csproj|c:\\users\\teach\\source\\repos\\yemeksiparis\\yemeksiparis.infrastructure\\migrations\\20250721105049_addprofileimageurltouser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C320A19C-EDD9-465F-8EE0-2C9F32536115}|YemekSiparis.Infrastructure\\YemekSiparis.Infrastructure.csproj|solutionrelative:yemeksiparis.infrastructure\\migrations\\20250721105049_addprofileimageurltouser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C320A19C-EDD9-465F-8EE0-2C9F32536115}|YemekSiparis.Infrastructure\\YemekSiparis.Infrastructure.csproj|c:\\users\\teach\\source\\repos\\yemeksiparis\\yemeksiparis.infrastructure\\migrations\\20250723113324_addstorefields.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C320A19C-EDD9-465F-8EE0-2C9F32536115}|YemekSiparis.Infrastructure\\YemekSiparis.Infrastructure.csproj|solutionrelative:yemeksiparis.infrastructure\\migrations\\20250723113324_addstorefields.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C320A19C-EDD9-465F-8EE0-2C9F32536115}|YemekSiparis.Infrastructure\\YemekSiparis.Infrastructure.csproj|c:\\users\\teach\\source\\repos\\yemeksiparis\\yemeksiparis.infrastructure\\migrations\\20250723081955_addnewfieldstostore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C320A19C-EDD9-465F-8EE0-2C9F32536115}|YemekSiparis.Infrastructure\\YemekSiparis.Infrastructure.csproj|solutionrelative:yemeksiparis.infrastructure\\migrations\\20250723081955_addnewfieldstostore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 100,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 116,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CartViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis.Application\\ViewModels\\CartViewModel.cs",
+              "RelativeDocumentMoniker": "YemekSiparis.Application\\ViewModels\\CartViewModel.cs",
+              "ToolTip": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis.Application\\ViewModels\\CartViewModel.cs",
+              "RelativeToolTip": "YemekSiparis.Application\\ViewModels\\CartViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-30T11:19:02.836Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "StoreMenu.cshtml",
+              "DocumentMoniker": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis\\Views\\Store\\StoreMenu.cshtml",
+              "RelativeDocumentMoniker": "YemekSiparis\\Views\\Store\\StoreMenu.cshtml",
+              "ToolTip": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis\\Views\\Store\\StoreMenu.cshtml",
+              "RelativeToolTip": "YemekSiparis\\Views\\Store\\StoreMenu.cshtml",
+              "ViewState": "AQIAAD8AAAAAAAAAAAAgwHIAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-30T11:07:15.942Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_StoreMenu.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis\\Views\\Store\\_StoreMenu.cshtml.cs",
+              "RelativeDocumentMoniker": "YemekSiparis\\Views\\Store\\_StoreMenu.cshtml.cs",
+              "ToolTip": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis\\Views\\Store\\_StoreMenu.cshtml.cs",
+              "RelativeToolTip": "YemekSiparis\\Views\\Store\\_StoreMenu.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-30T10:27:59.858Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis.Infrastructure\\Mapping\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "YemekSiparis.Infrastructure\\Mapping\\MappingProfile.cs",
+              "ToolTip": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis.Infrastructure\\Mapping\\MappingProfile.cs",
+              "RelativeToolTip": "YemekSiparis.Infrastructure\\Mapping\\MappingProfile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-30T09:14:05.158Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Order.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis\\Views\\StorePanel\\Order.cshtml.cs",
+              "RelativeDocumentMoniker": "YemekSiparis\\Views\\StorePanel\\Order.cshtml.cs",
+              "ToolTip": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis\\Views\\StorePanel\\Order.cshtml.cs",
+              "RelativeToolTip": "YemekSiparis\\Views\\StorePanel\\Order.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-28T09:16:52.743Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Order.cshtml",
+              "DocumentMoniker": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis\\Views\\StorePanel\\Order.cshtml",
+              "RelativeDocumentMoniker": "YemekSiparis\\Views\\StorePanel\\Order.cshtml",
+              "ToolTip": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis\\Views\\StorePanel\\Order.cshtml",
+              "RelativeToolTip": "YemekSiparis\\Views\\StorePanel\\Order.cshtml",
+              "ViewState": "AQIAABcAAAAAAAAAAAAkwCsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-28T08:44:23.378Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "StoreWithProductsDto.cs",
+              "DocumentMoniker": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis.Application\\Dtos\\StoreWithProductsDto.cs",
+              "RelativeDocumentMoniker": "YemekSiparis.Application\\Dtos\\StoreWithProductsDto.cs",
+              "ToolTip": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis.Application\\Dtos\\StoreWithProductsDto.cs",
+              "RelativeToolTip": "YemekSiparis.Application\\Dtos\\StoreWithProductsDto.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAIBJwBMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-28T08:04:40.225Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "AddProduct.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis\\Views\\StorePanel\\AddProduct.cshtml.cs",
+              "RelativeDocumentMoniker": "YemekSiparis\\Views\\StorePanel\\AddProduct.cshtml.cs",
+              "ToolTip": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis\\Views\\StorePanel\\AddProduct.cshtml.cs",
+              "RelativeToolTip": "YemekSiparis\\Views\\StorePanel\\AddProduct.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T12:05:20.379Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "AddProduct.cshtml",
+              "DocumentMoniker": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis\\Views\\StorePanel\\AddProduct.cshtml",
+              "RelativeDocumentMoniker": "YemekSiparis\\Views\\StorePanel\\AddProduct.cshtml",
+              "ToolTip": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis\\Views\\StorePanel\\AddProduct.cshtml",
+              "RelativeToolTip": "YemekSiparis\\Views\\StorePanel\\AddProduct.cshtml",
+              "ViewState": "AQIAADkAAAAAAAAAAAAAAEoAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-25T08:40:29.199Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Menu.cshtml",
+              "DocumentMoniker": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis\\Views\\Shared\\Menu.cshtml",
+              "RelativeDocumentMoniker": "YemekSiparis\\Views\\Shared\\Menu.cshtml",
+              "ToolTip": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis\\Views\\Shared\\Menu.cshtml",
+              "RelativeToolTip": "YemekSiparis\\Views\\Shared\\Menu.cshtml",
+              "ViewState": "AQIAACsAAAAAAAAAAAAAwEkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-25T08:33:23.502Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "StorePanel.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis\\Views\\StorePanel\\StorePanel.cshtml.cs",
+              "RelativeDocumentMoniker": "YemekSiparis\\Views\\StorePanel\\StorePanel.cshtml.cs",
+              "ToolTip": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis\\Views\\StorePanel\\StorePanel.cshtml.cs",
+              "RelativeToolTip": "YemekSiparis\\Views\\StorePanel\\StorePanel.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T08:25:23.178Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "_Header.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis\\Views\\Shared\\_Header.cshtml.cs",
+              "RelativeDocumentMoniker": "YemekSiparis\\Views\\Shared\\_Header.cshtml.cs",
+              "ToolTip": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis\\Views\\Shared\\_Header.cshtml.cs",
+              "RelativeToolTip": "YemekSiparis\\Views\\Shared\\_Header.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-25T08:25:16.875Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "StorePanel.cshtml",
+              "DocumentMoniker": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis\\Views\\StorePanel\\StorePanel.cshtml",
+              "RelativeDocumentMoniker": "YemekSiparis\\Views\\StorePanel\\StorePanel.cshtml",
+              "ToolTip": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis\\Views\\StorePanel\\StorePanel.cshtml",
+              "RelativeToolTip": "YemekSiparis\\Views\\StorePanel\\StorePanel.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-23T13:49:29.723Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "StorePanelController.cs",
+              "DocumentMoniker": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis\\Controllers\\StorePanelController.cs",
+              "RelativeDocumentMoniker": "YemekSiparis\\Controllers\\StorePanelController.cs",
+              "ToolTip": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis\\Controllers\\StorePanelController.cs",
+              "RelativeToolTip": "YemekSiparis\\Controllers\\StorePanelController.cs",
+              "ViewState": "AQIAADIAAAAAAAAAAAAIwDMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T13:36:56.313Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 115,
+              "Title": "20250723113324_AddStoreFields.cs",
+              "DocumentMoniker": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis.Infrastructure\\Migrations\\20250723113324_AddStoreFields.cs",
+              "RelativeDocumentMoniker": "YemekSiparis.Infrastructure\\Migrations\\20250723113324_AddStoreFields.cs",
+              "ToolTip": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis.Infrastructure\\Migrations\\20250723113324_AddStoreFields.cs",
+              "RelativeToolTip": "YemekSiparis.Infrastructure\\Migrations\\20250723113324_AddStoreFields.cs",
+              "ViewState": "AQIAACgAAAAAAAAAAAAgwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T11:33:24.931Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StoreMenuViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis.Application\\ViewModels\\StoreMenuViewModel.cs",
+              "RelativeDocumentMoniker": "YemekSiparis.Application\\ViewModels\\StoreMenuViewModel.cs",
+              "ToolTip": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis.Application\\ViewModels\\StoreMenuViewModel.cs",
+              "RelativeToolTip": "YemekSiparis.Application\\ViewModels\\StoreMenuViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T10:54:17.514Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_StoreDetail.cshtml",
+              "DocumentMoniker": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis\\Views\\Shared\\_StoreDetail.cshtml",
+              "RelativeDocumentMoniker": "YemekSiparis\\Views\\Shared\\_StoreDetail.cshtml",
+              "ToolTip": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis\\Views\\Shared\\_StoreDetail.cshtml",
+              "RelativeToolTip": "YemekSiparis\\Views\\Shared\\_StoreDetail.cshtml",
+              "ViewState": "AQIAADAAAAAAAAAAAAAuwE8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-23T08:26:06.011Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 116,
+              "Title": "20250723081955_AddNewFieldsToStore.cs",
+              "DocumentMoniker": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis.Infrastructure\\Migrations\\20250723081955_AddNewFieldsToStore.cs",
+              "RelativeDocumentMoniker": "YemekSiparis.Infrastructure\\Migrations\\20250723081955_AddNewFieldsToStore.cs",
+              "ToolTip": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis.Infrastructure\\Migrations\\20250723081955_AddNewFieldsToStore.cs",
+              "RelativeToolTip": "YemekSiparis.Infrastructure\\Migrations\\20250723081955_AddNewFieldsToStore.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T08:19:55.138Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "HomeViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis.Application\\ViewModels\\HomeViewModel.cs",
+              "RelativeDocumentMoniker": "YemekSiparis.Application\\ViewModels\\HomeViewModel.cs",
+              "ToolTip": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis.Application\\ViewModels\\HomeViewModel.cs",
+              "RelativeToolTip": "YemekSiparis.Application\\ViewModels\\HomeViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T12:30:06.143Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "StoreDetailViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis.Application\\ViewModels\\StoreDetailViewModel.cs",
+              "RelativeDocumentMoniker": "YemekSiparis.Application\\ViewModels\\StoreDetailViewModel.cs",
+              "ToolTip": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis.Application\\ViewModels\\StoreDetailViewModel.cs",
+              "RelativeToolTip": "YemekSiparis.Application\\ViewModels\\StoreDetailViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T11:24:53.702Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "StorePageControllers.cs",
+              "DocumentMoniker": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis\\Controllers\\StorePageControllers.cs",
+              "RelativeDocumentMoniker": "YemekSiparis\\Controllers\\StorePageControllers.cs",
+              "ToolTip": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis\\Controllers\\StorePageControllers.cs",
+              "RelativeToolTip": "YemekSiparis\\Controllers\\StorePageControllers.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T11:09:01.119Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "_RestaurantDetail.cshtml",
+              "DocumentMoniker": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis\\Views\\Shared\\_RestaurantDetail.cshtml",
+              "RelativeDocumentMoniker": "YemekSiparis\\Views\\Shared\\_RestaurantDetail.cshtml",
+              "ToolTip": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis\\Views\\Shared\\_RestaurantDetail.cshtml",
+              "RelativeToolTip": "YemekSiparis\\Views\\Shared\\_RestaurantDetail.cshtml",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAuwDMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-22T10:48:35.223Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "_RegisterModal.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis\\Views\\Shared\\_RegisterModal.cshtml.cs",
+              "RelativeDocumentMoniker": "YemekSiparis\\Views\\Shared\\_RegisterModal.cshtml.cs",
+              "ToolTip": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis\\Views\\Shared\\_RegisterModal.cshtml.cs",
+              "RelativeToolTip": "YemekSiparis\\Views\\Shared\\_RegisterModal.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T08:12:52.569Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "_RegisterModal.cshtml",
+              "DocumentMoniker": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis\\Views\\Shared\\_RegisterModal.cshtml",
+              "RelativeDocumentMoniker": "YemekSiparis\\Views\\Shared\\_RegisterModal.cshtml",
+              "ToolTip": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis\\Views\\Shared\\_RegisterModal.cshtml",
+              "RelativeToolTip": "YemekSiparis\\Views\\Shared\\_RegisterModal.cshtml",
+              "ViewState": "AQIAAJsAAAAAAAAAAAAiwL0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-22T07:48:47.6Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "_LoginModal.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis\\Views\\Shared\\_LoginModal.cshtml.cs",
+              "RelativeDocumentMoniker": "YemekSiparis\\Views\\Shared\\_LoginModal.cshtml.cs",
+              "ToolTip": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis\\Views\\Shared\\_LoginModal.cshtml.cs",
+              "RelativeToolTip": "YemekSiparis\\Views\\Shared\\_LoginModal.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T12:33:08.994Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 114,
+              "Title": "20250721105049_AddProfileImageUrlToUser.cs",
+              "DocumentMoniker": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis.Infrastructure\\Migrations\\20250721105049_AddProfileImageUrlToUser.cs",
+              "RelativeDocumentMoniker": "YemekSiparis.Infrastructure\\Migrations\\20250721105049_AddProfileImageUrlToUser.cs",
+              "ToolTip": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis.Infrastructure\\Migrations\\20250721105049_AddProfileImageUrlToUser.cs",
+              "RelativeToolTip": "YemekSiparis.Infrastructure\\Migrations\\20250721105049_AddProfileImageUrlToUser.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T10:50:49.247Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "_LoginModal.cshtml",
+              "DocumentMoniker": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis\\Views\\Shared\\_LoginModal.cshtml",
+              "RelativeDocumentMoniker": "YemekSiparis\\Views\\Shared\\_LoginModal.cshtml",
+              "ToolTip": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis\\Views\\Shared\\_LoginModal.cshtml",
+              "RelativeToolTip": "YemekSiparis\\Views\\Shared\\_LoginModal.cshtml",
+              "ViewState": "AQIAAG8AAAAAAAAAAAAmwHoAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-21T09:18:11.545Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "YemekSiparis\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "YemekSiparis\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAD0AAAAAAAAAAAAkwFcAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-21T09:04:18.997Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "_PopularRestaurants.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis\\Views\\Shared\\_PopularRestaurants.cshtml.cs",
+              "RelativeDocumentMoniker": "YemekSiparis\\Views\\Shared\\_PopularRestaurants.cshtml.cs",
+              "ToolTip": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis\\Views\\Shared\\_PopularRestaurants.cshtml.cs",
+              "RelativeToolTip": "YemekSiparis\\Views\\Shared\\_PopularRestaurants.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T08:08:39.795Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "_TopMeals.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis\\Views\\Shared\\_TopMeals.cshtml.cs",
+              "RelativeDocumentMoniker": "YemekSiparis\\Views\\Shared\\_TopMeals.cshtml.cs",
+              "ToolTip": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis\\Views\\Shared\\_TopMeals.cshtml.cs",
+              "RelativeToolTip": "YemekSiparis\\Views\\Shared\\_TopMeals.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T08:08:38.501Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "_TopMeals.cshtml",
+              "DocumentMoniker": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis\\Views\\Shared\\_TopMeals.cshtml",
+              "RelativeDocumentMoniker": "YemekSiparis\\Views\\Shared\\_TopMeals.cshtml",
+              "ToolTip": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis\\Views\\Shared\\_TopMeals.cshtml",
+              "RelativeToolTip": "YemekSiparis\\Views\\Shared\\_TopMeals.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAIBJwCUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-21T08:01:08.542Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "_PopularRestaurants.cshtml",
+              "DocumentMoniker": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis\\Views\\Shared\\_PopularRestaurants.cshtml",
+              "RelativeDocumentMoniker": "YemekSiparis\\Views\\Shared\\_PopularRestaurants.cshtml",
+              "ToolTip": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis\\Views\\Shared\\_PopularRestaurants.cshtml",
+              "RelativeToolTip": "YemekSiparis\\Views\\Shared\\_PopularRestaurants.cshtml",
+              "ViewState": "AQIAAEcAAAAAAAAAAAAAAEcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-21T07:59:47.13Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "_Header.cshtml",
+              "DocumentMoniker": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis\\Views\\Shared\\_Header.cshtml",
+              "RelativeDocumentMoniker": "YemekSiparis\\Views\\Shared\\_Header.cshtml",
+              "ToolTip": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis\\Views\\Shared\\_Header.cshtml",
+              "RelativeToolTip": "YemekSiparis\\Views\\Shared\\_Header.cshtml",
+              "ViewState": "AQIAAEoAAAAAAAAAAAAAwFkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-21T07:58:20.485Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "YemekSiparis\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "YemekSiparis\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAkwCMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T07:41:33.698Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "YemekSiparis\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "YemekSiparis\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAFgAAAAAAAAAAAAAwHAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-21T07:41:07.334Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "UploadPhotoDto.cs",
+              "DocumentMoniker": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis.Application\\Dtos\\UploadPhotoDto.cs",
+              "RelativeDocumentMoniker": "YemekSiparis.Application\\Dtos\\UploadPhotoDto.cs",
+              "ToolTip": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis.Application\\Dtos\\UploadPhotoDto.cs",
+              "RelativeToolTip": "YemekSiparis.Application\\Dtos\\UploadPhotoDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T14:50:44.055Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "OrderDetailDto.cs",
+              "DocumentMoniker": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis.Application\\Dtos\\OrderDetailDto.cs",
+              "RelativeDocumentMoniker": "YemekSiparis.Application\\Dtos\\OrderDetailDto.cs",
+              "ToolTip": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis.Application\\Dtos\\OrderDetailDto.cs",
+              "RelativeToolTip": "YemekSiparis.Application\\Dtos\\OrderDetailDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T13:46:22.505Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "UpdateProductDto.cs",
+              "DocumentMoniker": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis.Application\\Dtos\\UpdateProductDto.cs",
+              "RelativeDocumentMoniker": "YemekSiparis.Application\\Dtos\\UpdateProductDto.cs",
+              "ToolTip": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis.Application\\Dtos\\UpdateProductDto.cs",
+              "RelativeToolTip": "YemekSiparis.Application\\Dtos\\UpdateProductDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T11:30:59.633Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "CourierController.cs",
+              "DocumentMoniker": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis\\Controllers\\CourierController.cs",
+              "RelativeDocumentMoniker": "YemekSiparis\\Controllers\\CourierController.cs",
+              "ToolTip": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis\\Controllers\\CourierController.cs",
+              "RelativeToolTip": "YemekSiparis\\Controllers\\CourierController.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAIBJwDAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T08:50:53.864Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 81,
+              "Title": "CourierService.cs",
+              "DocumentMoniker": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis.Infrastructure\\Services\\CourierService.cs",
+              "RelativeDocumentMoniker": "YemekSiparis.Infrastructure\\Services\\CourierService.cs",
+              "ToolTip": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis.Infrastructure\\Services\\CourierService.cs",
+              "RelativeToolTip": "YemekSiparis.Infrastructure\\Services\\CourierService.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAqwDsAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T08:50:02.236Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 82,
+              "Title": "ICourierService.cs",
+              "DocumentMoniker": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis.Application\\Interfaces\\ICourierService.cs",
+              "RelativeDocumentMoniker": "YemekSiparis.Application\\Interfaces\\ICourierService.cs",
+              "ToolTip": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis.Application\\Interfaces\\ICourierService.cs",
+              "RelativeToolTip": "YemekSiparis.Application\\Interfaces\\ICourierService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T08:49:14.366Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 83,
+              "Title": "AssignCourierDto.cs",
+              "DocumentMoniker": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis.Application\\Dtos\\AssignCourierDto.cs",
+              "RelativeDocumentMoniker": "YemekSiparis.Application\\Dtos\\AssignCourierDto.cs",
+              "ToolTip": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis.Application\\Dtos\\AssignCourierDto.cs",
+              "RelativeToolTip": "YemekSiparis.Application\\Dtos\\AssignCourierDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T08:48:32.067Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 84,
+              "Title": "CourierDto.cs",
+              "DocumentMoniker": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis.Application\\Dtos\\CourierDto.cs",
+              "RelativeDocumentMoniker": "YemekSiparis.Application\\Dtos\\CourierDto.cs",
+              "ToolTip": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis.Application\\Dtos\\CourierDto.cs",
+              "RelativeToolTip": "YemekSiparis.Application\\Dtos\\CourierDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T08:48:07.645Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 85,
+              "Title": "Courier.cs",
+              "DocumentMoniker": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis.Domain\\Entities\\Courier.cs",
+              "RelativeDocumentMoniker": "YemekSiparis.Domain\\Entities\\Courier.cs",
+              "ToolTip": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis.Domain\\Entities\\Courier.cs",
+              "RelativeToolTip": "YemekSiparis.Domain\\Entities\\Courier.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T08:47:35.016Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 88,
+              "Title": "OrderReportDto.cs",
+              "DocumentMoniker": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis.Application\\Dtos\\OrderReportDto.cs",
+              "RelativeDocumentMoniker": "YemekSiparis.Application\\Dtos\\OrderReportDto.cs",
+              "ToolTip": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis.Application\\Dtos\\OrderReportDto.cs",
+              "RelativeToolTip": "YemekSiparis.Application\\Dtos\\OrderReportDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T08:34:44.899Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 113,
+              "Title": "20250718083242_AddReviewAndUsernameRequestTables.cs",
+              "DocumentMoniker": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis.Infrastructure\\Migrations\\20250718083242_AddReviewAndUsernameRequestTables.cs",
+              "RelativeDocumentMoniker": "YemekSiparis.Infrastructure\\Migrations\\20250718083242_AddReviewAndUsernameRequestTables.cs",
+              "ToolTip": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis.Infrastructure\\Migrations\\20250718083242_AddReviewAndUsernameRequestTables.cs",
+              "RelativeToolTip": "YemekSiparis.Infrastructure\\Migrations\\20250718083242_AddReviewAndUsernameRequestTables.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAB9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T08:32:42.386Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 90,
+              "Title": "AddStoreReviewDto.cs",
+              "DocumentMoniker": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis.Application\\Dtos\\AddStoreReviewDto.cs",
+              "RelativeDocumentMoniker": "YemekSiparis.Application\\Dtos\\AddStoreReviewDto.cs",
+              "ToolTip": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis.Application\\Dtos\\AddStoreReviewDto.cs",
+              "RelativeToolTip": "YemekSiparis.Application\\Dtos\\AddStoreReviewDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T08:26:01.209Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "StoreReview.cs",
+              "DocumentMoniker": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis.Domain\\Entities\\StoreReview.cs",
+              "RelativeDocumentMoniker": "YemekSiparis.Domain\\Entities\\StoreReview.cs",
+              "ToolTip": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis.Domain\\Entities\\StoreReview.cs",
+              "RelativeToolTip": "YemekSiparis.Domain\\Entities\\StoreReview.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAQwBAAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T08:25:17.868Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "ChangePasswordDto.cs",
+              "DocumentMoniker": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis.Application\\Dtos\\ChangePasswordDto.cs",
+              "RelativeDocumentMoniker": "YemekSiparis.Application\\Dtos\\ChangePasswordDto.cs",
+              "ToolTip": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis.Application\\Dtos\\ChangePasswordDto.cs",
+              "RelativeToolTip": "YemekSiparis.Application\\Dtos\\ChangePasswordDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T07:59:18.461Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 91,
+              "Title": "RequestUsernameChangeDto.cs",
+              "DocumentMoniker": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis.Application\\Dtos\\RequestUsernameChangeDto.cs",
+              "RelativeDocumentMoniker": "YemekSiparis.Application\\Dtos\\RequestUsernameChangeDto.cs",
+              "ToolTip": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis.Application\\Dtos\\RequestUsernameChangeDto.cs",
+              "RelativeToolTip": "YemekSiparis.Application\\Dtos\\RequestUsernameChangeDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T07:54:17.996Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 92,
+              "Title": "UsernameChangeRequest.cs",
+              "DocumentMoniker": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis.Domain\\Entities\\UsernameChangeRequest.cs",
+              "RelativeDocumentMoniker": "YemekSiparis.Domain\\Entities\\UsernameChangeRequest.cs",
+              "ToolTip": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis.Domain\\Entities\\UsernameChangeRequest.cs",
+              "RelativeToolTip": "YemekSiparis.Domain\\Entities\\UsernameChangeRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T07:53:31.02Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "YemekSiparis\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "YemekSiparis\\Controllers\\AuthController.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAIBJwC8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T07:52:22.997Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "ResetPasswordDto.cs",
+              "DocumentMoniker": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis.Application\\Dtos\\ResetPasswordDto.cs",
+              "RelativeDocumentMoniker": "YemekSiparis.Application\\Dtos\\ResetPasswordDto.cs",
+              "ToolTip": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis.Application\\Dtos\\ResetPasswordDto.cs",
+              "RelativeToolTip": "YemekSiparis.Application\\Dtos\\ResetPasswordDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T07:46:50.43Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 93,
+              "Title": "ForgotPasswordDto.cs",
+              "DocumentMoniker": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis.Application\\Dtos\\ForgotPasswordDto.cs",
+              "RelativeDocumentMoniker": "YemekSiparis.Application\\Dtos\\ForgotPasswordDto.cs",
+              "ToolTip": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis.Application\\Dtos\\ForgotPasswordDto.cs",
+              "RelativeToolTip": "YemekSiparis.Application\\Dtos\\ForgotPasswordDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T07:46:27.675Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 94,
+              "Title": "UpdateCartItemDto.cs",
+              "DocumentMoniker": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis.Application\\Dtos\\UpdateCartItemDto.cs",
+              "RelativeDocumentMoniker": "YemekSiparis.Application\\Dtos\\UpdateCartItemDto.cs",
+              "ToolTip": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis.Application\\Dtos\\UpdateCartItemDto.cs",
+              "RelativeToolTip": "YemekSiparis.Application\\Dtos\\UpdateCartItemDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T12:56:45.348Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "CartItem.cs",
+              "DocumentMoniker": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis.Domain\\Entities\\CartItem.cs",
+              "RelativeDocumentMoniker": "YemekSiparis.Domain\\Entities\\CartItem.cs",
+              "ToolTip": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis.Domain\\Entities\\CartItem.cs",
+              "RelativeToolTip": "YemekSiparis.Domain\\Entities\\CartItem.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T12:56:09.332Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 108,
+              "Title": "20250716125427_AddStoreNoteToOrder.cs",
+              "DocumentMoniker": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis.Infrastructure\\Migrations\\20250716125427_AddStoreNoteToOrder.cs",
+              "RelativeDocumentMoniker": "YemekSiparis.Infrastructure\\Migrations\\20250716125427_AddStoreNoteToOrder.cs",
+              "ToolTip": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis.Infrastructure\\Migrations\\20250716125427_AddStoreNoteToOrder.cs",
+              "RelativeToolTip": "YemekSiparis.Infrastructure\\Migrations\\20250716125427_AddStoreNoteToOrder.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T12:54:27.905Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 95,
+              "Title": "UpdateOrderDto.cs",
+              "DocumentMoniker": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis.Application\\Dtos\\UpdateOrderDto.cs",
+              "RelativeDocumentMoniker": "YemekSiparis.Application\\Dtos\\UpdateOrderDto.cs",
+              "ToolTip": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis.Application\\Dtos\\UpdateOrderDto.cs",
+              "RelativeToolTip": "YemekSiparis.Application\\Dtos\\UpdateOrderDto.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAIBJwBoAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T12:34:51.472Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 96,
+              "Title": "UpdateUserDto.cs",
+              "DocumentMoniker": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis.Application\\Dtos\\UpdateUserDto.cs",
+              "RelativeDocumentMoniker": "YemekSiparis.Application\\Dtos\\UpdateUserDto.cs",
+              "ToolTip": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis.Application\\Dtos\\UpdateUserDto.cs",
+              "RelativeToolTip": "YemekSiparis.Application\\Dtos\\UpdateUserDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T12:11:42.121Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 97,
+              "Title": "UpdateStoreDto.cs",
+              "DocumentMoniker": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis.Application\\Dtos\\UpdateStoreDto.cs",
+              "RelativeDocumentMoniker": "YemekSiparis.Application\\Dtos\\UpdateStoreDto.cs",
+              "ToolTip": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis.Application\\Dtos\\UpdateStoreDto.cs",
+              "RelativeToolTip": "YemekSiparis.Application\\Dtos\\UpdateStoreDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T12:05:38.429Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 109,
+              "Title": "20250716114420_AddOrderStatusEnum.cs",
+              "DocumentMoniker": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis.Infrastructure\\Migrations\\20250716114420_AddOrderStatusEnum.cs",
+              "RelativeDocumentMoniker": "YemekSiparis.Infrastructure\\Migrations\\20250716114420_AddOrderStatusEnum.cs",
+              "ToolTip": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis.Infrastructure\\Migrations\\20250716114420_AddOrderStatusEnum.cs",
+              "RelativeToolTip": "YemekSiparis.Infrastructure\\Migrations\\20250716114420_AddOrderStatusEnum.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T11:44:20.797Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "OrderStatus.cs",
+              "DocumentMoniker": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis.Domain\\Entities\\OrderStatus.cs",
+              "RelativeDocumentMoniker": "YemekSiparis.Domain\\Entities\\OrderStatus.cs",
+              "ToolTip": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis.Domain\\Entities\\OrderStatus.cs",
+              "RelativeToolTip": "YemekSiparis.Domain\\Entities\\OrderStatus.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T11:42:00.746Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 110,
+              "Title": "20250716105017_AddFavoriteStoreTable.cs",
+              "DocumentMoniker": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis.Infrastructure\\Migrations\\20250716105017_AddFavoriteStoreTable.cs",
+              "RelativeDocumentMoniker": "YemekSiparis.Infrastructure\\Migrations\\20250716105017_AddFavoriteStoreTable.cs",
+              "ToolTip": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis.Infrastructure\\Migrations\\20250716105017_AddFavoriteStoreTable.cs",
+              "RelativeToolTip": "YemekSiparis.Infrastructure\\Migrations\\20250716105017_AddFavoriteStoreTable.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T10:50:17.272Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "FavoriteController.cs",
+              "DocumentMoniker": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis\\Controllers\\FavoriteController.cs",
+              "RelativeDocumentMoniker": "YemekSiparis\\Controllers\\FavoriteController.cs",
+              "ToolTip": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis\\Controllers\\FavoriteController.cs",
+              "RelativeToolTip": "YemekSiparis\\Controllers\\FavoriteController.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAowDUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T10:46:19.498Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 99,
+              "Title": "FavoriteService.cs",
+              "DocumentMoniker": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis.Infrastructure\\Services\\FavoriteService.cs",
+              "RelativeDocumentMoniker": "YemekSiparis.Infrastructure\\Services\\FavoriteService.cs",
+              "ToolTip": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis.Infrastructure\\Services\\FavoriteService.cs",
+              "RelativeToolTip": "YemekSiparis.Infrastructure\\Services\\FavoriteService.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAUwD8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T10:46:00.809Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "IFavoriteService.cs",
+              "DocumentMoniker": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis.Application\\Interfaces\\IFavoriteService.cs",
+              "RelativeDocumentMoniker": "YemekSiparis.Application\\Interfaces\\IFavoriteService.cs",
+              "ToolTip": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis.Application\\Interfaces\\IFavoriteService.cs",
+              "RelativeToolTip": "YemekSiparis.Application\\Interfaces\\IFavoriteService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T10:45:41.08Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "FavoriteStore.cs",
+              "DocumentMoniker": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis.Domain\\Entities\\FavoriteStore.cs",
+              "RelativeDocumentMoniker": "YemekSiparis.Domain\\Entities\\FavoriteStore.cs",
+              "ToolTip": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis.Domain\\Entities\\FavoriteStore.cs",
+              "RelativeToolTip": "YemekSiparis.Domain\\Entities\\FavoriteStore.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T10:43:12.109Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 111,
+              "Title": "20250716103759_InitialFullMigration.cs",
+              "DocumentMoniker": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis.Infrastructure\\Migrations\\20250716103759_InitialFullMigration.cs",
+              "RelativeDocumentMoniker": "YemekSiparis.Infrastructure\\Migrations\\20250716103759_InitialFullMigration.cs",
+              "ToolTip": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis.Infrastructure\\Migrations\\20250716103759_InitialFullMigration.cs",
+              "RelativeToolTip": "YemekSiparis.Infrastructure\\Migrations\\20250716103759_InitialFullMigration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T10:37:59.448Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "YemekSiparis\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "YemekSiparis\\Controllers\\AdminController.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAowBcAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T09:06:25.16Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 78,
+              "Title": "AdminService.cs",
+              "DocumentMoniker": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis.Infrastructure\\Services\\AdminService.cs",
+              "RelativeDocumentMoniker": "YemekSiparis.Infrastructure\\Services\\AdminService.cs",
+              "ToolTip": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis.Infrastructure\\Services\\AdminService.cs",
+              "RelativeToolTip": "YemekSiparis.Infrastructure\\Services\\AdminService.cs",
+              "ViewState": "AQIAAKwAAAAAAAAAAAAUwL0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T08:54:00.402Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 79,
+              "Title": "IAdminService.cs",
+              "DocumentMoniker": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis.Application\\Interfaces\\IAdminService.cs",
+              "RelativeDocumentMoniker": "YemekSiparis.Application\\Interfaces\\IAdminService.cs",
+              "ToolTip": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis.Application\\Interfaces\\IAdminService.cs",
+              "RelativeToolTip": "YemekSiparis.Application\\Interfaces\\IAdminService.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAA1wBAAAABcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T08:53:41.582Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "AdminRegisterDto.cs",
+              "DocumentMoniker": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis.Application\\Dtos\\AdminRegisterDto.cs",
+              "RelativeDocumentMoniker": "YemekSiparis.Application\\Dtos\\AdminRegisterDto.cs",
+              "ToolTip": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis.Application\\Dtos\\AdminRegisterDto.cs",
+              "RelativeToolTip": "YemekSiparis.Application\\Dtos\\AdminRegisterDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAkAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T08:50:25.273Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Admin.cs",
+              "DocumentMoniker": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis.Domain\\Entities\\Admin.cs",
+              "RelativeDocumentMoniker": "YemekSiparis.Domain\\Entities\\Admin.cs",
+              "ToolTip": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis.Domain\\Entities\\Admin.cs",
+              "RelativeToolTip": "YemekSiparis.Domain\\Entities\\Admin.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T08:49:17.084Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "OrderItemDto.cs",
+              "DocumentMoniker": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis.Application\\Dtos\\OrderItemDto.cs",
+              "RelativeDocumentMoniker": "YemekSiparis.Application\\Dtos\\OrderItemDto.cs",
+              "ToolTip": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis.Application\\Dtos\\OrderItemDto.cs",
+              "RelativeToolTip": "YemekSiparis.Application\\Dtos\\OrderItemDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T08:40:50.866Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "OrderService.cs",
+              "DocumentMoniker": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis.Infrastructure\\Services\\OrderService.cs",
+              "RelativeDocumentMoniker": "YemekSiparis.Infrastructure\\Services\\OrderService.cs",
+              "ToolTip": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis.Infrastructure\\Services\\OrderService.cs",
+              "RelativeToolTip": "YemekSiparis.Infrastructure\\Services\\OrderService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAIsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T08:35:21.963Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "IOrderService.cs",
+              "DocumentMoniker": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis.Application\\Interfaces\\IOrderService.cs",
+              "RelativeDocumentMoniker": "YemekSiparis.Application\\Interfaces\\IOrderService.cs",
+              "ToolTip": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis.Application\\Interfaces\\IOrderService.cs",
+              "RelativeToolTip": "YemekSiparis.Application\\Interfaces\\IOrderService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T08:32:37.296Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "YemekSiparis\\Controllers\\OrderController.cs",
+              "ToolTip": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "YemekSiparis\\Controllers\\OrderController.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAADEAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T08:32:21.265Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "OrderDto.cs",
+              "DocumentMoniker": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis.Application\\Dtos\\OrderDto.cs",
+              "RelativeDocumentMoniker": "YemekSiparis.Application\\Dtos\\OrderDto.cs",
+              "ToolTip": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis.Application\\Dtos\\OrderDto.cs",
+              "RelativeToolTip": "YemekSiparis.Application\\Dtos\\OrderDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T08:31:57.463Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "CreateOrderDto.cs",
+              "DocumentMoniker": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis.Application\\Dtos\\CreateOrderDto.cs",
+              "RelativeDocumentMoniker": "YemekSiparis.Application\\Dtos\\CreateOrderDto.cs",
+              "ToolTip": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis.Application\\Dtos\\CreateOrderDto.cs",
+              "RelativeToolTip": "YemekSiparis.Application\\Dtos\\CreateOrderDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T08:31:37.555Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "YemekSiparis\\Controllers\\CartController.cs",
+              "ToolTip": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis\\Controllers\\CartController.cs",
+              "RelativeToolTip": "YemekSiparis\\Controllers\\CartController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAIBJwDcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T08:29:22.034Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 100,
+              "Title": "YemekSiparis.Application.csproj",
+              "DocumentMoniker": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis.Application\\YemekSiparis.Application.csproj",
+              "RelativeDocumentMoniker": "YemekSiparis.Application\\YemekSiparis.Application.csproj",
+              "ToolTip": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis.Application\\YemekSiparis.Application.csproj",
+              "RelativeToolTip": "YemekSiparis.Application\\YemekSiparis.Application.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-16T07:54:41.388Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 77,
+              "Title": "CartService.cs",
+              "DocumentMoniker": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis.Infrastructure\\Services\\CartService.cs",
+              "RelativeDocumentMoniker": "YemekSiparis.Infrastructure\\Services\\CartService.cs",
+              "ToolTip": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis.Infrastructure\\Services\\CartService.cs",
+              "RelativeToolTip": "YemekSiparis.Infrastructure\\Services\\CartService.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAADwv3sAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T08:05:48.392Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 87,
+              "Title": "ICartService.cs",
+              "DocumentMoniker": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis.Application\\Interfaces\\ICartService.cs",
+              "RelativeDocumentMoniker": "YemekSiparis.Application\\Interfaces\\ICartService.cs",
+              "ToolTip": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis.Application\\Interfaces\\ICartService.cs",
+              "RelativeToolTip": "YemekSiparis.Application\\Interfaces\\ICartService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T08:05:23.098Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 98,
+              "Title": "CartDto.cs",
+              "DocumentMoniker": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis.Application\\Dtos\\CartDto.cs",
+              "RelativeDocumentMoniker": "YemekSiparis.Application\\Dtos\\CartDto.cs",
+              "ToolTip": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis.Application\\Dtos\\CartDto.cs",
+              "RelativeToolTip": "YemekSiparis.Application\\Dtos\\CartDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T08:05:02.876Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 101,
+              "Title": "OrderItem.cs",
+              "DocumentMoniker": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis.Domain\\Entities\\OrderItem.cs",
+              "RelativeDocumentMoniker": "YemekSiparis.Domain\\Entities\\OrderItem.cs",
+              "ToolTip": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis.Domain\\Entities\\OrderItem.cs",
+              "RelativeToolTip": "YemekSiparis.Domain\\Entities\\OrderItem.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T08:03:37.203Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis.Domain\\Entities\\Order.cs",
+              "RelativeDocumentMoniker": "YemekSiparis.Domain\\Entities\\Order.cs",
+              "ToolTip": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis.Domain\\Entities\\Order.cs",
+              "RelativeToolTip": "YemekSiparis.Domain\\Entities\\Order.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA9AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T08:02:58.371Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 86,
+              "Title": "Cart.cs",
+              "DocumentMoniker": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis.Domain\\Entities\\Cart.cs",
+              "RelativeDocumentMoniker": "YemekSiparis.Domain\\Entities\\Cart.cs",
+              "ToolTip": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis.Domain\\Entities\\Cart.cs",
+              "RelativeToolTip": "YemekSiparis.Domain\\Entities\\Cart.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T08:02:40.155Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 112,
+              "Title": "20250716075627_CreateStoreTables.cs",
+              "DocumentMoniker": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis.Infrastructure\\Migrations\\20250716075627_CreateStoreTables.cs",
+              "RelativeDocumentMoniker": "YemekSiparis.Infrastructure\\Migrations\\20250716075627_CreateStoreTables.cs",
+              "ToolTip": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis.Infrastructure\\Migrations\\20250716075627_CreateStoreTables.cs",
+              "RelativeToolTip": "YemekSiparis.Infrastructure\\Migrations\\20250716075627_CreateStoreTables.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-16T07:56:27.863Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 105,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis.Infrastructure\\Class1.cs",
+              "RelativeDocumentMoniker": "YemekSiparis.Infrastructure\\Class1.cs",
+              "ToolTip": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis.Infrastructure\\Class1.cs",
+              "RelativeToolTip": "YemekSiparis.Infrastructure\\Class1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T14:49:04.043Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "ProductDto.cs",
+              "DocumentMoniker": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis.Application\\Dtos\\ProductDto.cs",
+              "RelativeDocumentMoniker": "YemekSiparis.Application\\Dtos\\ProductDto.cs",
+              "ToolTip": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis.Application\\Dtos\\ProductDto.cs",
+              "RelativeToolTip": "YemekSiparis.Application\\Dtos\\ProductDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T14:43:02.721Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "YemekSiparis\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "YemekSiparis\\Controllers\\ProductController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T14:29:38.793Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis.Infrastructure\\Services\\ProductService.cs",
+              "RelativeDocumentMoniker": "YemekSiparis.Infrastructure\\Services\\ProductService.cs",
+              "ToolTip": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis.Infrastructure\\Services\\ProductService.cs",
+              "RelativeToolTip": "YemekSiparis.Infrastructure\\Services\\ProductService.cs",
+              "ViewState": "AQIAADEAAAAAAAAAAAAcwE0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T14:29:11.016Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "IProductService.cs",
+              "DocumentMoniker": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis.Application\\Interfaces\\IProductService.cs",
+              "RelativeDocumentMoniker": "YemekSiparis.Application\\Interfaces\\IProductService.cs",
+              "ToolTip": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis.Application\\Interfaces\\IProductService.cs",
+              "RelativeToolTip": "YemekSiparis.Application\\Interfaces\\IProductService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T14:28:46.654Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "CreateProductDto.cs",
+              "DocumentMoniker": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis.Application\\Dtos\\CreateProductDto.cs",
+              "RelativeDocumentMoniker": "YemekSiparis.Application\\Dtos\\CreateProductDto.cs",
+              "ToolTip": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis.Application\\Dtos\\CreateProductDto.cs",
+              "RelativeToolTip": "YemekSiparis.Application\\Dtos\\CreateProductDto.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAA5wAwAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T14:28:30.192Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis.Domain\\Entities\\Product.cs",
+              "RelativeDocumentMoniker": "YemekSiparis.Domain\\Entities\\Product.cs",
+              "ToolTip": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis.Domain\\Entities\\Product.cs",
+              "RelativeToolTip": "YemekSiparis.Domain\\Entities\\Product.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T14:27:29.085Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "StoreController.cs",
+              "DocumentMoniker": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis\\Controllers\\StoreController.cs",
+              "RelativeDocumentMoniker": "YemekSiparis\\Controllers\\StoreController.cs",
+              "ToolTip": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis\\Controllers\\StoreController.cs",
+              "RelativeToolTip": "YemekSiparis\\Controllers\\StoreController.cs",
+              "ViewState": "AQIAALEAAAAAAAAAAAAAwMYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T14:23:08.933Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "Store.cs",
+              "DocumentMoniker": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis.Domain\\Entities\\Store.cs",
+              "RelativeDocumentMoniker": "YemekSiparis.Domain\\Entities\\Store.cs",
+              "ToolTip": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis.Domain\\Entities\\Store.cs",
+              "RelativeToolTip": "YemekSiparis.Domain\\Entities\\Store.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T14:15:16.019Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 102,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis.Application\\Class1.cs",
+              "RelativeDocumentMoniker": "YemekSiparis.Application\\Class1.cs",
+              "ToolTip": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis.Application\\Class1.cs",
+              "RelativeToolTip": "YemekSiparis.Application\\Class1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T13:10:41.158Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 103,
+              "Title": "StoreLoginDto.cs",
+              "DocumentMoniker": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis.Application\\Dtos\\StoreLoginDto.cs",
+              "RelativeDocumentMoniker": "YemekSiparis.Application\\Dtos\\StoreLoginDto.cs",
+              "ToolTip": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis.Application\\Dtos\\StoreLoginDto.cs",
+              "RelativeToolTip": "YemekSiparis.Application\\Dtos\\StoreLoginDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T14:13:03.721Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "StoreService.cs",
+              "DocumentMoniker": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis.Infrastructure\\Services\\StoreService.cs",
+              "RelativeDocumentMoniker": "YemekSiparis.Infrastructure\\Services\\StoreService.cs",
+              "ToolTip": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis.Infrastructure\\Services\\StoreService.cs",
+              "RelativeToolTip": "YemekSiparis.Infrastructure\\Services\\StoreService.cs",
+              "ViewState": "AQIAAOkAAAAAAAAAAAAkwAABAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T14:10:08.977Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "IStoreService.cs",
+              "DocumentMoniker": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis.Application\\Interfaces\\IStoreService.cs",
+              "RelativeDocumentMoniker": "YemekSiparis.Application\\Interfaces\\IStoreService.cs",
+              "ToolTip": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis.Application\\Interfaces\\IStoreService.cs",
+              "RelativeToolTip": "YemekSiparis.Application\\Interfaces\\IStoreService.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABQAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T14:09:37.366Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "StoreDto.cs",
+              "DocumentMoniker": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis.Application\\Dtos\\StoreDto.cs",
+              "RelativeDocumentMoniker": "YemekSiparis.Application\\Dtos\\StoreDto.cs",
+              "ToolTip": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis.Application\\Dtos\\StoreDto.cs",
+              "RelativeToolTip": "YemekSiparis.Application\\Dtos\\StoreDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAIBJwA8AAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T14:08:30.412Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis.Infrastructure\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "YemekSiparis.Infrastructure\\DependencyInjection.cs",
+              "ToolTip": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis.Infrastructure\\DependencyInjection.cs",
+              "RelativeToolTip": "YemekSiparis.Infrastructure\\DependencyInjection.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T13:01:02.956Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 107,
+              "Title": "JwtSettings.cs",
+              "DocumentMoniker": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis.Application\\Settings\\JwtSettings.cs",
+              "RelativeDocumentMoniker": "YemekSiparis.Application\\Settings\\JwtSettings.cs",
+              "ToolTip": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis.Application\\Settings\\JwtSettings.cs",
+              "RelativeToolTip": "YemekSiparis.Application\\Settings\\JwtSettings.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T12:15:22.188Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis.Infrastructure\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "YemekSiparis.Infrastructure\\Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis.Infrastructure\\Services\\UserService.cs",
+              "RelativeToolTip": "YemekSiparis.Infrastructure\\Services\\UserService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAIBJwLgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T12:00:30.416Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "UserControllers.cs",
+              "DocumentMoniker": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis\\Controllers\\UserControllers.cs",
+              "RelativeDocumentMoniker": "YemekSiparis\\Controllers\\UserControllers.cs",
+              "ToolTip": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis\\Controllers\\UserControllers.cs",
+              "RelativeToolTip": "YemekSiparis\\Controllers\\UserControllers.cs",
+              "ViewState": "AQIAACsAAAAAAAAAAAAwwEEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T12:04:27.643Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis\\Program.cs",
+              "RelativeDocumentMoniker": "YemekSiparis\\Program.cs",
+              "ToolTip": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis\\Program.cs",
+              "RelativeToolTip": "YemekSiparis\\Program.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAUwBsAAABRAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T11:49:54.549Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis\\appsettings.json",
+              "RelativeDocumentMoniker": "YemekSiparis\\appsettings.json",
+              "ToolTip": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis\\appsettings.json",
+              "RelativeToolTip": "YemekSiparis\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-15T11:48:54.196Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis.Application\\Interfaces\\IUserService.cs",
+              "RelativeDocumentMoniker": "YemekSiparis.Application\\Interfaces\\IUserService.cs",
+              "ToolTip": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis.Application\\Interfaces\\IUserService.cs",
+              "RelativeToolTip": "YemekSiparis.Application\\Interfaces\\IUserService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T12:00:00.907Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 104,
+              "Title": "LoginDto.cs",
+              "DocumentMoniker": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis.Application\\Dtos\\LoginDto.cs",
+              "RelativeDocumentMoniker": "YemekSiparis.Application\\Dtos\\LoginDto.cs",
+              "ToolTip": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis.Application\\Dtos\\LoginDto.cs",
+              "RelativeToolTip": "YemekSiparis.Application\\Dtos\\LoginDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T12:11:34.12Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 80,
+              "Title": "UserDto.cs",
+              "DocumentMoniker": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis.Application\\Dtos\\UserDto.cs",
+              "RelativeDocumentMoniker": "YemekSiparis.Application\\Dtos\\UserDto.cs",
+              "ToolTip": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis.Application\\Dtos\\UserDto.cs",
+              "RelativeToolTip": "YemekSiparis.Application\\Dtos\\UserDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T11:59:30.771Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "20250715115736_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis.Infrastructure\\Migrations\\20250715115736_InitialCreate.cs",
+              "RelativeDocumentMoniker": "YemekSiparis.Infrastructure\\Migrations\\20250715115736_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis.Infrastructure\\Migrations\\20250715115736_InitialCreate.cs",
+              "RelativeToolTip": "YemekSiparis.Infrastructure\\Migrations\\20250715115736_InitialCreate.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T11:57:36.237Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 89,
+              "Title": "YemekSiparis.Infrastructure.csproj",
+              "DocumentMoniker": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis.Infrastructure\\YemekSiparis.Infrastructure.csproj",
+              "RelativeDocumentMoniker": "YemekSiparis.Infrastructure\\YemekSiparis.Infrastructure.csproj",
+              "ToolTip": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis.Infrastructure\\YemekSiparis.Infrastructure.csproj",
+              "RelativeToolTip": "YemekSiparis.Infrastructure\\YemekSiparis.Infrastructure.csproj",
+              "ViewState": "AQIAAAwAAAAAAAAAAIBJwAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-15T11:45:11.801Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 106,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis.Domain\\Class1.cs",
+              "RelativeDocumentMoniker": "YemekSiparis.Domain\\Class1.cs",
+              "ToolTip": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis.Domain\\Class1.cs",
+              "RelativeToolTip": "YemekSiparis.Domain\\Class1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T11:39:48.368Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "YemekSiparisDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis.Infrastructure\\Context\\YemekSiparisDbContext.cs",
+              "RelativeDocumentMoniker": "YemekSiparis.Infrastructure\\Context\\YemekSiparisDbContext.cs",
+              "ToolTip": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis.Infrastructure\\Context\\YemekSiparisDbContext.cs",
+              "RelativeToolTip": "YemekSiparis.Infrastructure\\Context\\YemekSiparisDbContext.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAIBJwBYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T10:51:37.304Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis.Domain\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "YemekSiparis.Domain\\Entities\\User.cs",
+              "ToolTip": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis.Domain\\Entities\\User.cs",
+              "RelativeToolTip": "YemekSiparis.Domain\\Entities\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-15T10:49:56.78Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "YemekSiparis.WebAPI.csproj",
+              "DocumentMoniker": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis\\YemekSiparis.WebAPI.csproj",
+              "RelativeDocumentMoniker": "YemekSiparis\\YemekSiparis.WebAPI.csproj",
+              "ToolTip": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis\\YemekSiparis.WebAPI.csproj",
+              "RelativeToolTip": "YemekSiparis\\YemekSiparis.WebAPI.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAABTAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-07-15T10:45:41.278Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

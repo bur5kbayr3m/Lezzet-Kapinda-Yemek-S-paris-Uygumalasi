@@ -1,0 +1,13 @@
+C:\Users\teach\source\repos\YemekSiparis\YemekSiparis.Domain\bin\Debug\net8.0\YemekSiparis.Domain.deps.json
+C:\Users\teach\source\repos\YemekSiparis\YemekSiparis.Domain\bin\Debug\net8.0\YemekSiparis.Domain.dll
+C:\Users\teach\source\repos\YemekSiparis\YemekSiparis.Domain\bin\Debug\net8.0\YemekSiparis.Domain.pdb
+C:\Users\teach\source\repos\YemekSiparis\YemekSiparis.Domain\obj\Debug\net8.0\YemekSiparis.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\teach\source\repos\YemekSiparis\YemekSiparis.Domain\obj\Debug\net8.0\YemekSiparis.Domain.AssemblyInfoInputs.cache
+C:\Users\teach\source\repos\YemekSiparis\YemekSiparis.Domain\obj\Debug\net8.0\YemekSiparis.Domain.AssemblyInfo.cs
+C:\Users\teach\source\repos\YemekSiparis\YemekSiparis.Domain\obj\Debug\net8.0\YemekSiparis.Domain.csproj.CoreCompileInputs.cache
+C:\Users\teach\source\repos\YemekSiparis\YemekSiparis.Domain\obj\Debug\net8.0\YemekSiparis.Domain.dll
+C:\Users\teach\source\repos\YemekSiparis\YemekSiparis.Domain\obj\Debug\net8.0\refint\YemekSiparis.Domain.dll
+C:\Users\teach\source\repos\YemekSiparis\YemekSiparis.Domain\obj\Debug\net8.0\YemekSiparis.Domain.pdb
+C:\Users\teach\source\repos\YemekSiparis\YemekSiparis.Domain\obj\Debug\net8.0\ref\YemekSiparis.Domain.dll
+C:\Users\teach\source\repos\YemekSiparis\YemekSiparis.Domain\bin\Debug\net8.0\YemekSiparis.Domain.runtimeconfig.json
+C:\Users\teach\source\repos\YemekSiparis\YemekSiparis.Domain\obj\Debug\net8.0\YemekSiparis.Domain.genruntimeconfig.cache

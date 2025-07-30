@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34622.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YemekSiparis.WebAPI", "YemekSiparis\YemekSiparis.WebAPI.csproj", "{E21C1107-639B-490B-90C1-C6FA8D3CAADD}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C320A19C-EDD9-465F-8EE0-2C9F32536115} = {C320A19C-EDD9-465F-8EE0-2C9F32536115}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YemekSiparis.Domain", "YemekSiparis.Domain\YemekSiparis.Domain.csproj", "{191B61C4-5DB4-4C11-8FB6-CC81EDC416BE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YemekSiparis.Application", "YemekSiparis.Application\YemekSiparis.Application.csproj", "{7C85753A-9AB2-4B78-89F4-EE055291CB0F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YemekSiparis.Infrastructure", "YemekSiparis.Infrastructure\YemekSiparis.Infrastructure.csproj", "{C320A19C-EDD9-465F-8EE0-2C9F32536115}"
+	ProjectSection(ProjectDependencies) = postProject
+		{191B61C4-5DB4-4C11-8FB6-CC81EDC416BE} = {191B61C4-5DB4-4C11-8FB6-CC81EDC416BE}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E21C1107-639B-490B-90C1-C6FA8D3CAADD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E21C1107-639B-490B-90C1-C6FA8D3CAADD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E21C1107-639B-490B-90C1-C6FA8D3CAADD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E21C1107-639B-490B-90C1-C6FA8D3CAADD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{191B61C4-5DB4-4C11-8FB6-CC81EDC416BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{191B61C4-5DB4-4C11-8FB6-CC81EDC416BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{191B61C4-5DB4-4C11-8FB6-CC81EDC416BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{191B61C4-5DB4-4C11-8FB6-CC81EDC416BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C85753A-9AB2-4B78-89F4-EE055291CB0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C85753A-9AB2-4B78-89F4-EE055291CB0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C85753A-9AB2-4B78-89F4-EE055291CB0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C85753A-9AB2-4B78-89F4-EE055291CB0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C320A19C-EDD9-465F-8EE0-2C9F32536115}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C320A19C-EDD9-465F-8EE0-2C9F32536115}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C320A19C-EDD9-465F-8EE0-2C9F32536115}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C320A19C-EDD9-465F-8EE0-2C9F32536115}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {57196B9A-C728-4962-AE35-26708A411E08}
+	EndGlobalSection
+EndGlobal

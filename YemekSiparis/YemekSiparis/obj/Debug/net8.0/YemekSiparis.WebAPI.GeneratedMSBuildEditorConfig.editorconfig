@@ -1,0 +1,91 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = YemekSiparis.WebAPI
+build_property.RootNamespace = YemekSiparis.WebAPI
+build_property.ProjectDir = C:\Users\teach\source\repos\YemekSiparis\YemekSiparis\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\teach\source\repos\YemekSiparis\YemekSiparis
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/teach/source/repos/YemekSiparis/YemekSiparis/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/teach/source/repos/YemekSiparis/YemekSiparis/Views/Shared/Menu.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXE1lbnUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/teach/source/repos/YemekSiparis/YemekSiparis/Views/Shared/_Header.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9IZWFkZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/teach/source/repos/YemekSiparis/YemekSiparis/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/teach/source/repos/YemekSiparis/YemekSiparis/Views/Shared/_LoginModal.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpbk1vZGFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/teach/source/repos/YemekSiparis/YemekSiparis/Views/Shared/_PopularRestaurants.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Qb3B1bGFyUmVzdGF1cmFudHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/teach/source/repos/YemekSiparis/YemekSiparis/Views/Shared/_RegisterModal.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9SZWdpc3Rlck1vZGFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/teach/source/repos/YemekSiparis/YemekSiparis/Views/Shared/_RestaurantDetail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9SZXN0YXVyYW50RGV0YWlsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/teach/source/repos/YemekSiparis/YemekSiparis/Views/Shared/_StoreDetail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9TdG9yZURldGFpbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/teach/source/repos/YemekSiparis/YemekSiparis/Views/Shared/_TopMeals.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Ub3BNZWFscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/teach/source/repos/YemekSiparis/YemekSiparis/Views/StorePanel/AddProduct.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RvcmVQYW5lbFxBZGRQcm9kdWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/teach/source/repos/YemekSiparis/YemekSiparis/Views/StorePanel/Order.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RvcmVQYW5lbFxPcmRlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/teach/source/repos/YemekSiparis/YemekSiparis/Views/StorePanel/StorePanel.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RvcmVQYW5lbFxTdG9yZVBhbmVsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/teach/source/repos/YemekSiparis/YemekSiparis/Views/Store/ComingSoon.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RvcmVcQ29taW5nU29vbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/teach/source/repos/YemekSiparis/YemekSiparis/Views/Store/Detail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RvcmVcRGV0YWlsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/teach/source/repos/YemekSiparis/YemekSiparis/Views/Store/StoreMenu.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3RvcmVcU3RvcmVNZW51LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 

@@ -1,0 +1,17 @@
+C:\Users\teach\source\repos\YemekSiparis\YemekSiparis.Application\bin\Debug\net8.0\YemekSiparis.Application.deps.json
+C:\Users\teach\source\repos\YemekSiparis\YemekSiparis.Application\bin\Debug\net8.0\YemekSiparis.Application.dll
+C:\Users\teach\source\repos\YemekSiparis\YemekSiparis.Application\bin\Debug\net8.0\YemekSiparis.Application.pdb
+C:\Users\teach\source\repos\YemekSiparis\YemekSiparis.Application\obj\Debug\net8.0\YemekSiparis.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\teach\source\repos\YemekSiparis\YemekSiparis.Application\obj\Debug\net8.0\YemekSiparis.Application.AssemblyInfoInputs.cache
+C:\Users\teach\source\repos\YemekSiparis\YemekSiparis.Application\obj\Debug\net8.0\YemekSiparis.Application.AssemblyInfo.cs
+C:\Users\teach\source\repos\YemekSiparis\YemekSiparis.Application\obj\Debug\net8.0\YemekSiparis.Application.csproj.CoreCompileInputs.cache
+C:\Users\teach\source\repos\YemekSiparis\YemekSiparis.Application\obj\Debug\net8.0\YemekSiparis.Application.dll
+C:\Users\teach\source\repos\YemekSiparis\YemekSiparis.Application\obj\Debug\net8.0\refint\YemekSiparis.Application.dll
+C:\Users\teach\source\repos\YemekSiparis\YemekSiparis.Application\obj\Debug\net8.0\YemekSiparis.Application.pdb
+C:\Users\teach\source\repos\YemekSiparis\YemekSiparis.Application\obj\Debug\net8.0\ref\YemekSiparis.Application.dll
+C:\Users\teach\source\repos\YemekSiparis\YemekSiparis.Application\obj\Debug\net8.0\YemekSiparis.Application.csproj.AssemblyReference.cache
+C:\Users\teach\source\repos\YemekSiparis\YemekSiparis.Application\bin\Debug\net8.0\YemekSiparis.Application.runtimeconfig.json
+C:\Users\teach\source\repos\YemekSiparis\YemekSiparis.Application\obj\Debug\net8.0\YemekSiparis.Application.genruntimeconfig.cache
+C:\Users\teach\source\repos\YemekSiparis\YemekSiparis.Application\bin\Debug\net8.0\YemekSiparis.Domain.dll
+C:\Users\teach\source\repos\YemekSiparis\YemekSiparis.Application\bin\Debug\net8.0\YemekSiparis.Domain.pdb
+C:\Users\teach\source\repos\YemekSiparis\YemekSiparis.Application\obj\Debug\net8.0\YemekSip.3DB3B3E8.Up2Date

@@ -1,0 +1,93 @@
+﻿@model YemekSiparis.Application.Dtos.CreateProductDto
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="relative flex size-full min-h-screen flex-col bg-white group/design-root overflow-x-hidden" style='font-family: "Plus Jakarta Sans", "Noto Sans", sans-serif;'>
+    <div class="layout-container flex h-full grow flex-col">
+        <div class="px-40 flex flex-1 justify-center py-5">
+            <div class="layout-content-container flex flex-col w-[512px] max-w-[512px] py-5 max-w-[960px] flex-1">
+                <div class="flex flex-wrap justify-between gap-3 p-4">
+                    <p class="text-[#181111] tracking-light text-[32px] font-bold leading-tight min-w-72">Yeni Ürün Ekle</p>
+                </div>
+                <!-- Ürün ekleme mesajı -->
+                <div id="addProductMsg" class="mb-4"></div>
+                <!-- AJAX ile ürün ekleme formu -->
+                <form id="addProductForm" class="space-y-4">
+                    <div class="flex max-w-[480px] flex-wrap items-end gap-4 px-4 py-3">
+                        <label class="flex flex-col min-w-40 flex-1">
+                            <p class="text-[#181111] text-base font-medium leading-normal pb-2">Ürün Adı</p>
+                            <input name="Name" required class="form-input flex w-full min-w-0 flex-1 resize-none overflow-hidden rounded-xl text-[#181111] bg-[#f4f0f0] h-14 placeholder:text-[#886363] p-4 text-base" />
+                        </label>
+                    </div>
+                    <div class="flex max-w-[480px] flex-wrap items-end gap-4 px-4 py-3">
+                        <label class="flex flex-col min-w-40 flex-1">
+                            <p class="text-[#181111] text-base font-medium leading-normal pb-2">Açıklama</p>
+                            <textarea name="Description" required class="form-input flex w-full min-w-0 flex-1 resize-none rounded-xl text-[#181111] bg-[#f4f0f0] min-h-36 placeholder:text-[#886363] p-4 text-base"></textarea>
+                        </label>
+                    </div>
+                    <div class="flex max-w-[480px] flex-wrap items-end gap-4 px-4 py-3">
+                        <label class="flex flex-col min-w-40 flex-1">
+                            <p class="text-[#181111] text-base font-medium leading-normal pb-2">Fiyat</p>
+                            <input name="Price" type="number" step="0.01" required class="form-input flex w-full min-w-0 flex-1 resize-none rounded-xl text-[#181111] bg-[#f4f0f0] h-14 placeholder:text-[#886363] p-4 text-base" />
+                        </label>
+                    </div>
+                    <div class="flex max-w-[480px] flex-wrap items-end gap-4 px-4 py-3">
+                        <label class="flex flex-col min-w-40 flex-1">
+                            <p class="text-[#181111] text-base font-medium leading-normal pb-2">Kategori</p>
+                            <input name="Category" required class="form-input flex w-full min-w-0 flex-1 resize-none rounded-xl text-[#181111] bg-[#f4f0f0] h-14 placeholder:text-[#886363] p-4 text-base" />
+                        </label>
+                    </div>
+                    <div class="flex max-w-[480px] flex-wrap items-end gap-4 px-4 py-3">
+                        <label class="flex flex-col min-w-40 flex-1">
+                            <p class="text-[#181111] text-base font-medium leading-normal pb-2">Fotoğraf URL</p>
+                            <input name="ImageUrl" required class="form-input flex w-full min-w-0 flex-1 resize-none rounded-xl text-[#181111] bg-[#f4f0f0] h-14 placeholder:text-[#886363] p-4 text-base" />
+                        </label>
+                    </div>
+                    <div class="flex max-w-[480px] flex-wrap items-end gap-4 px-4 py-3">
+                        <label class="flex flex-col min-w-40 flex-1">
+                            <p class="text-[#181111] text-base font-medium leading-normal pb-2">Stok Miktarı</p>
+                            <input name="Stock" type="number" min="0" required class="form-input flex w-full min-w-0 flex-1 resize-none rounded-xl text-[#181111] bg-[#f4f0f0] h-14 placeholder:text-[#886363] p-4 text-base" />
+                        </label>
+                    </div>
+                    <div class="flex px-4 py-3">
+                        <button type="submit" class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center rounded-xl h-10 px-4 flex-1 bg-[#e51919] text-white text-sm font-bold">Ekle</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script>
+    $('#addProductForm').on('submit', function (e) {
+        e.preventDefault();
+        var formData = {
+            Name: $('[name="Name"]').val(),
+            Description: $('[name="Description"]').val(),
+            Price: parseFloat($('[name="Price"]').val()),
+            Category: $('[name="Category"]').val(),
+            ImageUrl: $('[name="ImageUrl"]').val(),
+            Stock: parseInt($('[name="Stock"]').val())
+        };
+        $.ajax({
+            url: '/api/Product', // <-- Kesinlikle böyle!
+            type: 'POST',
+            contentType: 'application/json',
+            data: JSON.stringify(formData),
+            success: function (response) {
+                $('#addProductMsg').html('<div style="color:green;">' + response.message + '</div>');
+                $('#addProductForm')[0].reset();
+            },
+            error: function (xhr) {
+                var msg = 'Hata oluştu';
+                if (xhr.responseJSON && xhr.responseJSON.message)
+                    msg = xhr.responseJSON.message;
+                $('#addProductMsg').html('<div style="color:red;">' + msg + '</div>');
+            }
+        });
+    });
+</script>
+

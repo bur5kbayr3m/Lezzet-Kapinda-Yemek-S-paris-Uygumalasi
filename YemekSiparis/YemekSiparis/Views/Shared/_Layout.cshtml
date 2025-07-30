@@ -1,0 +1,93 @@
+﻿@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LezzetKapında</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-white text-gray-800">
+
+    <!-- HEADER -->
+    <header class="flex justify-between items-center py-4 px-6 bg-white shadow">
+        <div class="text-lg font-bold">LezzetKapında</div>
+        <nav class="flex items-center space-x-4">
+            <a href="/" class="text-sm text-gray-700 hover:text-black">Ana Sayfa</a>
+            <a href="/restaurants" class="text-sm text-gray-700 hover:text-black">Restoranlar</a>
+            <a href="/orders" class="text-sm text-gray-700 hover:text-black">Siparişler</a>
+
+            <!-- Giriş & Kayıt -->
+            <button id="btn-login" class="text-sm font-semibold text-[#3b3b3b]" onclick="openLoginModal()">Giriş Yap</button>
+            <button id="btn-register" class="text-sm font-semibold text-[#3b3b3b]">Kayıt OL</button>
+
+            <!-- Kullanıcı ikonu -->
+            <div id="user-icon" class="hidden w-8 h-8 rounded-full bg-gray-200 items-center justify-center">
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-gray-700" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                          d="M5.121 17.804A10.962 10.962 0 0112 15c2.184 0 4.207.655 5.879 1.804M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                </svg>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Ana İçerik -->
+    <main class="container mx-auto mt-6">
+        @RenderBody()
+    </main>
+
+    @RenderSection("Scripts", required: false)
+
+    <!-- Giriş ve Kayıt Modalı -->
+    @Html.Partial("_LoginModal")
+    @Html.Partial("_RegisterModal")
+
+    <script>
+        function updateHeaderButtons() {
+            const token = localStorage.getItem("token");
+            const btnLogin = document.getElementById("btn-login");
+            const btnRegister = document.getElementById("btn-register");
+            const userIcon = document.getElementById("user-icon");
+
+            if (token) {
+                btnLogin?.classList.add("hidden");
+                btnRegister?.classList.add("hidden");
+                userIcon?.classList.remove("hidden");
+                userIcon?.classList.add("flex");
+            } else {
+                btnLogin?.classList.remove("hidden");
+                btnRegister?.classList.remove("hidden");
+                userIcon?.classList.add("hidden");
+                userIcon?.classList.remove("flex");
+            }
+        }
+
+        document.addEventListener("DOMContentLoaded", function () {
+            updateHeaderButtons();
+
+            // Kayıt ol butonuna tıklama
+            document.getElementById("btn-register")?.addEventListener("click", function (e) {
+                e.preventDefault();
+                openRegisterModal();
+            });
+        });
+
+        // Giriş & Kayıt modal fonksiyonları
+        function openLoginModal() {
+            document.getElementById("loginModal")?.classList.remove("hidden");
+        }
+        function closeRegisterModal() {
+            document.getElementById("registerModal")?.classList.add("hidden");
+        }
+        function openRegisterModal() {
+            document.getElementById("registerModal")?.classList.remove("hidden");
+        }
+        function goToLoginFromRegister() {
+            closeRegisterModal();
+            openLoginModal();
+        }
+    </script>
+</body>
+</html>

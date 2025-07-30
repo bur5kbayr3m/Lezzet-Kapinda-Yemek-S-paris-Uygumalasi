@@ -1,0 +1,51 @@
+﻿@model YemekSiparis.Application.ViewModels.StoreDetailViewModel
+@{
+    Layout = "_Layout";
+    int storeId = Model.Id; // Store'un id'si burada olmalı (veya Model.Store.Id)
+    string activeTab = ViewBag.ActiveTab?.ToString() ?? "Detail";
+}
+<div class="relative flex min-h-screen flex-col bg-white overflow-x-hidden" style='font-family: "Plus Jakarta Sans", "Noto Sans", sans-serif;'>
+    <div class="flex h-full flex-col">
+        <div class="px-10 flex flex-1 justify-center py-5">
+            <div class="flex flex-col w-full max-w-3xl">
+                <div class="px-4 py-3">
+                    <div class="bg-cover bg-center flex flex-col justify-end overflow-hidden bg-white rounded-lg min-h-[218px]"
+                         style="background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0) 25%), url('/images/stores/@Model.BannerImageUrl');">
+                        <div class="flex p-4">
+                            <p class="text-white tracking-light text-[28px] font-bold leading-tight">@Model.Name</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="pb-3">
+                    <div class="flex border-b border-[#e5dcdc] px-4 gap-8">
+                        <a href="@Url.Action("Detail", "Store", new { id = storeId })"
+                           class="flex flex-col items-center justify-center border-b-[3px] @(activeTab=="Detail" ? "border-b-[#181111] text-[#181111]" : "border-b-transparent text-[#886364]") pb-[13px] pt-4">
+                            <p class="text-sm font-bold leading-normal tracking-[0.015em]">Genel</p>
+                        </a>
+                        <a href="@Url.Action("Menu", "Store", new { id = storeId })"
+                           class="flex flex-col items-center justify-center border-b-[3px] @(activeTab=="Menu" ? "border-b-[#181111] text-[#181111]" : "border-b-transparent text-[#886364]") pb-[13px] pt-4">
+                            <p class="text-sm font-bold leading-normal tracking-[0.015em]">Menü</p>
+                        </a>
+                        <a href="@Url.Action("Campaigns", "Store", new { id = storeId })"
+                           class="flex flex-col items-center justify-center border-b-[3px] @(activeTab=="Campaigns" ? "border-b-[#181111] text-[#181111]" : "border-b-transparent text-[#886364]") pb-[13px] pt-4">
+                            <p class="text-sm font-bold leading-normal tracking-[0.015em]">Kampanyalar</p>
+                        </a>
+                        <a href="@Url.Action("Reviews", "Store", new { id = storeId })"
+                           class="flex flex-col items-center justify-center border-b-[3px] @(activeTab=="Reviews" ? "border-b-[#181111] text-[#181111]" : "border-b-transparent text-[#886364]") pb-[13px] pt-4">
+                            <p class="text-sm font-bold leading-normal tracking-[0.015em]">Değerlendirmeler</p>
+                        </a>
+                    </div>
+                </div>
+                <h2 class="text-[#181111] text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">@Model.Name</h2>
+                <p class="text-[#181111] text-base font-normal leading-normal pb-3 pt-1 px-4">@Model.Description</p>
+                <h2 class="text-[#181111] text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Adres</h2>
+                <p class="text-[#181111] text-base font-normal leading-normal pb-3 pt-1 px-4">@Model.Address</p>
+                <h2 class="text-[#181111] text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Çalışma Saatleri</h2>
+                <p class="text-[#181111] text-base font-normal leading-normal pb-3 pt-1 px-4">@Model.WorkingHours</p>
+                <h2 class="text-[#181111] text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">İletişim</h2>
+                <p class="text-[#181111] text-base font-normal leading-normal pb-3 pt-1 px-4">Telefon: @Model.ContactPhone</p>
+                <p class="text-[#181111] text-base font-normal leading-normal pb-3 pt-1 px-4">E-posta: @Model.ContactMail</p>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,173 @@
+﻿@* Views/Shared/_Layout.cshtml (veya kullandığın layout) *@
+@{
+    var ctrl = ViewContext.RouteData.Values["controller"]?.ToString();
+    var act = ViewContext.RouteData.Values["action"]?.ToString();
+    bool isStores = (ctrl == "Store" && act == "Index");
+}
+
+<header class="flex items-center justify-between border-b border-solid border-b-[#f4f0f0] px-10 py-3">
+    <div class="flex items-center gap-8">
+        <div class="flex items-center gap-4 text-[#181111]">
+            <div class="size-4">
+                <!-- Logo SVG isteğe bağlı -->
+            </div>
+            <h2 class="text-[#181111] text-lg font-bold leading-tight tracking-[-0.015em]">
+                LezzetKapında
+            </h2>
+        </div>
+        <div class="flex items-center gap-9">
+            <a asp-controller="Home" asp-action="Index"
+               class="text-sm font-medium leading-normal @(ctrl == "Home" && act == "Index" ? "text-[#e51919]" : "text-[#181111]")">
+                Ana Sayfa
+            </a>
+            <a asp-controller="Store" asp-action="Index"
+               class="text-sm font-medium leading-normal @(isStores ? "text-[#e51919]" : "text-[#181111]")">
+                Restoranlar
+            </a>
+            <a asp-controller="Home" asp-action="Promotions"
+               class="text-sm font-medium leading-normal @(ctrl == "Home" && act == "Promotions" ? "text-[#e51919]" : "text-[#181111]")">
+                İndirimler
+            </a>
+            <a asp-controller="StorePanel" asp-action="Panel"
+               class="text-sm font-medium leading-normal @(ctrl == "StorePanel" && act == "Panel" ? "text-[#e51919]" : "text-[#181111]")">
+                Siparişler
+            </a>
+        </div>
+    </div>
+    <div class="flex flex-1 justify-end gap-8 items-center">
+        <!-- Arama Kutusu -->
+        <label class="flex flex-col min-w-40 h-10 max-w-64">
+            <div class="flex w-full flex-1 items-stretch rounded-xl h-full">
+                <div class="text-[#886364] flex border-none bg-[#f4f0f0] items-center justify-center pl-4 rounded-l-xl">
+                    <!-- Search SVG isteğe bağlı -->
+                </div>
+                <input placeholder="Search"
+                       class="form-input w-full border-none bg-[#f4f0f0] text-[#181111] px-4 h-full placeholder:text-[#886364] text-base rounded-r-xl focus:outline-none" />
+            </div>
+        </label>
+
+        <!-- Mağaza Paneli Butonu (Store rolündekiler için) -->
+        <button id="store-panel-btn"
+                class="hidden bg-[#ea4747] text-white px-4 py-2 rounded-full font-bold transition-all">
+            Mağaza Paneli
+        </button>
+
+        <!-- Authentication Area -->
+        <div id="auth-area" class="flex gap-4 items-center relative">
+            <button id="btn-login"
+                    onclick="openLoginModal()"
+                    class="text-sm font-medium text-[#181111] hover:underline">
+                Giriş Yap
+            </button>
+            <button id="btn-register" type="button"
+                    class="text-sm font-medium text-[#181111] hover:underline">
+                Kayıt Ol
+            </button>
+
+            <!-- Kullanıcı İkonu -->
+            <button id="user-icon" type="button"
+                    class="hidden w-8 h-8 rounded-full bg-gray-200 items-center justify-center focus:outline-none"
+                    onclick="toggleUserMenu()">
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-gray-700"
+                     fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                          d="M5.121 17.804A10.962 10.962 0 0112 15c2.184
+                           0 4.207.655 5.879 1.804M15 11a3 3
+                           0 11-6 0 3 3 0 016 0z" />
+                </svg>
+            </button>
+
+            <!-- Dropdown Menü -->
+            <div id="user-menu"
+                 class="hidden absolute right-0 mt-12 w-40 bg-white border rounded-lg shadow-lg z-50">
+                <button onclick="logout()"
+                        class="block w-full text-left px-4 py-2 text-gray-700 hover:bg-gray-100">
+                    Çıkış Yap
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- HEADER SCRIPT -->
+    <script>
+        function openLoginModal() {
+            document.getElementById("loginModal").classList.remove("hidden");
+        }
+        function closeLoginModal() {
+            document.getElementById("loginModal").classList.add("hidden");
+        }
+        function openRegisterModal() {
+            document.getElementById("registerModal").classList.remove("hidden");
+        }
+        function closeRegisterModal() {
+            document.getElementById("registerModal").classList.add("hidden");
+        }
+
+        function updateAuthUI() {
+            const token = localStorage.getItem("token");
+            const btnLogin = document.getElementById("btn-login");
+            const btnRegister = document.getElementById("btn-register");
+            const userIcon = document.getElementById("user-icon");
+            const userMenu = document.getElementById("user-menu");
+            const storePanelBtn = document.getElementById("store-panel-btn");
+
+            if (token) {
+                btnLogin?.classList.add("hidden");
+                btnRegister?.classList.add("hidden");
+                userIcon?.classList.remove("hidden");
+                userIcon?.classList.add("flex");
+                userMenu?.classList.add("hidden");
+
+                try {
+                    const payloadBase64 = token.split('.')[1];
+                    const base64 = payloadBase64.replace(/-/g, '+').replace(/_/g, '/');
+                    const payload = JSON.parse(decodeURIComponent(escape(window.atob(base64))));
+                    const role = payload["role"] || payload["Role"] || payload["http://schemas.microsoft.com/ws/2008/06/identity/claims/role"];
+                    if (role === "Store") {
+                        storePanelBtn?.classList.remove("hidden");
+                    } else {
+                        storePanelBtn?.classList.add("hidden");
+                    }
+                } catch {
+                    storePanelBtn?.classList.add("hidden");
+                }
+            } else {
+                btnLogin?.classList.remove("hidden");
+                btnRegister?.classList.remove("hidden");
+                userIcon?.classList.add("hidden");
+                userIcon?.classList.remove("flex");
+                userMenu?.classList.add("hidden");
+                storePanelBtn?.classList.add("hidden");
+            }
+        }
+
+        document.addEventListener("DOMContentLoaded", () => {
+            updateAuthUI();
+
+            document.getElementById("btn-register")?.addEventListener("click", e => {
+                e.preventDefault();
+                openRegisterModal();
+            });
+
+            document.getElementById("store-panel-btn")?.addEventListener("click", () => {
+                window.location.href = "/StorePanel/Panel";
+            });
+        });
+
+        function toggleUserMenu() {
+            const menu = document.getElementById("user-menu");
+            menu.classList.toggle("hidden");
+            document.addEventListener("mousedown", function handler(e) {
+                if (!menu.contains(e.target) && !document.getElementById("user-icon").contains(e.target)) {
+                    menu.classList.add("hidden");
+                    document.removeEventListener("mousedown", handler);
+                }
+            });
+        }
+
+        function logout() {
+            localStorage.removeItem("token");
+            window.location.reload();
+        }
+    </script>
+</header>

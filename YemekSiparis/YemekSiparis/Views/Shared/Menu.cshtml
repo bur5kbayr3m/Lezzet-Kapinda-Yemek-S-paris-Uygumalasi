@@ -1,0 +1,73 @@
+﻿@model YemekSiparis.Application.ViewModels.StoreMenuViewModel
+@{
+    Layout = "_Layout";
+    var activeTab = Context.Request.Query["tab"].ToString() ?? "menu";
+}
+
+<div class="layout-content-container flex flex-col max-w-[960px] mx-auto flex-1">
+    <!-- Sayfa yolu -->
+    <div class="flex flex-wrap gap-2 p-4">
+        <a class="text-[#886364] text-base font-medium leading-normal" asp-controller="Store" asp-action="Index">Restoranlar</a>
+        <span class="text-[#886364] text-base font-medium leading-normal">/</span>
+        <span class="text-[#181111] text-base font-medium leading-normal">@Model.Store.Name</span>
+    </div>
+
+    <!-- Restoran bilgisi ve kapak görseli -->
+    <div class="flex p-4">
+        <div class="flex w-full flex-col gap-4 md:flex-row md:justify-between">
+            <div class="flex gap-4">
+                <div class="bg-center bg-no-repeat aspect-square bg-cover rounded-xl min-h-32 w-32"
+                     style='background-image: url("@Model.Store.ImageUrl");'>
+                </div>
+                <div class="flex flex-col">
+                    <p class="text-[#181111] text-[22px] font-bold leading-tight tracking-[-0.015em]">@Model.Store.Name</p>
+                    <p class="text-[#886364] text-base font-normal leading-normal">
+                        4.5 (1200+ değerlendirme) · 30-45 dk · Min. Sipariş 20 TL
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Menü sekmeleri -->
+    <div class="pb-3">
+        <div class="flex border-b border-[#e5dcdc] px-4 gap-8">
+            <a class="flex flex-col items-center justify-center pb-[13px] pt-4 @(activeTab == "menu" ? "border-b-[3px] border-b-[#181111] text-[#181111] font-bold" : "border-b-transparent text-[#886364]")" asp-route-tab="menu">
+                <p class="text-sm leading-normal tracking-[0.015em]">Menü</p>
+            </a>
+            <a class="flex flex-col items-center justify-center pb-[13px] pt-4 @(activeTab == "reviews" ? "border-b-[3px] border-b-[#181111] text-[#181111] font-bold" : "border-b-transparent text-[#886364]")" asp-route-tab="reviews">
+                <p class="text-sm leading-normal tracking-[0.015em]">Değerlendirmeler</p>
+            </a>
+            <a class="flex flex-col items-center justify-center pb-[13px] pt-4 @(activeTab == "hours" ? "border-b-[3px] border-b-[#181111] text-[#181111] font-bold" : "border-b-transparent text-[#886364]")" asp-route-tab="hours">
+                <p class="text-sm leading-normal tracking-[0.015em]">Çalışma Saatleri</p>
+            </a>
+            <a class="flex flex-col items-center justify-center pb-[13px] pt-4 @(activeTab == "contact" ? "border-b-[3px] border-b-[#181111] text-[#181111] font-bold" : "border-b-transparent text-[#886364]")" asp-route-tab="contact">
+                <p class="text-sm leading-normal tracking-[0.015em]">İletişim</p>
+            </a>
+        </div>
+    </div>
+
+    <!-- Sekme İçeriği -->
+    @if (activeTab == "menu")
+    {
+        <!-- Menüdeki ürünler -->
+        @foreach (var product in Model.Products)
+        {
+            <div class="flex items-center gap-4 bg-white px-4 min-h-[72px] py-2 mb-2">
+                <div class="bg-center bg-no-repeat aspect-square bg-cover rounded-lg size-14"
+                     style='background-image: url("@product.ImageUrl");'>
+                </div>
+                <div class="flex flex-col justify-center">
+                    <p class="text-[#181111] text-base font-medium leading-normal line-clamp-1">@product.Name</p>
+                    <p class="text-[#886364] text-sm font-normal leading-normal line-clamp-2">@product.Description</p>
+                </div>
+            </div>
+        }
+    }
+    else
+    {
+        <div class="text-center text-gray-500 py-20 font-semibold text-lg">
+            Yakında Gelecek 🚧
+        </div>
+    }
+</div>

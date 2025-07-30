@@ -1,0 +1,81 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis\\wwwroot\\images\\Stores\\burger-meal.jpg",
+      "PackagePath": "staticwebassets\\images\\Stores\\burger-meal.jpg"
+    },
+    {
+      "Id": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis\\wwwroot\\images\\Stores\\noodle-meal.jpg",
+      "PackagePath": "staticwebassets\\images\\Stores\\noodle-meal.jpg"
+    },
+    {
+      "Id": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis\\wwwroot\\images\\Stores\\pizza-meal.jpg",
+      "PackagePath": "staticwebassets\\images\\Stores\\pizza-meal.jpg"
+    },
+    {
+      "Id": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis\\wwwroot\\images\\Stores\\placeholder.png",
+      "PackagePath": "staticwebassets\\images\\Stores\\placeholder.png"
+    },
+    {
+      "Id": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis\\wwwroot\\images\\Stores\\sushi-meal.jpg",
+      "PackagePath": "staticwebassets\\images\\Stores\\sushi-meal.jpg"
+    },
+    {
+      "Id": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis\\wwwroot\\images\\Stores\\taco-meal.jpg",
+      "PackagePath": "staticwebassets\\images\\Stores\\taco-meal.jpg"
+    },
+    {
+      "Id": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis\\wwwroot\\images\\burger-meal.jpg",
+      "PackagePath": "staticwebassets\\images\\burger-meal.jpg"
+    },
+    {
+      "Id": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis\\wwwroot\\images\\default-food.jpg",
+      "PackagePath": "staticwebassets\\images\\default-food.jpg"
+    },
+    {
+      "Id": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis\\wwwroot\\images\\hero-banner.jpg",
+      "PackagePath": "staticwebassets\\images\\hero-banner.jpg"
+    },
+    {
+      "Id": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis\\wwwroot\\images\\noodle-meal.jpg",
+      "PackagePath": "staticwebassets\\images\\noodle-meal.jpg"
+    },
+    {
+      "Id": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis\\wwwroot\\images\\pizza-meal.jpg",
+      "PackagePath": "staticwebassets\\images\\pizza-meal.jpg"
+    },
+    {
+      "Id": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis\\wwwroot\\images\\sushi-meal.jpg",
+      "PackagePath": "staticwebassets\\images\\sushi-meal.jpg"
+    },
+    {
+      "Id": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis\\wwwroot\\images\\taco-meal.jpg",
+      "PackagePath": "staticwebassets\\images\\taco-meal.jpg"
+    },
+    {
+      "Id": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis\\wwwroot\\images\\user-icon.jpg",
+      "PackagePath": "staticwebassets\\images\\user-icon.jpg"
+    },
+    {
+      "Id": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis\\wwwroot\\images\\user.jpg",
+      "PackagePath": "staticwebassets\\images\\user.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.YemekSiparis.WebAPI.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.YemekSiparis.WebAPI.props",
+      "PackagePath": "build\\YemekSiparis.WebAPI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.YemekSiparis.WebAPI.props",
+      "PackagePath": "buildMultiTargeting\\YemekSiparis.WebAPI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.YemekSiparis.WebAPI.props",
+      "PackagePath": "buildTransitive\\YemekSiparis.WebAPI.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
