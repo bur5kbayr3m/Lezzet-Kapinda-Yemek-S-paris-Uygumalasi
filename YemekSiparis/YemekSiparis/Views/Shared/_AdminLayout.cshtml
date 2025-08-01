@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Admin Panel</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'admin-primary': '#667eea',
+                        'admin-secondary': '#764ba2',
+                        'admin-accent': '#f093fb',
+                        'admin-dark': '#2d3748',
+                        'admin-light': '#f7fafc'
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-gray-50">
+    <div class="flex h-screen">
+        <!-- Sidebar -->
+        <div class="w-64 bg-gradient-to-b from-admin-primary to-admin-secondary shadow-lg">
+            <div class="p-6">
+                <div class="text-white text-xl font-bold mb-8">
+                    <i class="fas fa-shield-alt mr-2"></i>
+                    Admin Panel
+                </div>
+                
+                <nav class="space-y-2">
+                    <a href="/AdminPanel/Dashboard" class="flex items-center px-4 py-3 text-white hover:bg-white hover:bg-opacity-10 rounded-lg transition-colors @(ViewContext.RouteData.Values["action"]?.ToString() == "Dashboard" ? "bg-white bg-opacity-20" : "")">
+                        <i class="fas fa-chart-pie mr-3"></i>
+                        Dashboard
+                    </a>
+                    <a href="/AdminPanel/Users" class="flex items-center px-4 py-3 text-white hover:bg-white hover:bg-opacity-10 rounded-lg transition-colors @(ViewContext.RouteData.Values["action"]?.ToString() == "Users" ? "bg-white bg-opacity-20" : "")">
+                        <i class="fas fa-users mr-3"></i>
+                        Kullanıcılar
+                    </a>
+                    <a href="/AdminPanel/Stores" class="flex items-center px-4 py-3 text-white hover:bg-white hover:bg-opacity-10 rounded-lg transition-colors @(ViewContext.RouteData.Values["action"]?.ToString() == "Stores" ? "bg-white bg-opacity-20" : "")">
+                        <i class="fas fa-store mr-3"></i>
+                        Mağazalar
+                    </a>
+                    <a href="/AdminPanel/Products" class="flex items-center px-4 py-3 text-white hover:bg-white hover:bg-opacity-10 rounded-lg transition-colors @(ViewContext.RouteData.Values["action"]?.ToString() == "Products" ? "bg-white bg-opacity-20" : "")">
+                        <i class="fas fa-box mr-3"></i>
+                        Ürünler
+                    </a>
+                    <a href="/AdminPanel/Orders" class="flex items-center px-4 py-3 text-white hover:bg-white hover:bg-opacity-10 rounded-lg transition-colors @(ViewContext.RouteData.Values["action"]?.ToString() == "Orders" ? "bg-white bg-opacity-20" : "")">
+                        <i class="fas fa-shopping-cart mr-3"></i>
+                        Siparişler
+                    </a>
+                    <a href="/AdminPanel/Categories" class="flex items-center px-4 py-3 text-white hover:bg-white hover:bg-opacity-10 rounded-lg transition-colors @(ViewContext.RouteData.Values["action"]?.ToString() == "Categories" ? "bg-white bg-opacity-20" : "")">
+                        <i class="fas fa-tags mr-3"></i>
+                        Kategoriler
+                    </a>
+                </nav>
+            </div>
+        </div>
+
+        <!-- Main Content -->
+        <div class="flex-1 flex flex-col overflow-hidden">
+            <!-- Top Navigation -->
+            <header class="bg-white shadow-sm border-b border-gray-200">
+                <div class="flex items-center justify-between px-6 py-4">
+                    <div>
+                        <h1 class="text-2xl font-semibold text-gray-800">@ViewData["Title"]</h1>
+                    </div>
+                    <div class="flex items-center space-x-4">
+                        <div class="relative">
+                            <button class="flex items-center text-gray-600 hover:text-gray-800" onclick="toggleUserMenu()">
+                                <i class="fas fa-user-circle text-2xl mr-2"></i>
+                                <span>Admin</span>
+                                <i class="fas fa-chevron-down ml-2"></i>
+                            </button>
+                            <div id="userMenu" class="hidden absolute right-0 mt-2 w-48 bg-white rounded-md shadow-lg py-1 z-10">
+                                <form method="post" action="/AdminPanel/Logout" class="block">
+                                    <button type="submit" class="block w-full text-left px-4 py-2 text-sm text-gray-700 hover:bg-gray-100">
+                                        <i class="fas fa-sign-out-alt mr-2"></i>
+                                        Çıkış Yap
+                                    </button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+            <!-- Main Content Area -->
+            <main class="flex-1 overflow-x-hidden overflow-y-auto bg-gray-50 p-6">
+                @RenderBody()
+            </main>
+        </div>
+    </div>
+
+    @RenderSection("Scripts", required: false)
+
+    <script>
+        function toggleUserMenu() {
+            const menu = document.getElementById('userMenu');
+            menu.classList.toggle('hidden');
+        }
+
+        // Close menu when clicking outside
+        document.addEventListener('click', function(event) {
+            const menu = document.getElementById('userMenu');
+            const button = event.target.closest('button');
+            if (!button || button.onclick !== toggleUserMenu) {
+                menu.classList.add('hidden');
+            }
+        });
+
+        // Admin API functions
+        const adminAPI = {
+            baseUrl: '/api/admin',
+            
+            // Get auth token from cookie
+            getToken() {
+                return document.cookie.split('; ').find(row => row.startsWith('token='))?.split('=')[1];
+            },
+            
+            // Common fetch wrapper with auth
+            async request(endpoint, options = {}) {
+                const token = this.getToken();
+                const defaultOptions = {
+                    headers: {
+                        'Content-Type': 'application/json',
+                        ...(token && { 'Authorization': `Bearer ${token}` })
+                    }
+                };
+                
+                const response = await fetch(this.baseUrl + endpoint, {
+                    ...defaultOptions,
+                    ...options,
+                    headers: { ...defaultOptions.headers, ...options.headers }
+                });
+                
+                if (!response.ok) {
+                    throw new Error(`HTTP error! status: ${response.status}`);
+                }
+                
+                return response.json();
+            },
+            
+            // Login
+            async login(email, password, rememberMe = false) {
+                const response = await fetch(this.baseUrl + '/login', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ email, password })
+                });
+                
+                if (response.ok) {
+                    const data = await response.json();
+                    // Set token in cookie
+                    const expires = rememberMe ? '; expires=' + new Date(Date.now() + 7*24*60*60*1000).toUTCString() : '';
+                    document.cookie = `token=${data.token}; path=/${expires}`;
+                    return data;
+                }
+                throw new Error('Login failed');
+            },
+            
+            // Get all users
+            async getUsers() {
+                return this.request('/all-users');
+            },
+            
+            // Get all stores
+            async getStores() {
+                return this.request('/all-stores');
+            },
+            
+            // Delete user
+            async deleteUser(userId) {
+                return this.request(`/users/${userId}`, { method: 'DELETE' });
+            },
+            
+            // Delete store
+            async deleteStore(storeId) {
+                return this.request(`/stores/${storeId}`, { method: 'DELETE' });
+            },
+            
+            // Update order status
+            async updateOrderStatus(orderId, status) {
+                return this.request(`/orders/${orderId}`, {
+                    method: 'PUT',
+                    body: JSON.stringify({ status })
+                });
+            }
+        };
+
+        // Global error handler
+        window.showError = function(message) {
+            const errorDiv = document.createElement('div');
+            errorDiv.className = 'fixed top-4 right-4 bg-red-500 text-white px-6 py-3 rounded-lg shadow-lg z-50';
+            errorDiv.textContent = message;
+            document.body.appendChild(errorDiv);
+            setTimeout(() => errorDiv.remove(), 5000);
+        };
+
+        // Global success handler
+        window.showSuccess = function(message) {
+            const successDiv = document.createElement('div');
+            successDiv.className = 'fixed top-4 right-4 bg-green-500 text-white px-6 py-3 rounded-lg shadow-lg z-50';
+            successDiv.textContent = message;
+            document.body.appendChild(successDiv);
+            setTimeout(() => successDiv.remove(), 3000);
+        };
+    </script>
+</body>
+</html>

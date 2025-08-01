@@ -1,0 +1,551 @@
+@{
+    ViewData["Title"] = "Sipariş Yönetimi";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="space-y-6">
+    <!-- Header -->
+    <div class="flex justify-between items-center">
+        <div>
+            <h2 class="text-2xl font-bold text-gray-900">Sipariş Yönetimi</h2>
+            <p class="text-gray-600">Tüm siparişleri görüntüleyin ve yönetin</p>
+        </div>
+        <div class="flex space-x-3">
+            <button onclick="refreshOrders()" class="px-4 py-2 bg-gray-100 text-gray-700 rounded-lg hover:bg-gray-200 transition-colors">
+                <i class="fas fa-refresh mr-2"></i>
+                Yenile
+            </button>
+        </div>
+    </div>
+
+    <!-- Filters -->
+    <div class="bg-white rounded-xl shadow-sm border border-gray-100 p-6">
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-4">
+            <div>
+                <label class="block text-sm font-medium text-gray-700 mb-2">Sipariş Ara</label>
+                <div class="relative">
+                    <input 
+                        type="text" 
+                        id="searchInput" 
+                        placeholder="Sipariş ID veya müşteri adı..."
+                        class="w-full pl-10 pr-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-admin-primary focus:border-transparent"
+                        oninput="filterOrders()"
+                    >
+                    <i class="fas fa-search absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400"></i>
+                </div>
+            </div>
+            <div>
+                <label class="block text-sm font-medium text-gray-700 mb-2">Durum</label>
+                <select id="statusFilter" class="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-admin-primary focus:border-transparent" onchange="filterOrders()">
+                    <option value="">Tüm Durumlar</option>
+                    <option value="Pending">Beklemede</option>
+                    <option value="Confirmed">Onaylandı</option>
+                    <option value="Preparing">Hazırlanıyor</option>
+                    <option value="Ready">Hazır</option>
+                    <option value="OnWay">Yolda</option>
+                    <option value="Delivered">Teslim Edildi</option>
+                    <option value="Cancelled">İptal Edildi</option>
+                </select>
+            </div>
+            <div>
+                <label class="block text-sm font-medium text-gray-700 mb-2">Tarih</label>
+                <select id="dateFilter" class="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-admin-primary focus:border-transparent" onchange="filterOrders()">
+                    <option value="">Tüm Tarihler</option>
+                    <option value="today">Bugün</option>
+                    <option value="yesterday">Dün</option>
+                    <option value="week">Bu Hafta</option>
+                    <option value="month">Bu Ay</option>
+                </select>
+            </div>
+            <div>
+                <label class="block text-sm font-medium text-gray-700 mb-2">Sıralama</label>
+                <select id="sortOrder" class="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-admin-primary focus:border-transparent" onchange="sortOrders()">
+                    <option value="date-desc">Tarihe göre (Yeni-Eski)</option>
+                    <option value="date">Tarihe göre (Eski-Yeni)</option>
+                    <option value="amount-desc">Tutara göre (Yüksek-Düşük)</option>
+                    <option value="amount">Tutara göre (Düşük-Yüksek)</option>
+                    <option value="status">Duruma göre</option>
+                </select>
+            </div>
+        </div>
+    </div>
+
+    <!-- Stats Cards -->
+    <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
+        <div class="bg-white rounded-xl shadow-sm p-6 border border-gray-100">
+            <div class="flex items-center">
+                <div class="p-3 bg-blue-100 rounded-full">
+                    <i class="fas fa-shopping-cart text-blue-600 text-xl"></i>
+                </div>
+                <div class="ml-4">
+                    <p class="text-sm font-medium text-gray-600">Toplam Sipariş</p>
+                    <p class="text-2xl font-semibold text-gray-900" id="totalOrders">0</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="bg-white rounded-xl shadow-sm p-6 border border-gray-100">
+            <div class="flex items-center">
+                <div class="p-3 bg-yellow-100 rounded-full">
+                    <i class="fas fa-clock text-yellow-600 text-xl"></i>
+                </div>
+                <div class="ml-4">
+                    <p class="text-sm font-medium text-gray-600">Bekleyen</p>
+                    <p class="text-2xl font-semibold text-gray-900" id="pendingOrders">0</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="bg-white rounded-xl shadow-sm p-6 border border-gray-100">
+            <div class="flex items-center">
+                <div class="p-3 bg-green-100 rounded-full">
+                    <i class="fas fa-check-circle text-green-600 text-xl"></i>
+                </div>
+                <div class="ml-4">
+                    <p class="text-sm font-medium text-gray-600">Teslim Edildi</p>
+                    <p class="text-2xl font-semibold text-gray-900" id="deliveredOrders">0</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="bg-white rounded-xl shadow-sm p-6 border border-gray-100">
+            <div class="flex items-center">
+                <div class="p-3 bg-purple-100 rounded-full">
+                    <i class="fas fa-lira-sign text-purple-600 text-xl"></i>
+                </div>
+                <div class="ml-4">
+                    <p class="text-sm font-medium text-gray-600">Toplam Gelir</p>
+                    <p class="text-2xl font-semibold text-gray-900" id="totalRevenue">₺0</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Orders Table -->
+    <div class="bg-white rounded-xl shadow-sm border border-gray-100">
+        <div class="p-6 border-b border-gray-100">
+            <h3 class="text-lg font-semibold text-gray-900">Sipariş Listesi</h3>
+        </div>
+        
+        <div id="ordersTableContainer">
+            <div class="p-6 text-center">
+                <i class="fas fa-spinner fa-spin text-2xl text-gray-400 mb-4"></i>
+                <p class="text-gray-500">Siparişler yükleniyor...</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Order Details Modal -->
+<div id="orderModal" class="hidden fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
+    <div class="bg-white rounded-xl shadow-xl w-full max-w-4xl m-4 max-h-screen overflow-y-auto">
+        <div class="p-6 border-b border-gray-100">
+            <div class="flex justify-between items-center">
+                <h3 class="text-lg font-semibold text-gray-900">Sipariş Detayları</h3>
+                <button onclick="closeOrderModal()" class="text-gray-400 hover:text-gray-600">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+        </div>
+        <div class="p-6">
+            <div id="orderModalContent">
+                <!-- Content will be populated by JavaScript -->
+            </div>
+        </div>
+        <div class="px-6 py-4 bg-gray-50 rounded-b-xl">
+            <div class="flex justify-between items-center">
+                <div class="flex space-x-2">
+                    <select id="orderStatusSelect" class="px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-admin-primary focus:border-transparent">
+                        <option value="Pending">Beklemede</option>
+                        <option value="Confirmed">Onaylandı</option>
+                        <option value="Preparing">Hazırlanıyor</option>
+                        <option value="Ready">Hazır</option>
+                        <option value="OnWay">Yolda</option>
+                        <option value="Delivered">Teslim Edildi</option>
+                        <option value="Cancelled">İptal Edildi</option>
+                    </select>
+                    <button onclick="updateOrderStatus()" class="px-4 py-2 bg-admin-primary text-white rounded-lg hover:bg-admin-secondary transition-colors">
+                        Durumu Güncelle
+                    </button>
+                </div>
+                <button onclick="closeOrderModal()" class="px-4 py-2 text-gray-700 bg-gray-200 rounded-lg hover:bg-gray-300 transition-colors">
+                    Kapat
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+<script>
+    let allOrders = [];
+    let filteredOrders = [];
+    let currentOrder = null;
+
+    async function loadOrders() {
+        try {
+            const ordersTableContainer = document.getElementById('ordersTableContainer');
+            ordersTableContainer.innerHTML = `
+                <div class="p-6 text-center">
+                    <i class="fas fa-spinner fa-spin text-2xl text-gray-400 mb-4"></i>
+                    <p class="text-gray-500">Siparişler yükleniyor...</p>
+                </div>
+            `;
+
+            // Since there's no direct order API endpoint, we'll create mock data
+            // In a real scenario, you would call await adminAPI.getOrders();
+            allOrders = generateMockOrders();
+            filteredOrders = [...allOrders];
+            
+            updateStats();
+            renderOrdersTable();
+        } catch (error) {
+            console.error('Error loading orders:', error);
+            const ordersTableContainer = document.getElementById('ordersTableContainer');
+            ordersTableContainer.innerHTML = `
+                <div class="p-6 text-center">
+                    <i class="fas fa-exclamation-triangle text-2xl text-red-400 mb-4"></i>
+                    <p class="text-red-500">Siparişler yüklenirken bir hata oluştu.</p>
+                    <button onclick="loadOrders()" class="mt-4 px-4 py-2 bg-admin-primary text-white rounded-lg hover:bg-admin-secondary transition-colors">
+                        Tekrar Dene
+                    </button>
+                </div>
+            `;
+        }
+    }
+
+    function generateMockOrders() {
+        const statuses = ['Pending', 'Confirmed', 'Preparing', 'Ready', 'OnWay', 'Delivered', 'Cancelled'];
+        const customers = ['Ahmet Yılmaz', 'Fatma Kaya', 'Mehmet Demir', 'Ayşe Çelik', 'Mustafa Öz', 'Zeynep Ak'];
+        const stores = ['Pizza Palace', 'Burger House', 'Kebap King', 'Sushi Master', 'Tatlı Dünyası'];
+        
+        const orders = [];
+        for (let i = 1; i <= 50; i++) {
+            const randomDate = new Date();
+            randomDate.setDate(randomDate.getDate() - Math.floor(Math.random() * 30));
+            
+            orders.push({
+                id: i,
+                customerId: Math.floor(Math.random() * 100) + 1,
+                customerName: customers[Math.floor(Math.random() * customers.length)],
+                storeId: Math.floor(Math.random() * 10) + 1,
+                storeName: stores[Math.floor(Math.random() * stores.length)],
+                status: statuses[Math.floor(Math.random() * statuses.length)],
+                totalAmount: (Math.random() * 150 + 25).toFixed(2),
+                orderDate: randomDate.toISOString(),
+                items: [
+                    { name: 'Margherita Pizza', quantity: 1, price: 45.00 },
+                    { name: 'Coca Cola', quantity: 2, price: 8.50 }
+                ]
+            });
+        }
+        return orders;
+    }
+
+    function updateStats() {
+        document.getElementById('totalOrders').textContent = allOrders.length;
+        document.getElementById('pendingOrders').textContent = allOrders.filter(o => o.status === 'Pending').length;
+        document.getElementById('deliveredOrders').textContent = allOrders.filter(o => o.status === 'Delivered').length;
+        
+        const totalRevenue = allOrders
+            .filter(o => o.status === 'Delivered')
+            .reduce((sum, order) => sum + parseFloat(order.totalAmount), 0);
+        document.getElementById('totalRevenue').textContent = `₺${totalRevenue.toFixed(2)}`;
+    }
+
+    function renderOrdersTable() {
+        const container = document.getElementById('ordersTableContainer');
+        
+        if (filteredOrders.length === 0) {
+            container.innerHTML = `
+                <div class="p-6 text-center">
+                    <i class="fas fa-shopping-cart text-4xl text-gray-300 mb-4"></i>
+                    <p class="text-gray-500">Sipariş bulunamadı</p>
+                </div>
+            `;
+            return;
+        }
+
+        container.innerHTML = `
+            <div class="overflow-x-auto">
+                <table class="w-full">
+                    <thead class="bg-gray-50">
+                        <tr>
+                            <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">ID</th>
+                            <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Müşteri</th>
+                            <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Mağaza</th>
+                            <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Tarih</th>
+                            <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Tutar</th>
+                            <th class="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider">Durum</th>
+                            <th class="px-6 py-3 text-right text-xs font-medium text-gray-500 uppercase tracking-wider">İşlemler</th>
+                        </tr>
+                    </thead>
+                    <tbody class="bg-white divide-y divide-gray-200">
+                        ${filteredOrders.map(order => `
+                            <tr class="hover:bg-gray-50">
+                                <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">#${order.id}</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-900">${order.customerName}</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-900">${order.storeName}</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm text-gray-900">${new Date(order.orderDate).toLocaleDateString('tr-TR')}</td>
+                                <td class="px-6 py-4 whitespace-nowrap text-sm font-semibold text-green-600">₺${order.totalAmount}</td>
+                                <td class="px-6 py-4 whitespace-nowrap">
+                                    <span class="inline-flex px-2 py-1 text-xs font-semibold rounded-full ${getStatusColor(order.status)}">
+                                        ${getStatusText(order.status)}
+                                    </span>
+                                </td>
+                                <td class="px-6 py-4 whitespace-nowrap text-right text-sm font-medium">
+                                    <button onclick="viewOrder(${order.id})" class="text-admin-primary hover:text-admin-secondary mr-3">
+                                        <i class="fas fa-eye"></i>
+                                    </button>
+                                    <button onclick="quickStatusUpdate(${order.id})" class="text-green-600 hover:text-green-900">
+                                        <i class="fas fa-edit"></i>
+                                    </button>
+                                </td>
+                            </tr>
+                        `).join('')}
+                    </tbody>
+                </table>
+            </div>
+        `;
+    }
+
+    function getStatusColor(status) {
+        switch (status) {
+            case 'Pending':
+                return 'bg-yellow-100 text-yellow-800';
+            case 'Confirmed':
+                return 'bg-blue-100 text-blue-800';
+            case 'Preparing':
+                return 'bg-orange-100 text-orange-800';
+            case 'Ready':
+                return 'bg-purple-100 text-purple-800';
+            case 'OnWay':
+                return 'bg-indigo-100 text-indigo-800';
+            case 'Delivered':
+                return 'bg-green-100 text-green-800';
+            case 'Cancelled':
+                return 'bg-red-100 text-red-800';
+            default:
+                return 'bg-gray-100 text-gray-800';
+        }
+    }
+
+    function getStatusText(status) {
+        switch (status) {
+            case 'Pending': return 'Beklemede';
+            case 'Confirmed': return 'Onaylandı';
+            case 'Preparing': return 'Hazırlanıyor';
+            case 'Ready': return 'Hazır';
+            case 'OnWay': return 'Yolda';
+            case 'Delivered': return 'Teslim Edildi';
+            case 'Cancelled': return 'İptal Edildi';
+            default: return status;
+        }
+    }
+
+    function filterOrders() {
+        const searchTerm = document.getElementById('searchInput').value.toLowerCase();
+        const statusFilter = document.getElementById('statusFilter').value;
+        const dateFilter = document.getElementById('dateFilter').value;
+
+        filteredOrders = allOrders.filter(order => {
+            const matchesSearch = order.id.toString().includes(searchTerm) ||
+                                order.customerName.toLowerCase().includes(searchTerm) ||
+                                order.storeName.toLowerCase().includes(searchTerm);
+            const matchesStatus = !statusFilter || order.status === statusFilter;
+            
+            let matchesDate = true;
+            if (dateFilter) {
+                const orderDate = new Date(order.orderDate);
+                const today = new Date();
+                
+                switch (dateFilter) {
+                    case 'today':
+                        matchesDate = orderDate.toDateString() === today.toDateString();
+                        break;
+                    case 'yesterday':
+                        const yesterday = new Date(today);
+                        yesterday.setDate(yesterday.getDate() - 1);
+                        matchesDate = orderDate.toDateString() === yesterday.toDateString();
+                        break;
+                    case 'week':
+                        const weekAgo = new Date(today);
+                        weekAgo.setDate(weekAgo.getDate() - 7);
+                        matchesDate = orderDate >= weekAgo;
+                        break;
+                    case 'month':
+                        const monthAgo = new Date(today);
+                        monthAgo.setMonth(monthAgo.getMonth() - 1);
+                        matchesDate = orderDate >= monthAgo;
+                        break;
+                }
+            }
+            
+            return matchesSearch && matchesStatus && matchesDate;
+        });
+
+        renderOrdersTable();
+    }
+
+    function sortOrders() {
+        const sortOrder = document.getElementById('sortOrder').value;
+
+        filteredOrders.sort((a, b) => {
+            switch (sortOrder) {
+                case 'date':
+                    return new Date(a.orderDate) - new Date(b.orderDate);
+                case 'date-desc':
+                    return new Date(b.orderDate) - new Date(a.orderDate);
+                case 'amount':
+                    return parseFloat(a.totalAmount) - parseFloat(b.totalAmount);
+                case 'amount-desc':
+                    return parseFloat(b.totalAmount) - parseFloat(a.totalAmount);
+                case 'status':
+                    return a.status.localeCompare(b.status);
+                default:
+                    return 0;
+            }
+        });
+
+        renderOrdersTable();
+    }
+
+    function viewOrder(orderId) {
+        currentOrder = allOrders.find(order => order.id === orderId);
+        if (!currentOrder) return;
+
+        const modalContent = document.getElementById('orderModalContent');
+        modalContent.innerHTML = `
+            <div class="space-y-6">
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div>
+                        <h4 class="text-lg font-semibold text-gray-900 mb-4">Sipariş Bilgileri</h4>
+                        <dl class="space-y-3">
+                            <div>
+                                <dt class="text-sm font-medium text-gray-500">Sipariş ID</dt>
+                                <dd class="text-sm text-gray-900">#${currentOrder.id}</dd>
+                            </div>
+                            <div>
+                                <dt class="text-sm font-medium text-gray-500">Müşteri</dt>
+                                <dd class="text-sm text-gray-900">${currentOrder.customerName}</dd>
+                            </div>
+                            <div>
+                                <dt class="text-sm font-medium text-gray-500">Mağaza</dt>
+                                <dd class="text-sm text-gray-900">${currentOrder.storeName}</dd>
+                            </div>
+                            <div>
+                                <dt class="text-sm font-medium text-gray-500">Sipariş Tarihi</dt>
+                                <dd class="text-sm text-gray-900">${new Date(currentOrder.orderDate).toLocaleString('tr-TR')}</dd>
+                            </div>
+                            <div>
+                                <dt class="text-sm font-medium text-gray-500">Durum</dt>
+                                <dd>
+                                    <span class="inline-flex px-2 py-1 text-xs font-semibold rounded-full ${getStatusColor(currentOrder.status)}">
+                                        ${getStatusText(currentOrder.status)}
+                                    </span>
+                                </dd>
+                            </div>
+                        </dl>
+                    </div>
+                    
+                    <div>
+                        <h4 class="text-lg font-semibold text-gray-900 mb-4">Ödeme Bilgileri</h4>
+                        <div class="bg-gray-50 rounded-lg p-4">
+                            <div class="flex justify-between items-center mb-2">
+                                <span class="text-sm text-gray-600">Ara Toplam</span>
+                                <span class="text-sm text-gray-900">₺${(parseFloat(currentOrder.totalAmount) * 0.9).toFixed(2)}</span>
+                            </div>
+                            <div class="flex justify-between items-center mb-2">
+                                <span class="text-sm text-gray-600">Teslimat Ücreti</span>
+                                <span class="text-sm text-gray-900">₺${(parseFloat(currentOrder.totalAmount) * 0.1).toFixed(2)}</span>
+                            </div>
+                            <div class="border-t pt-2">
+                                <div class="flex justify-between items-center">
+                                    <span class="text-base font-semibold text-gray-900">Toplam</span>
+                                    <span class="text-lg font-bold text-green-600">₺${currentOrder.totalAmount}</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div>
+                    <h4 class="text-lg font-semibold text-gray-900 mb-4">Sipariş Detayları</h4>
+                    <div class="bg-white border border-gray-200 rounded-lg overflow-hidden">
+                        <table class="w-full">
+                            <thead class="bg-gray-50">
+                                <tr>
+                                    <th class="px-4 py-3 text-left text-xs font-medium text-gray-500 uppercase">Ürün</th>
+                                    <th class="px-4 py-3 text-left text-xs font-medium text-gray-500 uppercase">Adet</th>
+                                    <th class="px-4 py-3 text-left text-xs font-medium text-gray-500 uppercase">Birim Fiyat</th>
+                                    <th class="px-4 py-3 text-left text-xs font-medium text-gray-500 uppercase">Toplam</th>
+                                </tr>
+                            </thead>
+                            <tbody class="divide-y divide-gray-200">
+                                ${currentOrder.items.map(item => `
+                                    <tr>
+                                        <td class="px-4 py-3 text-sm text-gray-900">${item.name}</td>
+                                        <td class="px-4 py-3 text-sm text-gray-900">${item.quantity}</td>
+                                        <td class="px-4 py-3 text-sm text-gray-900">₺${item.price.toFixed(2)}</td>
+                                        <td class="px-4 py-3 text-sm font-semibold text-gray-900">₺${(item.quantity * item.price).toFixed(2)}</td>
+                                    </tr>
+                                `).join('')}
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        `;
+
+        // Set current status in select
+        document.getElementById('orderStatusSelect').value = currentOrder.status;
+        document.getElementById('orderModal').classList.remove('hidden');
+    }
+
+    function closeOrderModal() {
+        document.getElementById('orderModal').classList.add('hidden');
+        currentOrder = null;
+    }
+
+    async function updateOrderStatus() {
+        if (!currentOrder) return;
+
+        const newStatus = document.getElementById('orderStatusSelect').value;
+        if (newStatus === currentOrder.status) {
+            showError('Durum değişikliği yapılmadı.');
+            return;
+        }
+
+        try {
+            // In a real scenario, call the API
+            // await adminAPI.updateOrderStatus(currentOrder.id, newStatus);
+            
+            // Update local data
+            currentOrder.status = newStatus;
+            const orderIndex = allOrders.findIndex(o => o.id === currentOrder.id);
+            if (orderIndex !== -1) {
+                allOrders[orderIndex].status = newStatus;
+            }
+
+            showSuccess('Sipariş durumu başarıyla güncellendi.');
+            closeOrderModal();
+            filterOrders(); // Refresh the table
+            updateStats(); // Update stats
+        } catch (error) {
+            console.error('Error updating order status:', error);
+            showError('Sipariş durumu güncellenirken bir hata oluştu.');
+        }
+    }
+
+    function quickStatusUpdate(orderId) {
+        viewOrder(orderId);
+    }
+
+    function refreshOrders() {
+        loadOrders();
+    }
+
+    // Load orders on page load
+    document.addEventListener('DOMContentLoaded', loadOrders);
+</script>
+}

@@ -1,0 +1,355 @@
+@{
+    ViewData["Title"] = "Mağaza Yönetimi";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="space-y-6">
+    <!-- Header -->
+    <div class="flex justify-between items-center">
+        <div>
+            <h2 class="text-2xl font-bold text-gray-900">Mağaza Yönetimi</h2>
+            <p class="text-gray-600">Tüm mağazaları görüntüleyin ve yönetin</p>
+        </div>
+        <div class="flex space-x-3">
+            <button onclick="refreshStores()" class="px-4 py-2 bg-gray-100 text-gray-700 rounded-lg hover:bg-gray-200 transition-colors">
+                <i class="fas fa-refresh mr-2"></i>
+                Yenile
+            </button>
+        </div>
+    </div>
+
+    <!-- Search and Filters -->
+    <div class="bg-white rounded-xl shadow-sm border border-gray-100 p-6">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+            <div>
+                <label class="block text-sm font-medium text-gray-700 mb-2">Mağaza Ara</label>
+                <div class="relative">
+                    <input 
+                        type="text" 
+                        id="searchInput" 
+                        placeholder="Mağaza adı ile ara..."
+                        class="w-full pl-10 pr-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-admin-primary focus:border-transparent"
+                        oninput="filterStores()"
+                    >
+                    <i class="fas fa-search absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400"></i>
+                </div>
+            </div>
+            <div>
+                <label class="block text-sm font-medium text-gray-700 mb-2">Kategori</label>
+                <select id="categoryFilter" class="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-admin-primary focus:border-transparent" onchange="filterStores()">
+                    <option value="">Tüm Kategoriler</option>
+                    <option value="Türk Mutfağı">Türk Mutfağı</option>
+                    <option value="Fast Food">Fast Food</option>
+                    <option value="Pizza">Pizza</option>
+                    <option value="Burger">Burger</option>
+                    <option value="Kebap">Kebap</option>
+                    <option value="Tatlı">Tatlı</option>
+                    <option value="Kahve">Kahve</option>
+                </select>
+            </div>
+            <div>
+                <label class="block text-sm font-medium text-gray-700 mb-2">Sıralama</label>
+                <select id="sortOrder" class="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-admin-primary focus:border-transparent" onchange="sortStores()">
+                    <option value="name">İsme göre (A-Z)</option>
+                    <option value="name-desc">İsme göre (Z-A)</option>
+                    <option value="orders">Sipariş sayısına göre</option>
+                    <option value="id">ID'ye göre</option>
+                </select>
+            </div>
+        </div>
+    </div>
+
+    <!-- Stores Grid -->
+    <div id="storesContainer">
+        <div class="text-center py-12">
+            <i class="fas fa-spinner fa-spin text-4xl text-gray-400 mb-4"></i>
+            <p class="text-gray-500">Mağazalar yükleniyor...</p>
+        </div>
+    </div>
+</div>
+
+<!-- Store Details Modal -->
+<div id="storeModal" class="hidden fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
+    <div class="bg-white rounded-xl shadow-xl w-full max-w-2xl m-4 max-h-screen overflow-y-auto">
+        <div class="p-6 border-b border-gray-100">
+            <div class="flex justify-between items-center">
+                <h3 class="text-lg font-semibold text-gray-900">Mağaza Detayları</h3>
+                <button onclick="closeStoreModal()" class="text-gray-400 hover:text-gray-600">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+        </div>
+        <div class="p-6">
+            <div id="storeModalContent">
+                <!-- Content will be populated by JavaScript -->
+            </div>
+        </div>
+        <div class="px-6 py-4 bg-gray-50 rounded-b-xl">
+            <div class="flex justify-end space-x-3">
+                <button onclick="closeStoreModal()" class="px-4 py-2 text-gray-700 bg-gray-200 rounded-lg hover:bg-gray-300 transition-colors">
+                    İptal
+                </button>
+                <button id="deleteStoreBtn" onclick="confirmDeleteStore()" class="px-4 py-2 bg-red-600 text-white rounded-lg hover:bg-red-700 transition-colors">
+                    Mağazayı Sil
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+<script>
+    let allStores = [];
+    let filteredStores = [];
+    let currentStore = null;
+
+    async function loadStores() {
+        try {
+            const storesContainer = document.getElementById('storesContainer');
+            storesContainer.innerHTML = `
+                <div class="text-center py-12">
+                    <i class="fas fa-spinner fa-spin text-4xl text-gray-400 mb-4"></i>
+                    <p class="text-gray-500">Mağazalar yükleniyor...</p>
+                </div>
+            `;
+
+            allStores = await adminAPI.getStores();
+            filteredStores = [...allStores];
+            renderStoresGrid();
+        } catch (error) {
+            console.error('Error loading stores:', error);
+            const storesContainer = document.getElementById('storesContainer');
+            storesContainer.innerHTML = `
+                <div class="text-center py-12">
+                    <i class="fas fa-exclamation-triangle text-4xl text-red-400 mb-4"></i>
+                    <p class="text-red-500">Mağazalar yüklenirken bir hata oluştu.</p>
+                    <button onclick="loadStores()" class="mt-4 px-4 py-2 bg-admin-primary text-white rounded-lg hover:bg-admin-secondary transition-colors">
+                        Tekrar Dene
+                    </button>
+                </div>
+            `;
+        }
+    }
+
+    function renderStoresGrid() {
+        const container = document.getElementById('storesContainer');
+        
+        if (filteredStores.length === 0) {
+            container.innerHTML = `
+                <div class="text-center py-12">
+                    <i class="fas fa-store text-6xl text-gray-300 mb-4"></i>
+                    <p class="text-gray-500">Mağaza bulunamadı</p>
+                </div>
+            `;
+            return;
+        }
+
+        container.innerHTML = `
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                ${filteredStores.map(store => `
+                    <div class="bg-white rounded-xl shadow-sm border border-gray-100 overflow-hidden hover:shadow-md transition-shadow">
+                        <div class="aspect-w-16 aspect-h-9 bg-gradient-to-r from-admin-primary to-admin-secondary">
+                            ${store.imageUrl ? 
+                                `<img src="${store.imageUrl}" alt="${store.name}" class="w-full h-48 object-cover">` :
+                                `<div class="w-full h-48 bg-gradient-to-r from-admin-primary to-admin-secondary flex items-center justify-center">
+                                    <i class="fas fa-store text-4xl text-white"></i>
+                                </div>`
+                            }
+                        </div>
+                        <div class="p-6">
+                            <div class="flex items-start justify-between mb-3">
+                                <div>
+                                    <h3 class="text-lg font-semibold text-gray-900 mb-1">${store.name}</h3>
+                                    <p class="text-sm text-gray-600">${store.category || 'Kategori belirtilmemiş'}</p>
+                                </div>
+                                <div class="flex items-center text-yellow-500">
+                                    <i class="fas fa-star text-sm"></i>
+                                    <span class="text-sm text-gray-600 ml-1">4.5</span>
+                                </div>
+                            </div>
+                            
+                            <p class="text-sm text-gray-600 mb-4 line-clamp-2">${store.description || 'Açıklama bulunmuyor'}</p>
+                            
+                            <div class="flex items-center justify-between text-sm text-gray-500 mb-4">
+                                <div class="flex items-center">
+                                    <i class="fas fa-shopping-cart mr-1"></i>
+                                    <span>${store.orderCount || 0} sipariş</span>
+                                </div>
+                                <div class="flex items-center">
+                                    <i class="fas fa-clock mr-1"></i>
+                                    <span>${store.workingHours || 'Belirtilmemiş'}</span>
+                                </div>
+                            </div>
+                            
+                            <div class="flex space-x-2">
+                                <button onclick="viewStore(${store.id})" class="flex-1 px-3 py-2 bg-admin-primary text-white text-sm rounded-lg hover:bg-admin-secondary transition-colors">
+                                    <i class="fas fa-eye mr-1"></i>
+                                    Detaylar
+                                </button>
+                                <button onclick="deleteStore(${store.id})" class="px-3 py-2 bg-red-100 text-red-600 text-sm rounded-lg hover:bg-red-200 transition-colors">
+                                    <i class="fas fa-trash"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                `).join('')}
+            </div>
+        `;
+    }
+
+    function filterStores() {
+        const searchTerm = document.getElementById('searchInput').value.toLowerCase();
+        const categoryFilter = document.getElementById('categoryFilter').value;
+
+        filteredStores = allStores.filter(store => {
+            const matchesSearch = store.name.toLowerCase().includes(searchTerm);
+            const matchesCategory = !categoryFilter || store.category === categoryFilter;
+            
+            return matchesSearch && matchesCategory;
+        });
+
+        renderStoresGrid();
+    }
+
+    function sortStores() {
+        const sortOrder = document.getElementById('sortOrder').value;
+
+        filteredStores.sort((a, b) => {
+            switch (sortOrder) {
+                case 'name':
+                    return a.name.localeCompare(b.name);
+                case 'name-desc':
+                    return b.name.localeCompare(a.name);
+                case 'orders':
+                    return (b.orderCount || 0) - (a.orderCount || 0);
+                case 'id':
+                    return a.id - b.id;
+                default:
+                    return 0;
+            }
+        });
+
+        renderStoresGrid();
+    }
+
+    function viewStore(storeId) {
+        currentStore = allStores.find(store => store.id === storeId);
+        if (!currentStore) return;
+
+        const modalContent = document.getElementById('storeModalContent');
+        modalContent.innerHTML = `
+            <div class="space-y-6">
+                <div class="text-center">
+                    ${currentStore.imageUrl ? 
+                        `<img src="${currentStore.imageUrl}" alt="${currentStore.name}" class="w-24 h-24 rounded-full mx-auto mb-4 object-cover">` :
+                        `<div class="w-24 h-24 bg-admin-primary rounded-full flex items-center justify-center text-white text-2xl font-bold mx-auto mb-4">
+                            ${currentStore.name.charAt(0).toUpperCase()}
+                        </div>`
+                    }
+                    <h4 class="text-xl font-semibold text-gray-900">${currentStore.name}</h4>
+                    <p class="text-gray-600">${currentStore.category || 'Kategori belirtilmemiş'}</p>
+                </div>
+                
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <div>
+                        <h5 class="font-semibold text-gray-900 mb-3">Temel Bilgiler</h5>
+                        <dl class="space-y-2">
+                            <div>
+                                <dt class="text-sm font-medium text-gray-500">Mağaza ID</dt>
+                                <dd class="text-sm text-gray-900">#${currentStore.id}</dd>
+                            </div>
+                            <div>
+                                <dt class="text-sm font-medium text-gray-500">E-posta</dt>
+                                <dd class="text-sm text-gray-900">${currentStore.email}</dd>
+                            </div>
+                            <div>
+                                <dt class="text-sm font-medium text-gray-500">Telefon</dt>
+                                <dd class="text-sm text-gray-900">${currentStore.phone || 'Belirtilmemiş'}</dd>
+                            </div>
+                            <div>
+                                <dt class="text-sm font-medium text-gray-500">Toplam Sipariş</dt>
+                                <dd class="text-sm text-gray-900">${currentStore.orderCount || 0} sipariş</dd>
+                            </div>
+                        </dl>
+                    </div>
+                    
+                    <div>
+                        <h5 class="font-semibold text-gray-900 mb-3">İletişim & Lokasyon</h5>
+                        <dl class="space-y-2">
+                            <div>
+                                <dt class="text-sm font-medium text-gray-500">Adres</dt>
+                                <dd class="text-sm text-gray-900">${currentStore.address || 'Belirtilmemiş'}</dd>
+                            </div>
+                            <div>
+                                <dt class="text-sm font-medium text-gray-500">Çalışma Saatleri</dt>
+                                <dd class="text-sm text-gray-900">${currentStore.workingHours || 'Belirtilmemiş'}</dd>
+                            </div>
+                        </dl>
+                    </div>
+                </div>
+                
+                ${currentStore.description ? `
+                    <div>
+                        <h5 class="font-semibold text-gray-900 mb-3">Açıklama</h5>
+                        <p class="text-sm text-gray-700">${currentStore.description}</p>
+                    </div>
+                ` : ''}
+                
+                <div>
+                    <h5 class="font-semibold text-gray-900 mb-3">Ürünler</h5>
+                    <div class="bg-gray-50 rounded-lg p-4">
+                        <div class="flex items-center justify-between">
+                            <span class="text-sm text-gray-600">Toplam Ürün Sayısı</span>
+                            <span class="text-sm font-medium text-gray-900">${currentStore.products ? currentStore.products.length : 0}</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        `;
+
+        document.getElementById('storeModal').classList.remove('hidden');
+    }
+
+    function closeStoreModal() {
+        document.getElementById('storeModal').classList.add('hidden');
+        currentStore = null;
+    }
+
+    async function deleteStore(storeId) {
+        currentStore = allStores.find(store => store.id === storeId);
+        if (!currentStore) return;
+
+        if (confirm(`"${currentStore.name}" mağazasını silmek istediğinizden emin misiniz? Bu işlem geri alınamaz.`)) {
+            try {
+                await adminAPI.deleteStore(storeId);
+                showSuccess('Mağaza başarıyla silindi.');
+                loadStores(); // Reload the list
+            } catch (error) {
+                console.error('Error deleting store:', error);
+                showError('Mağaza silinirken bir hata oluştu.');
+            }
+        }
+    }
+
+    async function confirmDeleteStore() {
+        if (!currentStore) return;
+
+        try {
+            await adminAPI.deleteStore(currentStore.id);
+            showSuccess('Mağaza başarıyla silindi.');
+            closeStoreModal();
+            loadStores(); // Reload the list
+        } catch (error) {
+            console.error('Error deleting store:', error);
+            showError('Mağaza silinirken bir hata oluştu.');
+        }
+    }
+
+    function refreshStores() {
+        loadStores();
+    }
+
+    // Load stores on page load
+    document.addEventListener('DOMContentLoaded', loadStores);
+</script>
+}
