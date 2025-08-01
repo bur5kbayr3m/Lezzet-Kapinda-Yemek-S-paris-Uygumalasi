@@ -26,12 +26,44 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = /home/runner/work/Lezzet-Kapinda-Yemek-S-paris-Uygumalasi/Lezzet-Kapinda-Yemek-S-paris-Uygumalasi/YemekSiparis/YemekSiparis
 build_property._RazorSourceGeneratorDebug = 
 
+[/home/runner/work/Lezzet-Kapinda-Yemek-S-paris-Uygumalasi/Lezzet-Kapinda-Yemek-S-paris-Uygumalasi/YemekSiparis/YemekSiparis/Views/AdminPanel/Categories.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW5QYW5lbC9DYXRlZ29yaWVzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/runner/work/Lezzet-Kapinda-Yemek-S-paris-Uygumalasi/Lezzet-Kapinda-Yemek-S-paris-Uygumalasi/YemekSiparis/YemekSiparis/Views/AdminPanel/Dashboard.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW5QYW5lbC9EYXNoYm9hcmQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/runner/work/Lezzet-Kapinda-Yemek-S-paris-Uygumalasi/Lezzet-Kapinda-Yemek-S-paris-Uygumalasi/YemekSiparis/YemekSiparis/Views/AdminPanel/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW5QYW5lbC9Mb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/runner/work/Lezzet-Kapinda-Yemek-S-paris-Uygumalasi/Lezzet-Kapinda-Yemek-S-paris-Uygumalasi/YemekSiparis/YemekSiparis/Views/AdminPanel/Orders.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW5QYW5lbC9PcmRlcnMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/runner/work/Lezzet-Kapinda-Yemek-S-paris-Uygumalasi/Lezzet-Kapinda-Yemek-S-paris-Uygumalasi/YemekSiparis/YemekSiparis/Views/AdminPanel/Products.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW5QYW5lbC9Qcm9kdWN0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/runner/work/Lezzet-Kapinda-Yemek-S-paris-Uygumalasi/Lezzet-Kapinda-Yemek-S-paris-Uygumalasi/YemekSiparis/YemekSiparis/Views/AdminPanel/Stores.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW5QYW5lbC9TdG9yZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/runner/work/Lezzet-Kapinda-Yemek-S-paris-Uygumalasi/Lezzet-Kapinda-Yemek-S-paris-Uygumalasi/YemekSiparis/YemekSiparis/Views/AdminPanel/Users.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW5QYW5lbC9Vc2Vycy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [/home/runner/work/Lezzet-Kapinda-Yemek-S-paris-Uygumalasi/Lezzet-Kapinda-Yemek-S-paris-Uygumalasi/YemekSiparis/YemekSiparis/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [/home/runner/work/Lezzet-Kapinda-Yemek-S-paris-Uygumalasi/Lezzet-Kapinda-Yemek-S-paris-Uygumalasi/YemekSiparis/YemekSiparis/Views/Shared/Menu.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL01lbnUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/runner/work/Lezzet-Kapinda-Yemek-S-paris-Uygumalasi/Lezzet-Kapinda-Yemek-S-paris-Uygumalasi/YemekSiparis/YemekSiparis/Views/Shared/_AdminLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19BZG1pbkxheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [/home/runner/work/Lezzet-Kapinda-Yemek-S-paris-Uygumalasi/Lezzet-Kapinda-Yemek-S-paris-Uygumalasi/YemekSiparis/YemekSiparis/Views/Shared/_Header.cshtml]

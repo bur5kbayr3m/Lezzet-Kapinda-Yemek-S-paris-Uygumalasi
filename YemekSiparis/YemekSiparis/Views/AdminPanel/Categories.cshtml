@@ -1,0 +1,339 @@
+@{
+    ViewData["Title"] = "Kategori Yönetimi";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="space-y-6">
+    <!-- Header -->
+    <div class="flex justify-between items-center">
+        <div>
+            <h2 class="text-2xl font-bold text-gray-900">Kategori Yönetimi</h2>
+            <p class="text-gray-600">Ürün ve mağaza kategorilerini yönetin</p>
+        </div>
+        <div class="flex space-x-3">
+            <button onclick="showAddCategoryModal()" class="px-4 py-2 bg-admin-primary text-white rounded-lg hover:bg-admin-secondary transition-colors">
+                <i class="fas fa-plus mr-2"></i>
+                Yeni Kategori
+            </button>
+            <button onclick="refreshCategories()" class="px-4 py-2 bg-gray-100 text-gray-700 rounded-lg hover:bg-gray-200 transition-colors">
+                <i class="fas fa-refresh mr-2"></i>
+                Yenile
+            </button>
+        </div>
+    </div>
+
+    <!-- Categories Grid -->
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-6">
+        <!-- Product Categories -->
+        <div class="bg-white rounded-xl shadow-sm border border-gray-100">
+            <div class="p-6 border-b border-gray-100">
+                <h3 class="text-lg font-semibold text-gray-900">Ürün Kategorileri</h3>
+                <p class="text-sm text-gray-600">Ürünlerin sınıflandırılması için kullanılan kategoriler</p>
+            </div>
+            <div class="p-6">
+                <div id="productCategoriesContainer">
+                    <div class="space-y-3" id="productCategoriesList">
+                        <!-- Will be populated by JavaScript -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Store Categories -->
+        <div class="bg-white rounded-xl shadow-sm border border-gray-100">
+            <div class="p-6 border-b border-gray-100">
+                <h3 class="text-lg font-semibold text-gray-900">Mağaza Kategorileri</h3>
+                <p class="text-sm text-gray-600">Mağazaların sınıflandırılması için kullanılan kategoriler</p>
+            </div>
+            <div class="p-6">
+                <div id="storeCategoriesContainer">
+                    <div class="space-y-3" id="storeCategoriesList">
+                        <!-- Will be populated by JavaScript -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Category Statistics -->
+    <div class="bg-white rounded-xl shadow-sm border border-gray-100">
+        <div class="p-6 border-b border-gray-100">
+            <h3 class="text-lg font-semibold text-gray-900">Kategori İstatistikleri</h3>
+        </div>
+        <div class="p-6">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div class="text-center">
+                    <div class="text-3xl font-bold text-admin-primary" id="totalProductCategories">0</div>
+                    <p class="text-sm text-gray-600">Ürün Kategorisi</p>
+                </div>
+                <div class="text-center">
+                    <div class="text-3xl font-bold text-admin-secondary" id="totalStoreCategories">0</div>
+                    <p class="text-sm text-gray-600">Mağaza Kategorisi</p>
+                </div>
+                <div class="text-center">
+                    <div class="text-3xl font-bold text-green-600" id="totalActiveCategories">0</div>
+                    <p class="text-sm text-gray-600">Aktif Kategori</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Add/Edit Category Modal -->
+<div id="categoryModal" class="hidden fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
+    <div class="bg-white rounded-xl shadow-xl w-full max-w-md m-4">
+        <div class="p-6 border-b border-gray-100">
+            <div class="flex justify-between items-center">
+                <h3 class="text-lg font-semibold text-gray-900" id="categoryModalTitle">Yeni Kategori Ekle</h3>
+                <button onclick="closeCategoryModal()" class="text-gray-400 hover:text-gray-600">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+        </div>
+        <form id="categoryForm" class="p-6 space-y-4">
+            <div>
+                <label class="block text-sm font-medium text-gray-700 mb-2">Kategori Adı</label>
+                <input 
+                    type="text" 
+                    id="categoryName" 
+                    required 
+                    class="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-admin-primary focus:border-transparent"
+                    placeholder="Kategori adını giriniz"
+                >
+            </div>
+            <div>
+                <label class="block text-sm font-medium text-gray-700 mb-2">Tür</label>
+                <select id="categoryType" class="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-admin-primary focus:border-transparent">
+                    <option value="product">Ürün Kategorisi</option>
+                    <option value="store">Mağaza Kategorisi</option>
+                </select>
+            </div>
+            <div>
+                <label class="block text-sm font-medium text-gray-700 mb-2">Açıklama</label>
+                <textarea 
+                    id="categoryDescription" 
+                    rows="3"
+                    class="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-admin-primary focus:border-transparent"
+                    placeholder="Kategori açıklaması (opsiyonel)"
+                ></textarea>
+            </div>
+            <div>
+                <label class="block text-sm font-medium text-gray-700 mb-2">Durum</label>
+                <select id="categoryStatus" class="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-admin-primary focus:border-transparent">
+                    <option value="active">Aktif</option>
+                    <option value="inactive">Pasif</option>
+                </select>
+            </div>
+        </form>
+        <div class="px-6 py-4 bg-gray-50 rounded-b-xl">
+            <div class="flex justify-end space-x-3">
+                <button onclick="closeCategoryModal()" class="px-4 py-2 text-gray-700 bg-gray-200 rounded-lg hover:bg-gray-300 transition-colors">
+                    İptal
+                </button>
+                <button onclick="saveCategory()" class="px-4 py-2 bg-admin-primary text-white rounded-lg hover:bg-admin-secondary transition-colors">
+                    <span id="saveCategoryText">Kaydet</span>
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+<script>
+    let categories = {
+        product: [],
+        store: []
+    };
+    let editingCategory = null;
+
+    function initializeCategories() {
+        // Initialize with some default categories
+        categories = {
+            product: [
+                { id: 1, name: 'Kebap', description: 'Türk mutfağının vazgeçilmez lezzeti', status: 'active', type: 'product' },
+                { id: 2, name: 'Pizza', description: 'İtalyan usulü lezzetler', status: 'active', type: 'product' },
+                { id: 3, name: 'Burger', description: 'Amerikan tarzı hamburgerler', status: 'active', type: 'product' },
+                { id: 4, name: 'Tatlı', description: 'Tatlı ve dessert çeşitleri', status: 'active', type: 'product' },
+                { id: 5, name: 'İçecek', description: 'Soğuk ve sıcak içecekler', status: 'active', type: 'product' },
+                { id: 6, name: 'Ana Yemek', description: 'Geleneksel ana yemekler', status: 'active', type: 'product' },
+                { id: 7, name: 'Aperatif', description: 'Başlangıç lezzetleri', status: 'inactive', type: 'product' }
+            ],
+            store: [
+                { id: 8, name: 'Türk Mutfağı', description: 'Geleneksel Türk yemekleri sunan mağazalar', status: 'active', type: 'store' },
+                { id: 9, name: 'Fast Food', description: 'Hızlı servis veren restoranlar', status: 'active', type: 'store' },
+                { id: 10, name: 'Pizza House', description: 'Pizza uzmanı restoranlar', status: 'active', type: 'store' },
+                { id: 11, name: 'Kahve & Tatlı', description: 'Kahve ve tatlı uzmanı işletmeler', status: 'active', type: 'store' },
+                { id: 12, name: 'Vegetaryen', description: 'Bitkisel beslenme sunan mekanlar', status: 'inactive', type: 'store' }
+            ]
+        };
+        
+        renderCategories();
+        updateStats();
+    }
+
+    function renderCategories() {
+        renderProductCategories();
+        renderStoreCategories();
+    }
+
+    function renderProductCategories() {
+        const container = document.getElementById('productCategoriesList');
+        container.innerHTML = categories.product.map(category => createCategoryElement(category)).join('');
+    }
+
+    function renderStoreCategories() {
+        const container = document.getElementById('storeCategoriesList');
+        container.innerHTML = categories.store.map(category => createCategoryElement(category)).join('');
+    }
+
+    function createCategoryElement(category) {
+        return `
+            <div class="flex items-center justify-between p-3 bg-gray-50 rounded-lg border ${category.status === 'inactive' ? 'opacity-60' : ''}">
+                <div class="flex items-center">
+                    <div class="w-10 h-10 bg-admin-primary rounded-full flex items-center justify-center text-white font-semibold mr-3">
+                        <i class="fas ${category.type === 'product' ? 'fa-box' : 'fa-store'}"></i>
+                    </div>
+                    <div>
+                        <h4 class="font-medium text-gray-900">${category.name}</h4>
+                        <p class="text-sm text-gray-600">${category.description || 'Açıklama yok'}</p>
+                    </div>
+                </div>
+                <div class="flex items-center space-x-2">
+                    <button onclick="toggleCategoryStatus(${category.id})" class="text-sm px-2 py-1 rounded ${category.status === 'active' ? 'bg-green-100 text-green-700' : 'bg-red-100 text-red-700'}">
+                        ${category.status === 'active' ? 'Aktif' : 'Pasif'}
+                    </button>
+                    <button onclick="editCategory(${category.id})" class="text-admin-primary hover:text-admin-secondary">
+                        <i class="fas fa-edit"></i>
+                    </button>
+                    <button onclick="deleteCategory(${category.id})" class="text-red-600 hover:text-red-900">
+                        <i class="fas fa-trash"></i>
+                    </button>
+                </div>
+            </div>
+        `;
+    }
+
+    function updateStats() {
+        const totalProduct = categories.product.length;
+        const totalStore = categories.store.length;
+        const totalActive = categories.product.filter(c => c.status === 'active').length + 
+                           categories.store.filter(c => c.status === 'active').length;
+
+        document.getElementById('totalProductCategories').textContent = totalProduct;
+        document.getElementById('totalStoreCategories').textContent = totalStore;
+        document.getElementById('totalActiveCategories').textContent = totalActive;
+    }
+
+    function showAddCategoryModal() {
+        editingCategory = null;
+        document.getElementById('categoryModalTitle').textContent = 'Yeni Kategori Ekle';
+        document.getElementById('saveCategoryText').textContent = 'Kaydet';
+        
+        // Reset form
+        document.getElementById('categoryForm').reset();
+        document.getElementById('categoryStatus').value = 'active';
+        
+        document.getElementById('categoryModal').classList.remove('hidden');
+    }
+
+    function editCategory(categoryId) {
+        const category = findCategoryById(categoryId);
+        if (!category) return;
+
+        editingCategory = category;
+        document.getElementById('categoryModalTitle').textContent = 'Kategori Düzenle';
+        document.getElementById('saveCategoryText').textContent = 'Güncelle';
+        
+        // Fill form with category data
+        document.getElementById('categoryName').value = category.name;
+        document.getElementById('categoryType').value = category.type;
+        document.getElementById('categoryDescription').value = category.description || '';
+        document.getElementById('categoryStatus').value = category.status;
+        
+        document.getElementById('categoryModal').classList.remove('hidden');
+    }
+
+    function findCategoryById(categoryId) {
+        return categories.product.find(c => c.id === categoryId) || 
+               categories.store.find(c => c.id === categoryId);
+    }
+
+    function saveCategory() {
+        const name = document.getElementById('categoryName').value.trim();
+        const type = document.getElementById('categoryType').value;
+        const description = document.getElementById('categoryDescription').value.trim();
+        const status = document.getElementById('categoryStatus').value;
+
+        if (!name) {
+            showError('Kategori adı gereklidir.');
+            return;
+        }
+
+        if (editingCategory) {
+            // Update existing category
+            editingCategory.name = name;
+            editingCategory.type = type;
+            editingCategory.description = description;
+            editingCategory.status = status;
+            showSuccess('Kategori başarıyla güncellendi.');
+        } else {
+            // Add new category
+            const newCategory = {
+                id: Date.now(), // Simple ID generation for demo
+                name: name,
+                type: type,
+                description: description,
+                status: status
+            };
+            categories[type].push(newCategory);
+            showSuccess('Kategori başarıyla eklendi.');
+        }
+
+        renderCategories();
+        updateStats();
+        closeCategoryModal();
+    }
+
+    function toggleCategoryStatus(categoryId) {
+        const category = findCategoryById(categoryId);
+        if (!category) return;
+
+        category.status = category.status === 'active' ? 'inactive' : 'active';
+        renderCategories();
+        updateStats();
+        showSuccess(`Kategori durumu ${category.status === 'active' ? 'aktif' : 'pasif'} olarak güncellendi.`);
+    }
+
+    function deleteCategory(categoryId) {
+        const category = findCategoryById(categoryId);
+        if (!category) return;
+
+        if (confirm(`"${category.name}" kategorisini silmek istediğinizden emin misiniz? Bu işlem geri alınamaz.`)) {
+            // Remove from appropriate array
+            if (category.type === 'product') {
+                categories.product = categories.product.filter(c => c.id !== categoryId);
+            } else {
+                categories.store = categories.store.filter(c => c.id !== categoryId);
+            }
+            
+            renderCategories();
+            updateStats();
+            showSuccess('Kategori başarıyla silindi.');
+        }
+    }
+
+    function closeCategoryModal() {
+        document.getElementById('categoryModal').classList.add('hidden');
+        editingCategory = null;
+    }
+
+    function refreshCategories() {
+        renderCategories();
+        updateStats();
+        showSuccess('Kategoriler yenilendi.');
+    }
+
+    // Initialize categories on page load
+    document.addEventListener('DOMContentLoaded', initializeCategories);
+</script>
+}
