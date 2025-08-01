@@ -1,0 +1,40 @@
+# Build artifacts
+*/bin/
+*/obj/
+**/bin/
+**/obj/
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# User-specific files (MonoDevelop/Xamarin Studio)
+*.userprefs
+
+# Visual Studio Code files
+.vscode/
+
+# Visual Studio files
+.vs/
+
+# Temporary files
+**/wwwroot/temp/
+/tmp/
+
+# NuGet packages
+*.nupkg
+/packages/
+
+# Package manager locks
+package-lock.json
+yarn.lock
+
+# Database files
+*.db
+*.sqlite
+
+# Logs
+logs/
+*.log
