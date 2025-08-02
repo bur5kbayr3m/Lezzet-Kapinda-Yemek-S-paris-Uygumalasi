@@ -81,6 +81,12 @@ app.MapControllers();
 
 
 app.MapControllerRoute(
+    name: "adminLogin",
+    pattern: "admin/login",
+    defaults: new { controller = "Home", action = "AdminLogin" }
+);
+
+app.MapControllerRoute(
     name: "restaurants",
     pattern: "restaurants",
     defaults: new { controller = "Home", action = "Index" }
