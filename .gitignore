@@ -1,0 +1,31 @@
+# Build artifacts
+bin/
+obj/
+*.dll
+*.pdb
+*.exe
+*.cache
+*.json
+*.tmp
+
+# IDE
+.vs/
+.vscode/
+
+# Database
+*.db
+*.sqlite
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Node modules (if any)
+node_modules/
+
+# Temporary files
+tmp/
+temp/

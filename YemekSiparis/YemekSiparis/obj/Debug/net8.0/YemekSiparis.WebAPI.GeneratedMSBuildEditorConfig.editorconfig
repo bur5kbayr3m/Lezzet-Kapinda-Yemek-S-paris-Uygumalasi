@@ -26,6 +26,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = /home/runner/work/Lezzet-Kapinda-Yemek-S-paris-Uygumalasi/Lezzet-Kapinda-Yemek-S-paris-Uygumalasi/YemekSiparis/YemekSiparis
 build_property._RazorSourceGeneratorDebug = 
 
+[/home/runner/work/Lezzet-Kapinda-Yemek-S-paris-Uygumalasi/Lezzet-Kapinda-Yemek-S-paris-Uygumalasi/YemekSiparis/YemekSiparis/Views/AdminView/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWRtaW5WaWV3L0xvZ2luLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [/home/runner/work/Lezzet-Kapinda-Yemek-S-paris-Uygumalasi/Lezzet-Kapinda-Yemek-S-paris-Uygumalasi/YemekSiparis/YemekSiparis/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
