@@ -31,5 +31,10 @@ namespace YemekSiparis.WebAPI.Controllers
 
             return View(model);
         }
+
+        public IActionResult AdminLogin()
+        {
+            return View();
+        }
     }
 }
