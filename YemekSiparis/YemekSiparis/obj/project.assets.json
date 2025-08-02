@@ -5131,39 +5131,32 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\teach\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "/home/runner/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis\\YemekSiparis.WebAPI.csproj",
+      "projectUniqueName": "/home/runner/work/Lezzet-Kapinda-Yemek-S-paris-Uygumalasi/Lezzet-Kapinda-Yemek-S-paris-Uygumalasi/YemekSiparis/YemekSiparis/YemekSiparis.WebAPI.csproj",
       "projectName": "YemekSiparis.WebAPI",
-      "projectPath": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis\\YemekSiparis.WebAPI.csproj",
-      "packagesPath": "C:\\Users\\teach\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis\\obj\\",
+      "projectPath": "/home/runner/work/Lezzet-Kapinda-Yemek-S-paris-Uygumalasi/Lezzet-Kapinda-Yemek-S-paris-Uygumalasi/YemekSiparis/YemekSiparis/YemekSiparis.WebAPI.csproj",
+      "packagesPath": "/home/runner/.nuget/packages/",
+      "outputPath": "/home/runner/work/Lezzet-Kapinda-Yemek-S-paris-Uygumalasi/Lezzet-Kapinda-Yemek-S-paris-Uygumalasi/YemekSiparis/YemekSiparis/obj/",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\teach\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/home/runner/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis.Infrastructure\\YemekSiparis.Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\teach\\source\\repos\\YemekSiparis\\YemekSiparis.Infrastructure\\YemekSiparis.Infrastructure.csproj"
+            "/home/runner/work/Lezzet-Kapinda-Yemek-S-paris-Uygumalasi/Lezzet-Kapinda-Yemek-S-paris-Uygumalasi/YemekSiparis/YemekSiparis.Infrastructure/YemekSiparis.Infrastructure.csproj": {
+              "projectPath": "/home/runner/work/Lezzet-Kapinda-Yemek-S-paris-Uygumalasi/Lezzet-Kapinda-Yemek-S-paris-Uygumalasi/YemekSiparis/YemekSiparis.Infrastructure/YemekSiparis.Infrastructure.csproj"
             }
           }
         }
@@ -5172,11 +5165,6 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -5237,7 +5225,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.118/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
